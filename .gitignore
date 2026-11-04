@@ -14,3 +14,8 @@ node_modules/
 
 # macOS
 .DS_Store
+
+# Local browser diagnostics and unpublished encoder work
+.cache/
+studio/deliverables/.*-partial.mp4
+studio/deliverables/.render-state-*.json

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "The Bridge That Fell for a Song",
-    "seed": 3193923222,
+    "title": "The Bridge and the Borrowed Step",
+    "seed": 2696223604,
     "source": "deterministic-local",
     "ai": {
       "used": false,
@@ -33,130 +33,171 @@
     "palettePolicy": "script-aware-dynamic"
   },
   "analysis": {
-    "title": "The Bridge That Fell for a Song",
-    "seed": 3193923222,
-    "wordCount": 115,
+    "title": "The Bridge and the Borrowed Step",
+    "seed": 2696223604,
+    "wordCount": 163,
     "sentences": [
-      "The Bridge That Fell for a Song.",
-      "In 1831, the town of Broughton was proud of its new iron bridge.",
-      "Seventy-four soldiers marched across it in step, boots ringing on the deck.",
-      "The bridge began to sway with every step.",
-      "A bolt snapped.",
-      "The deck folded into the river.",
-      "Luckily, nobody drowned.",
-      "Unluckily, the whole town had to walk the long way round for a year.",
-      "A child on a swing knows the trick: a small push at the right moment grows into a huge arc.",
-      "The soldiers were the push.",
-      "Afterward, armies were told to break step on bridges.",
-      "The bridge was rebuilt with a sign, but the sign did not mention the song."
+      "The Bridge and the Borrowed Step.",
+      "Mara waited beside the iron bridge in Broughton in 1831.",
+      "Elise stood by the river with a wooden basket.",
+      "Tomas marched toward them with the soldiers.",
+      "Mara pointed at the bridge and looked at Elise.",
+      "Elise reached toward Mara and held both hands together.",
+      "Tomas looked back at them before he stepped onto the deck.",
+      "Mara walked alongside Elise beneath the warm afternoon sky.",
+      "Tomas marched in step as the iron supports began to sway.",
+      "Elise noticed a loose bolt and pointed toward Tomas.",
+      "Mara reached toward Elise as the bridge suddenly cracked.",
+      "Tomas ran toward the bank and waved both arms.",
+      "Elise held Mara as the soldiers broke step and rushed to safety.",
+      "Mara stood beside Tomas and looked at the empty crossing.",
+      "Elise held both their hands as dust drifted across the river.",
+      "Tomas pointed toward the long road around the water.",
+      "Mara smiled at Elise and walked with both of them toward the sunset."
     ],
     "characters": [
       {
-        "name": "Soldier",
-        "id": "soldier",
+        "name": "Mara",
+        "id": "mara",
         "role": "protagonist",
-        "mentions": 1,
-        "inferred": true
+        "mentions": 6
+      },
+      {
+        "name": "Elise",
+        "id": "elise",
+        "role": "supporting",
+        "mentions": 5
+      },
+      {
+        "name": "Tomas",
+        "id": "tomas",
+        "role": "supporting",
+        "mentions": 5
       }
     ],
     "actions": [
-      "walk",
-      "fell",
-      "break",
-      "step"
+      "walked",
+      "ran",
+      "pointed",
+      "looked",
+      "broke",
+      "reached",
+      "stood",
+      "held",
+      "waved",
+      "step",
+      "stepped"
     ],
     "beats": [
       {
         "id": 1,
-        "text": "The Bridge That Fell for a Song. In 1831, the town of Broughton was proud of its new iron bridge.",
-        "wordCount": 20,
+        "text": "The Bridge and the Borrowed Step. Mara waited beside the iron bridge in Broughton in 1831. Elise stood by the river with a wooden basket.",
+        "wordCount": 25,
         "intensity": 0.28,
         "emotion": "curious",
         "actions": [
-          "fell"
+          "stood",
+          "step"
         ]
       },
       {
         "id": 2,
-        "text": "Seventy-four soldiers marched across it in step, boots ringing on the deck. The bridge began to sway with every step.",
-        "wordCount": 20,
-        "intensity": 0.38333333333333336,
+        "text": "Tomas marched toward them with the soldiers. Mara pointed at the bridge and looked at Elise. Elise reached toward Mara and held both hands together.",
+        "wordCount": 25,
+        "intensity": 0.3894117647058824,
         "emotion": "curious",
         "actions": [
-          "step"
+          "pointed",
+          "looked",
+          "reached",
+          "held"
         ]
       },
       {
         "id": 3,
-        "text": "A bolt snapped. The deck folded into the river.",
-        "wordCount": 9,
-        "intensity": 0.4866666666666667,
+        "text": "Tomas looked back at them before he stepped onto the deck. Mara walked alongside Elise beneath the warm afternoon sky. Tomas marched in step as the iron supports began to sway.",
+        "wordCount": 31,
+        "intensity": 0.4988235294117648,
         "emotion": "curious",
-        "actions": []
+        "actions": [
+          "walked",
+          "looked",
+          "step",
+          "stepped"
+        ]
       },
       {
         "id": 4,
-        "text": "Luckily, nobody drowned. Unluckily, the whole town had to walk the long way round for a year.",
-        "wordCount": 17,
-        "intensity": 0.5900000000000001,
+        "text": "Elise noticed a loose bolt and pointed toward Tomas. Mara reached toward Elise as the bridge suddenly cracked. Tomas ran toward the bank and waved both arms.",
+        "wordCount": 27,
+        "intensity": 0.6082352941176471,
         "emotion": "curious",
         "actions": [
-          "walk"
+          "ran",
+          "pointed",
+          "reached",
+          "waved"
         ]
       },
       {
         "id": 5,
-        "text": "A child on a swing knows the trick: a small push at the right moment grows into a huge arc. The soldiers were the push.",
-        "wordCount": 25,
-        "intensity": 0.6933333333333334,
+        "text": "Elise held Mara as the soldiers broke step and rushed to safety. Mara stood beside Tomas and looked at the empty crossing. Elise held both their hands as dust drifted across the river.",
+        "wordCount": 33,
+        "intensity": 0.7176470588235295,
         "emotion": "curious",
-        "actions": []
+        "actions": [
+          "looked",
+          "broke",
+          "stood",
+          "held",
+          "step"
+        ]
       },
       {
         "id": 6,
-        "text": "Afterward, armies were told to break step on bridges. The bridge was rebuilt with a sign, but the sign did not mention the song.",
-        "wordCount": 24,
-        "intensity": 0.8766666666666667,
+        "text": "Tomas pointed toward the long road around the water. Mara smiled at Elise and walked with both of them toward the sunset.",
+        "wordCount": 22,
+        "intensity": 0.8270588235294117,
         "emotion": "curious",
         "actions": [
-          "break",
-          "step"
+          "walked",
+          "pointed"
         ]
       }
     ],
     "genre": {
       "primary": "historical",
       "weights": {
-        "historical": 1,
+        "historical": 0.833,
+        "romance": 0.167,
         "horror": 0,
-        "romance": 0,
         "fantasy": 0,
         "action": 0,
         "mystery": 0,
         "comedy": 0
       },
-      "confidence": 1.739
+      "confidence": 1.227
     },
     "atmosphere": {
-      "primary": "intimate",
+      "primary": "ominous",
       "weights": {
-        "intimate": 1,
-        "ominous": 0,
-        "warm": 0,
+        "ominous": 0.5,
+        "warm": 0.5,
         "epic": 0,
+        "intimate": 0,
         "chaotic": 0
       },
-      "confidence": 0.348
+      "confidence": 0.245
     },
     "timeOfDay": {
       "primary": "day",
       "weights": {
+        "day": 0.5,
+        "sunset": 0.5,
         "dawn": 0,
-        "day": 0,
-        "sunset": 0,
         "night": 0
       },
-      "confidence": 0
+      "confidence": 0.245
     },
     "weather": {
       "primary": "clear",
@@ -206,14 +247,14 @@
     "location": {
       "primary": "city",
       "weights": {
-        "city": 0.857,
-        "sea": 0.143,
+        "city": 0.667,
+        "sea": 0.333,
         "forest": 0,
         "interior": 0,
         "mountain": 0,
         "battlefield": 0
       },
-      "confidence": 2.087
+      "confidence": 0.982
     },
     "period": {
       "primary": "victorian",
@@ -224,7 +265,7 @@
         "modern": 0,
         "future": 0
       },
-      "confidence": 0.348
+      "confidence": 0.245
     },
     "sceneIntensity": 0.35,
     "source": "deterministic-local",
@@ -235,61 +276,175 @@
   },
   "designs": [
     {
-      "id": "soldier",
-      "name": "Soldier",
+      "id": "mara",
+      "name": "Mara",
       "role": "protagonist",
-      "seed": 3112591165,
+      "seed": 3173533686,
       "face": {
-        "shape": "square-jaw",
-        "eyeShape": "wide",
+        "shape": "bean",
+        "eyeShape": "drooping",
         "browShape": "thin",
-        "nose": "small",
-        "skinTone": "#dcc6bd"
+        "nose": "straight",
+        "skinTone": "#ddbca8"
       },
       "hair": {
-        "style": "braided",
-        "color": "#8f7023",
-        "highlight": "#d6b15c"
+        "style": "close-cropped",
+        "color": "#8e5b29",
+        "highlight": "#d6ad5c"
       },
       "proportions": {
-        "headHeight": 1.19,
-        "height": 3.46,
-        "shoulder": 1.15,
+        "headHeight": 1.06,
+        "height": 3.74,
+        "shoulder": 1.21,
+        "legRatio": 0.51,
+        "build": "average"
+      },
+      "clothing": {
+        "type": "dress",
+        "texture": "crosshatch",
+        "primaryHue": 22,
+        "secondaryHue": 110,
+        "saturation": 0.55,
+        "lightness": 0.46,
+        "details": [
+          "embroidered panel",
+          "sash"
+        ]
+      },
+      "accessories": [
+        "medal",
+        "hat"
+      ],
+      "personality": [
+        "stern",
+        "proud"
+      ],
+      "distinctive": "none",
+      "colorIdentity": {
+        "hue": 22,
+        "accentHue": 172,
+        "ink": "#141018"
+      },
+      "costume": {
+        "main": "#bd5920",
+        "trim": "#71cf6e",
+        "shadow": "#382519"
+      },
+      "consistencyHash": 1306754444
+    },
+    {
+      "id": "elise",
+      "name": "Elise",
+      "role": "supporting",
+      "seed": 1416646104,
+      "face": {
+        "shape": "square-jaw",
+        "eyeShape": "almond",
+        "browShape": "thick",
+        "nose": "straight",
+        "skinTone": "#d1c2aa"
+      },
+      "hair": {
+        "style": "slicked",
+        "color": "#b79c65",
+        "highlight": "#d6ba5c"
+      },
+      "proportions": {
+        "headHeight": 1.05,
+        "height": 3.42,
+        "shoulder": 1.1,
+        "legRatio": 0.51,
+        "build": "slim"
+      },
+      "clothing": {
+        "type": "jacket",
+        "texture": "crosshatch",
+        "primaryHue": 90,
+        "secondaryHue": 141,
+        "saturation": 0.5,
+        "lightness": 0.29,
+        "details": [
+          "contrast collar",
+          "sash"
+        ]
+      },
+      "accessories": [
+        "boots",
+        "brooch"
+      ],
+      "personality": [
+        "bold",
+        "playful"
+      ],
+      "distinctive": "beauty-mark",
+      "colorIdentity": {
+        "hue": 90,
+        "accentHue": 240,
+        "ink": "#141018"
+      },
+      "costume": {
+        "main": "#6eb627",
+        "trim": "#6ecfad",
+        "shadow": "#293819"
+      },
+      "consistencyHash": 943079117
+    },
+    {
+      "id": "tomas",
+      "name": "Tomas",
+      "role": "supporting",
+      "seed": 3614119397,
+      "face": {
+        "shape": "heart",
+        "eyeShape": "drooping",
+        "browShape": "thin",
+        "nose": "long",
+        "skinTone": "#d5bdb1"
+      },
+      "hair": {
+        "style": "wavy",
+        "color": "#ca9a51",
+        "highlight": "#d6cc5c"
+      },
+      "proportions": {
+        "headHeight": 1.03,
+        "height": 3.82,
+        "shoulder": 1.13,
         "legRatio": 0.51,
         "build": "stout"
       },
       "clothing": {
-        "type": "doublet",
+        "type": "workshirt",
         "texture": "fine-lines",
-        "primaryHue": 359,
-        "secondaryHue": 81,
-        "saturation": 0.7,
-        "lightness": 0.37,
+        "primaryHue": 173,
+        "secondaryHue": 236,
+        "saturation": 0.46,
+        "lightness": 0.39,
         "details": [
-          "embroidered panel",
-          "cuffs"
+          "stitched seam",
+          "pockets"
         ]
       },
       "accessories": [
-        "belt",
-        "gloves"
+        "collar",
+        "boots"
       ],
       "personality": [
-        "playful",
-        "wary"
+        "proud",
+        "proud"
       ],
       "distinctive": "dimple",
       "colorIdentity": {
-        "hue": 359,
-        "accentHue": 149,
+        "hue": 173,
+        "accentHue": 323,
         "ink": "#141018"
       },
       "costume": {
-        "main": "#8c1b1d",
-        "trim": "#cfc36e",
-        "shadow": "#38191a"
+        "main": "#3aa89b",
+        "trim": "#6e9ecf",
+        "shadow": "#193835"
       },
-      "consistencyHash": 3889340256
+      "consistencyHash": 3804008293
     }
   ],
   "scenes": [
@@ -297,8 +452,8 @@
       "id": 1,
       "index": 0,
       "a": 0,
-      "b": 282,
-      "text": "The Bridge That Fell for a Song. In 1831, the town of Broughton was proud of its new iron bridge.",
+      "b": 262,
+      "text": "The Bridge and the Borrowed Step. Mara waited beside the iron bridge in Broughton in 1831. Elise stood by the river with a wooden basket.",
       "beat": 1,
       "intensity": 0.28,
       "emotion": "curious",
@@ -308,37 +463,37 @@
       "period": "victorian",
       "location": "city",
       "environment": "city",
-      "seed": 3536551947,
+      "seed": 2555037187,
       "palette": {
         "id": "scene-1",
-        "hue": 345,
-        "storyHue": 0,
-        "warmth": 0.502,
-        "saturation": 0.383,
-        "contrast": 0.553,
-        "brightness": 0.912,
-        "haze": 0.21,
+        "hue": 6,
+        "storyHue": 24,
+        "warmth": 0.1,
+        "saturation": 0.42,
+        "contrast": 0.528,
+        "brightness": 0.636,
+        "haze": 0.407,
         "intensity": 0.28,
-        "ink": "#151d19",
-        "paper": "#dddbda",
-        "inkSoft": "rgba(21,29,25,0.55)",
-        "skyTop": "#b17d94",
-        "skyHorizon": "#dbc9ce",
-        "fog": "#cec0c5",
-        "ground": "#82605e",
+        "ink": "#151d1c",
+        "paper": "#cfcdc9",
+        "inkSoft": "rgba(21,29,28,0.55)",
+        "skyTop": "#5e86a3",
+        "skyHorizon": "#afb9cb",
+        "fog": "#aeb6c1",
+        "ground": "#725d50",
         "building": [
-          "#9b816e",
-          "#a0a07e",
-          "#668684"
+          "#8d825e",
+          "#87966c",
+          "#5a7179"
         ],
-        "key": "#d4e5be",
-        "fill": "#769083",
-        "rim": "#aec8af",
-        "accent": "#6fc485",
-        "halftone": "rgba(21,29,25,0.32)",
-        "shadow": "#35423c",
-        "crosshatch": "rgba(21,29,25,0.42)",
-        "paperGrain": "rgba(21,29,25,0.06)"
+        "key": "#dcd0a7",
+        "fill": "#698480",
+        "rim": "#9bbea9",
+        "accent": "#56c196",
+        "halftone": "rgba(21,29,28,0.32)",
+        "shadow": "#2f3d3a",
+        "crosshatch": "rgba(21,29,28,0.42)",
+        "paperGrain": "rgba(21,29,28,0.06)"
       },
       "light": {
         "condition": "daylight",
@@ -347,27 +502,27 @@
           0.8,
           0.4
         ],
-        "color": "#d7daae",
-        "intensity": 1.507,
-        "ambient": 0.524,
-        "fillColor": "#769083",
-        "rimColor": "#aec8af",
-        "fogDensity": 0.179,
-        "fogColor": "#cec0c5",
+        "color": "#ddcca0",
+        "intensity": 1.335,
+        "ambient": 0.454,
+        "fillColor": "#698480",
+        "rimColor": "#9bbea9",
+        "fogDensity": 0.234,
+        "fogColor": "#aeb6c1",
         "shadowSoftness": 0.45,
-        "shadowColor": "#35423c",
-        "contrast": 0.553
+        "shadowColor": "#2f3d3a",
+        "contrast": 0.528
       },
       "env": {
         "kind": "city",
-        "seed": 717482,
+        "seed": 959012,
         "sky": {
-          "top": "#b17d94",
-          "horizon": "#dbc9ce",
-          "fog": "#cec0c5"
+          "top": "#5e86a3",
+          "horizon": "#afb9cb",
+          "fog": "#aeb6c1"
         },
         "ground": {
-          "color": "#82605e",
+          "color": "#725d50",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -379,12 +534,12 @@
               70
             ],
             "count": 14,
-            "color": "#a1a8a9",
+            "color": "#8595a2",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 787414
+            "seed": 81125
           },
           {
             "name": "mid",
@@ -393,14 +548,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b816e",
+            "color": "#8d825e",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 927865
+            "seed": 253439
           },
           {
             "name": "near",
@@ -409,14 +564,14 @@
               12
             ],
             "count": 6,
-            "color": "#a0a07e",
+            "color": "#87966c",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 170724
+            "seed": 16134
           },
           {
             "name": "foreground",
@@ -425,12 +580,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#82605e",
+            "color": "#725d50",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 343407
+            "seed": 397248
           }
         ],
         "props": [
@@ -441,15 +596,15 @@
           "window"
         ],
         "fog": {
-          "color": "#cec0c5",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#aeb6c1",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -458,21 +613,21 @@
             0.8,
             0.4
           ],
-          "color": "#d7daae",
-          "intensity": 1.507,
-          "ambient": 0.524,
-          "fillColor": "#769083",
-          "rimColor": "#aec8af",
-          "fogDensity": 0.179,
-          "fogColor": "#cec0c5",
+          "color": "#ddcca0",
+          "intensity": 1.335,
+          "ambient": 0.454,
+          "fillColor": "#698480",
+          "rimColor": "#9bbea9",
+          "fogDensity": 0.234,
+          "fogColor": "#aeb6c1",
           "shadowSoftness": 0.45,
-          "shadowColor": "#35423c",
-          "contrast": 0.553
+          "shadowColor": "#2f3d3a",
+          "contrast": 0.528
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -484,7 +639,7 @@
           "kind": "halftone",
           "density": 5,
           "intensity": 0.396,
-          "seed": 50125
+          "seed": 129214
         },
         {
           "kind": "ink-outline",
@@ -496,7 +651,7 @@
           "kind": "crosshatch",
           "spacing": 8,
           "intensity": 0.37,
-          "seed": 197050
+          "seed": 905669
         },
         {
           "kind": "paper-texture",
@@ -512,23 +667,51 @@
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 472621
+          "seed": 574898
         },
         {
           "kind": "motion-streaks",
           "count": 10,
           "intensity": 0.098,
-          "seed": 119189
+          "seed": 318051
+        },
+        {
+          "kind": "panel-shutter",
+          "intensity": 0.6,
+          "seed": 0
+        },
+        {
+          "kind": "registration-offset",
+          "intensity": 0.25,
+          "seed": 0
         }
       ],
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9f4042",
-          "trim": "#d4ca7f",
-          "shadow": "#452829",
-          "skin": "#dfcbc2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26632",
+          "trim": "#79d276",
+          "shadow": "#3e2c20",
+          "skin": "#debfac",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#7abc38",
+          "trim": "#76d2b2",
+          "shadow": "#303e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4aafa3",
+          "trim": "#76a3d2",
+          "shadow": "#203e3c",
+          "skin": "#d7c0b4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }
@@ -536,11 +719,11 @@
     {
       "id": 2,
       "index": 1,
-      "a": 282,
-      "b": 574,
-      "text": "Seventy-four soldiers marched across it in step, boots ringing on the deck. The bridge began to sway with every step.",
+      "a": 262,
+      "b": 532,
+      "text": "Tomas marched toward them with the soldiers. Mara pointed at the bridge and looked at Elise. Elise reached toward Mara and held both hands together.",
       "beat": 2,
-      "intensity": 0.38333333333333336,
+      "intensity": 0.3894117647058824,
       "emotion": "curious",
       "timeOfDay": "day",
       "weather": "clear",
@@ -548,37 +731,37 @@
       "period": "victorian",
       "location": "city",
       "environment": "city",
-      "seed": 3519774328,
+      "seed": 2538259568,
       "palette": {
         "id": "scene-2",
-        "hue": 11,
-        "storyHue": 0,
-        "warmth": 0.469,
-        "saturation": 0.393,
-        "contrast": 0.582,
-        "brightness": 0.843,
-        "haze": 0.21,
-        "intensity": 0.383,
-        "ink": "#151c1c",
-        "paper": "#dad9d5",
-        "inkSoft": "rgba(21,28,28,0.55)",
-        "skyTop": "#758cad",
-        "skyHorizon": "#c3c7d7",
-        "fog": "#bcc0cb",
-        "ground": "#7e6c5b",
+        "hue": 13,
+        "storyHue": 24,
+        "warmth": 0.102,
+        "saturation": 0.431,
+        "contrast": 0.559,
+        "brightness": 0.629,
+        "haze": 0.407,
+        "intensity": 0.389,
+        "ink": "#151d1c",
+        "paper": "#cfcec9",
+        "inkSoft": "rgba(21,29,28,0.55)",
+        "skyTop": "#5c82a3",
+        "skyHorizon": "#aeb8cb",
+        "fog": "#adb5c1",
+        "ground": "#72614f",
         "building": [
-          "#999269",
-          "#8d9e7a",
-          "#637883"
+          "#8d875d",
+          "#82976b",
+          "#596d79"
         ],
-        "key": "#e3d9b8",
-        "fill": "#728e8c",
-        "rim": "#a9c5b7",
-        "accent": "#69c3a7",
-        "halftone": "rgba(21,28,28,0.32)",
-        "shadow": "#334140",
-        "crosshatch": "rgba(21,28,28,0.42)",
-        "paperGrain": "rgba(21,28,28,0.06)"
+        "key": "#dcd0a7",
+        "fill": "#688483",
+        "rim": "#9bbead",
+        "accent": "#54c2a3",
+        "halftone": "rgba(21,29,28,0.32)",
+        "shadow": "#2f3d3c",
+        "crosshatch": "rgba(21,29,28,0.42)",
+        "paperGrain": "rgba(21,29,28,0.06)"
       },
       "light": {
         "condition": "daylight",
@@ -587,27 +770,27 @@
           0.8,
           0.4
         ],
-        "color": "#e3d1aa",
-        "intensity": 1.464,
-        "ambient": 0.506,
-        "fillColor": "#728e8c",
-        "rimColor": "#a9c5b7",
-        "fogDensity": 0.179,
-        "fogColor": "#bcc0cb",
+        "color": "#ddcca0",
+        "intensity": 1.331,
+        "ambient": 0.453,
+        "fillColor": "#688483",
+        "rimColor": "#9bbead",
+        "fogDensity": 0.234,
+        "fogColor": "#adb5c1",
         "shadowSoftness": 0.45,
-        "shadowColor": "#334140",
-        "contrast": 0.582
+        "shadowColor": "#2f3d3c",
+        "contrast": 0.559
       },
       "env": {
         "kind": "city",
-        "seed": 68972,
+        "seed": 355093,
         "sky": {
-          "top": "#758cad",
-          "horizon": "#c3c7d7",
-          "fog": "#bcc0cb"
+          "top": "#5c82a3",
+          "horizon": "#aeb8cb",
+          "fog": "#adb5c1"
         },
         "ground": {
-          "color": "#7e6c5b",
+          "color": "#72614f",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -619,12 +802,12 @@
               70
             ],
             "count": 14,
-            "color": "#93a0ad",
+            "color": "#8493a2",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 361307
+            "seed": 204946
           },
           {
             "name": "mid",
@@ -633,14 +816,14 @@
               32
             ],
             "count": 10,
-            "color": "#999269",
+            "color": "#8d875d",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 27269
+            "seed": 312100
           },
           {
             "name": "near",
@@ -649,14 +832,14 @@
               12
             ],
             "count": 6,
-            "color": "#8d9e7a",
+            "color": "#82976b",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 82596
+            "seed": 919561
           },
           {
             "name": "foreground",
@@ -665,12 +848,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#7e6c5b",
+            "color": "#72614f",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 156544
+            "seed": 954955
           }
         ],
         "props": [
@@ -681,15 +864,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bcc0cb",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#adb5c1",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -698,21 +881,21 @@
             0.8,
             0.4
           ],
-          "color": "#e3d1aa",
-          "intensity": 1.464,
-          "ambient": 0.506,
-          "fillColor": "#728e8c",
-          "rimColor": "#a9c5b7",
-          "fogDensity": 0.179,
-          "fogColor": "#bcc0cb",
+          "color": "#ddcca0",
+          "intensity": 1.331,
+          "ambient": 0.453,
+          "fillColor": "#688483",
+          "rimColor": "#9bbead",
+          "fogDensity": 0.234,
+          "fogColor": "#adb5c1",
           "shadowSoftness": 0.45,
-          "shadowColor": "#334140",
-          "contrast": 0.582
+          "shadowColor": "#2f3d3c",
+          "contrast": 0.559
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -723,20 +906,20 @@
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.4166666666666667,
-          "seed": 330676
+          "intensity": 0.4178823529411765,
+          "seed": 354192
         },
         {
           "kind": "ink-outline",
-          "width": 4.958333333333333,
+          "width": 4.973529411764706,
           "intensity": 1,
           "seed": 1
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.3958333333333333,
-          "seed": 392352
+          "intensity": 0.3973529411764706,
+          "seed": 2867
         },
         {
           "kind": "paper-texture",
@@ -752,29 +935,57 @@
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 504345
+          "seed": 398294
         },
         {
           "kind": "motion-streaks",
           "count": 11,
-          "intensity": 0.13416666666666666,
-          "seed": 359042
+          "intensity": 0.13629411764705884,
+          "seed": 782444
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 1
+        },
+        {
+          "kind": "radial-iris",
+          "intensity": 0.6,
+          "seed": 1
+        },
+        {
+          "kind": "registration-offset",
+          "intensity": 0.25,
+          "seed": 1
         }
       ],
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9c3c3d",
-          "trim": "#d4c97d",
-          "shadow": "#432627",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26632",
+          "trim": "#79d276",
+          "shadow": "#3e2c20",
+          "skin": "#debfab",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#79bc38",
+          "trim": "#76d2b2",
+          "shadow": "#303e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4aafa3",
+          "trim": "#76a3d2",
+          "shadow": "#203e3b",
+          "skin": "#d7c0b4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }
@@ -782,11 +993,11 @@
     {
       "id": 3,
       "index": 2,
-      "a": 574,
-      "b": 768,
-      "text": "A bolt snapped. The deck folded into the river.",
+      "a": 532,
+      "b": 857,
+      "text": "Tomas looked back at them before he stepped onto the deck. Mara walked alongside Elise beneath the warm afternoon sky. Tomas marched in step as the iron supports began to sway.",
       "beat": 3,
-      "intensity": 0.4866666666666667,
+      "intensity": 0.4988235294117648,
       "emotion": "curious",
       "timeOfDay": "day",
       "weather": "clear",
@@ -794,37 +1005,37 @@
       "period": "victorian",
       "location": "city",
       "environment": "city",
-      "seed": 3570107185,
+      "seed": 2588592425,
       "palette": {
         "id": "scene-3",
-        "hue": 5,
-        "storyHue": 0,
-        "warmth": 0.453,
-        "saturation": 0.404,
-        "contrast": 0.611,
-        "brightness": 0.881,
-        "haze": 0.21,
-        "intensity": 0.487,
-        "ink": "#141c1b",
-        "paper": "#dcdbd8",
-        "inkSoft": "rgba(20,28,27,0.55)",
-        "skyTop": "#7891b0",
-        "skyHorizon": "#c6cbd9",
-        "fog": "#bec2cd",
-        "ground": "#816a5c",
+        "hue": 31,
+        "storyHue": 24,
+        "warmth": 0.131,
+        "saturation": 0.442,
+        "contrast": 0.59,
+        "brightness": 0.614,
+        "haze": 0.407,
+        "intensity": 0.499,
+        "ink": "#141a1c",
+        "paper": "#cdcec8",
+        "inkSoft": "rgba(20,26,28,0.55)",
+        "skyTop": "#5a79a3",
+        "skyHorizon": "#acb3ca",
+        "fog": "#acb2c1",
+        "ground": "#716b4e",
         "building": [
-          "#9b8f6b",
-          "#93a07c",
-          "#647d85"
+          "#848d5b",
+          "#74976a",
+          "#596379"
         ],
-        "key": "#e4dabb",
-        "fill": "#74908b",
-        "rim": "#abc7b6",
-        "accent": "#6ac69f",
-        "halftone": "rgba(20,28,27,0.32)",
-        "shadow": "#34423f",
-        "crosshatch": "rgba(20,28,27,0.42)",
-        "paperGrain": "rgba(20,28,27,0.06)"
+        "key": "#dcd2a5",
+        "fill": "#677c84",
+        "rim": "#99beb7",
+        "accent": "#52c2c3",
+        "halftone": "rgba(20,26,28,0.32)",
+        "shadow": "#2e393c",
+        "crosshatch": "rgba(20,26,28,0.42)",
+        "paperGrain": "rgba(20,26,28,0.06)"
       },
       "light": {
         "condition": "daylight",
@@ -833,27 +1044,27 @@
           0.8,
           0.4
         ],
-        "color": "#e4d2ad",
-        "intensity": 1.488,
-        "ambient": 0.516,
-        "fillColor": "#74908b",
-        "rimColor": "#abc7b6",
-        "fogDensity": 0.179,
-        "fogColor": "#bec2cd",
+        "color": "#ddce9e",
+        "intensity": 1.321,
+        "ambient": 0.449,
+        "fillColor": "#677c84",
+        "rimColor": "#99beb7",
+        "fogDensity": 0.234,
+        "fogColor": "#acb2c1",
         "shadowSoftness": 0.45,
-        "shadowColor": "#34423f",
-        "contrast": 0.611
+        "shadowColor": "#2e393c",
+        "contrast": 0.59
       },
       "env": {
         "kind": "city",
-        "seed": 936511,
+        "seed": 987331,
         "sky": {
-          "top": "#7891b0",
-          "horizon": "#c6cbd9",
-          "fog": "#bec2cd"
+          "top": "#5a79a3",
+          "horizon": "#acb3ca",
+          "fog": "#acb2c1"
         },
         "ground": {
-          "color": "#816a5c",
+          "color": "#716b4e",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -865,12 +1076,12 @@
               70
             ],
             "count": 14,
-            "color": "#95a4af",
+            "color": "#838ba2",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 884968
+            "seed": 355710
           },
           {
             "name": "mid",
@@ -879,14 +1090,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b8f6b",
+            "color": "#848d5b",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 612468
+            "seed": 731838
           },
           {
             "name": "near",
@@ -895,14 +1106,14 @@
               12
             ],
             "count": 6,
-            "color": "#93a07c",
+            "color": "#74976a",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 575815
+            "seed": 316470
           },
           {
             "name": "foreground",
@@ -911,12 +1122,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#816a5c",
+            "color": "#716b4e",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 336526
+            "seed": 755344
           }
         ],
         "props": [
@@ -927,15 +1138,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bec2cd",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#acb2c1",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -944,21 +1155,21 @@
             0.8,
             0.4
           ],
-          "color": "#e4d2ad",
-          "intensity": 1.488,
-          "ambient": 0.516,
-          "fillColor": "#74908b",
-          "rimColor": "#abc7b6",
-          "fogDensity": 0.179,
-          "fogColor": "#bec2cd",
+          "color": "#ddce9e",
+          "intensity": 1.321,
+          "ambient": 0.449,
+          "fillColor": "#677c84",
+          "rimColor": "#99beb7",
+          "fogDensity": 0.234,
+          "fogColor": "#acb2c1",
           "shadowSoftness": 0.45,
-          "shadowColor": "#34423f",
-          "contrast": 0.611
+          "shadowColor": "#2e393c",
+          "contrast": 0.59
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -969,20 +1180,20 @@
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.43733333333333335,
-          "seed": 548268
+          "intensity": 0.439764705882353,
+          "seed": 566498
         },
         {
           "kind": "ink-outline",
-          "width": 5.216666666666667,
+          "width": 5.247058823529412,
           "intensity": 1,
           "seed": 2
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.42166666666666663,
-          "seed": 258344
+          "intensity": 0.42470588235294116,
+          "seed": 306409
         },
         {
           "kind": "paper-texture",
@@ -998,29 +1209,57 @@
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 870560
+          "seed": 542939
         },
         {
           "kind": "motion-streaks",
           "count": 13,
-          "intensity": 0.17033333333333334,
-          "seed": 636062
+          "intensity": 0.17458823529411766,
+          "seed": 351076
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 2
+        },
+        {
+          "kind": "panel-shutter",
+          "intensity": 0.6,
+          "seed": 2
+        },
+        {
+          "kind": "registration-offset",
+          "intensity": 0.25,
+          "seed": 2
         }
       ],
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9e3e40",
-          "trim": "#d4c97e",
-          "shadow": "#442728",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26531",
+          "trim": "#78d176",
+          "shadow": "#3e2b20",
+          "skin": "#debeab",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#79bb37",
+          "trim": "#76d1b1",
+          "shadow": "#2f3e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#49aea2",
+          "trim": "#76a3d1",
+          "shadow": "#203e3b",
+          "skin": "#d7bfb4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }
@@ -1028,11 +1267,11 @@
     {
       "id": 4,
       "index": 3,
-      "a": 768,
-      "b": 1051,
-      "text": "Luckily, nobody drowned. Unluckily, the whole town had to walk the long way round for a year.",
+      "a": 857,
+      "b": 1160,
+      "text": "Elise noticed a loose bolt and pointed toward Tomas. Mara reached toward Elise as the bridge suddenly cracked. Tomas ran toward the bank and waved both arms.",
       "beat": 4,
-      "intensity": 0.5900000000000001,
+      "intensity": 0.6082352941176471,
       "emotion": "curious",
       "timeOfDay": "day",
       "weather": "clear",
@@ -1040,37 +1279,37 @@
       "period": "victorian",
       "location": "city",
       "environment": "city",
-      "seed": 3553329566,
+      "seed": 2571814806,
       "palette": {
         "id": "scene-4",
-        "hue": 21,
-        "storyHue": 0,
-        "warmth": 0.396,
-        "saturation": 0.414,
-        "contrast": 0.64,
-        "brightness": 0.884,
-        "haze": 0.21,
-        "intensity": 0.59,
-        "ink": "#141b1c",
-        "paper": "#dcdcd8",
-        "inkSoft": "rgba(20,27,28,0.55)",
-        "skyTop": "#788cb1",
-        "skyHorizon": "#c6c9da",
-        "fog": "#bec1cd",
-        "ground": "#82755c",
+        "hue": 32,
+        "storyHue": 24,
+        "warmth": 0.116,
+        "saturation": 0.453,
+        "contrast": 0.62,
+        "brightness": 0.667,
+        "haze": 0.407,
+        "intensity": 0.608,
+        "ink": "#141a1c",
+        "paper": "#d0d1cb",
+        "inkSoft": "rgba(20,26,28,0.55)",
+        "skyTop": "#5e7da7",
+        "skyHorizon": "#b1b7ce",
+        "fog": "#afb5c3",
+        "ground": "#756f50",
         "building": [
-          "#9b9c6b",
-          "#89a17b",
-          "#647486"
+          "#87915d",
+          "#75996c",
+          "#5a647c"
         ],
-        "key": "#e4dcbb",
-        "fill": "#738d90",
-        "rim": "#abc8be",
-        "accent": "#69c7b9",
-        "halftone": "rgba(20,27,28,0.32)",
-        "shadow": "#344142",
-        "crosshatch": "rgba(20,27,28,0.42)",
-        "paperGrain": "rgba(20,27,28,0.06)"
+        "key": "#ded4a9",
+        "fill": "#697e87",
+        "rim": "#9cc1ba",
+        "accent": "#54c2c6",
+        "halftone": "rgba(20,26,28,0.32)",
+        "shadow": "#2f3a3e",
+        "crosshatch": "rgba(20,26,28,0.42)",
+        "paperGrain": "rgba(20,26,28,0.06)"
       },
       "light": {
         "condition": "daylight",
@@ -1079,27 +1318,27 @@
           0.8,
           0.4
         ],
-        "color": "#e4d4ae",
-        "intensity": 1.49,
-        "ambient": 0.517,
-        "fillColor": "#738d90",
-        "rimColor": "#abc8be",
-        "fogDensity": 0.179,
-        "fogColor": "#bec1cd",
+        "color": "#dfd0a2",
+        "intensity": 1.354,
+        "ambient": 0.462,
+        "fillColor": "#697e87",
+        "rimColor": "#9cc1ba",
+        "fogDensity": 0.234,
+        "fogColor": "#afb5c3",
         "shadowSoftness": 0.45,
-        "shadowColor": "#344142",
-        "contrast": 0.64
+        "shadowColor": "#2f3a3e",
+        "contrast": 0.62
       },
       "env": {
         "kind": "city",
-        "seed": 376072,
+        "seed": 626879,
         "sky": {
-          "top": "#788cb1",
-          "horizon": "#c6c9da",
-          "fog": "#bec1cd"
+          "top": "#5e7da7",
+          "horizon": "#b1b7ce",
+          "fog": "#afb5c3"
         },
         "ground": {
-          "color": "#82755c",
+          "color": "#756f50",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -1111,12 +1350,12 @@
               70
             ],
             "count": 14,
-            "color": "#959fb0",
+            "color": "#868ea5",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 939359
+            "seed": 145704
           },
           {
             "name": "mid",
@@ -1125,14 +1364,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b9c6b",
+            "color": "#87915d",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 606016
+            "seed": 619688
           },
           {
             "name": "near",
@@ -1141,14 +1380,14 @@
               12
             ],
             "count": 6,
-            "color": "#89a17b",
+            "color": "#75996c",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 558855
+            "seed": 524445
           },
           {
             "name": "foreground",
@@ -1157,12 +1396,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#82755c",
+            "color": "#756f50",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 758493
+            "seed": 303042
           }
         ],
         "props": [
@@ -1173,15 +1412,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bec1cd",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#afb5c3",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -1190,21 +1429,21 @@
             0.8,
             0.4
           ],
-          "color": "#e4d4ae",
-          "intensity": 1.49,
-          "ambient": 0.517,
-          "fillColor": "#738d90",
-          "rimColor": "#abc8be",
-          "fogDensity": 0.179,
-          "fogColor": "#bec1cd",
+          "color": "#dfd0a2",
+          "intensity": 1.354,
+          "ambient": 0.462,
+          "fillColor": "#697e87",
+          "rimColor": "#9cc1ba",
+          "fogDensity": 0.234,
+          "fogColor": "#afb5c3",
           "shadowSoftness": 0.45,
-          "shadowColor": "#344142",
-          "contrast": 0.64
+          "shadowColor": "#2f3a3e",
+          "contrast": 0.62
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -1215,20 +1454,20 @@
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.4580000000000001,
-          "seed": 28045
+          "intensity": 0.46164705882352947,
+          "seed": 994451
         },
         {
           "kind": "ink-outline",
-          "width": 5.475,
+          "width": 5.520588235294118,
           "intensity": 1,
           "seed": 3
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.4475,
-          "seed": 520158
+          "intensity": 0.45205882352941174,
+          "seed": 598027
         },
         {
           "kind": "paper-texture",
@@ -1242,37 +1481,65 @@
         },
         {
           "kind": "speed-lines",
-          "count": 27,
-          "intensity": 0.29500000000000004,
-          "seed": 990476
+          "count": 28,
+          "intensity": 0.30411764705882355,
+          "seed": 666434
         },
         {
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 552202
+          "seed": 31093
         },
         {
           "kind": "motion-streaks",
-          "count": 14,
-          "intensity": 0.20650000000000002,
-          "seed": 237864
+          "count": 15,
+          "intensity": 0.21288235294117647,
+          "seed": 716347
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 3
+        },
+        {
+          "kind": "radial-iris",
+          "intensity": 0.6,
+          "seed": 3
+        },
+        {
+          "kind": "dry-brush",
+          "intensity": 0.25,
+          "seed": 3
         }
       ],
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9e3e40",
-          "trim": "#d4ca7e",
-          "shadow": "#442728",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c36834",
+          "trim": "#7ad277",
+          "shadow": "#3f2d21",
+          "skin": "#dfbfac",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#7bbd3a",
+          "trim": "#77d2b2",
+          "shadow": "#313f21",
+          "skin": "#d3c5ae",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4cb0a4",
+          "trim": "#77a4d2",
+          "shadow": "#213f3c",
+          "skin": "#d7c0b5",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }
@@ -1280,11 +1547,11 @@
     {
       "id": 5,
       "index": 4,
-      "a": 1051,
-      "b": 1422,
-      "text": "A child on a swing knows the trick: a small push at the right moment grows into a huge arc. The soldiers were the push.",
+      "a": 1160,
+      "b": 1518,
+      "text": "Elise held Mara as the soldiers broke step and rushed to safety. Mara stood beside Tomas and looked at the empty crossing. Elise held both their hands as dust drifted across the river.",
       "beat": 5,
-      "intensity": 0.6933333333333334,
+      "intensity": 0.7176470588235295,
       "emotion": "curious",
       "timeOfDay": "day",
       "weather": "clear",
@@ -1292,37 +1559,37 @@
       "period": "victorian",
       "location": "city",
       "environment": "city",
-      "seed": 3603662423,
+      "seed": 2622147663,
       "palette": {
         "id": "scene-5",
-        "hue": 17,
-        "storyHue": 0,
-        "warmth": 0.519,
-        "saturation": 0.424,
-        "contrast": 0.669,
-        "brightness": 0.865,
-        "haze": 0.21,
-        "intensity": 0.693,
-        "ink": "#141b1b",
-        "paper": "#dbdbd7",
-        "inkSoft": "rgba(20,27,27,0.55)",
-        "skyTop": "#758bb1",
-        "skyHorizon": "#c4c8d9",
-        "fog": "#bcc0cc",
-        "ground": "#81715a",
+        "hue": 38,
+        "storyHue": 24,
+        "warmth": 0.218,
+        "saturation": 0.464,
+        "contrast": 0.651,
+        "brightness": 0.629,
+        "haze": 0.407,
+        "intensity": 0.718,
+        "ink": "#14181b",
+        "paper": "#cdcfc8",
+        "inkSoft": "rgba(20,24,27,0.55)",
+        "skyTop": "#5a77a6",
+        "skyHorizon": "#adb3cc",
+        "fog": "#adb2c2",
+        "ground": "#73714e",
         "building": [
-          "#9c9969",
-          "#8ba07a",
-          "#637685"
+          "#7f8f5b",
+          "#6e986a",
+          "#585f7a"
         ],
-        "key": "#e4dbba",
-        "fill": "#728f90",
-        "rim": "#a9c7bb",
-        "accent": "#67c8b3",
-        "halftone": "rgba(20,27,27,0.32)",
-        "shadow": "#334142",
-        "crosshatch": "rgba(20,27,27,0.42)",
-        "paperGrain": "rgba(20,27,27,0.06)"
+        "key": "#ddd3a6",
+        "fill": "#677a85",
+        "rim": "#99bfbd",
+        "accent": "#50b7c6",
+        "halftone": "rgba(20,24,27,0.32)",
+        "shadow": "#2e373d",
+        "crosshatch": "rgba(20,24,27,0.42)",
+        "paperGrain": "rgba(20,24,27,0.06)"
       },
       "light": {
         "condition": "daylight",
@@ -1331,27 +1598,27 @@
           0.8,
           0.4
         ],
-        "color": "#e4d2ab",
-        "intensity": 1.478,
-        "ambient": 0.512,
-        "fillColor": "#728f90",
-        "rimColor": "#a9c7bb",
-        "fogDensity": 0.179,
-        "fogColor": "#bcc0cc",
+        "color": "#dece9e",
+        "intensity": 1.331,
+        "ambient": 0.453,
+        "fillColor": "#677a85",
+        "rimColor": "#99bfbd",
+        "fogDensity": 0.234,
+        "fogColor": "#adb2c2",
         "shadowSoftness": 0.45,
-        "shadowColor": "#334142",
-        "contrast": 0.669
+        "shadowColor": "#2e373d",
+        "contrast": 0.651
       },
       "env": {
         "kind": "city",
-        "seed": 569307,
+        "seed": 39402,
         "sky": {
-          "top": "#758bb1",
-          "horizon": "#c4c8d9",
-          "fog": "#bcc0cc"
+          "top": "#5a77a6",
+          "horizon": "#adb3cc",
+          "fog": "#adb2c2"
         },
         "ground": {
-          "color": "#81715a",
+          "color": "#73714e",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -1363,12 +1630,12 @@
               70
             ],
             "count": 14,
-            "color": "#949faf",
+            "color": "#8389a3",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 788413
+            "seed": 413659
           },
           {
             "name": "mid",
@@ -1377,14 +1644,14 @@
               32
             ],
             "count": 10,
-            "color": "#9c9969",
+            "color": "#7f8f5b",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 106052
+            "seed": 847682
           },
           {
             "name": "near",
@@ -1393,14 +1660,14 @@
               12
             ],
             "count": 6,
-            "color": "#8ba07a",
+            "color": "#6e986a",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 854489
+            "seed": 880656
           },
           {
             "name": "foreground",
@@ -1409,12 +1676,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#81715a",
+            "color": "#73714e",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 314520
+            "seed": 262118
           }
         ],
         "props": [
@@ -1425,15 +1692,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bcc0cc",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#adb2c2",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
           "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -1442,21 +1709,21 @@
             0.8,
             0.4
           ],
-          "color": "#e4d2ab",
-          "intensity": 1.478,
-          "ambient": 0.512,
-          "fillColor": "#728f90",
-          "rimColor": "#a9c7bb",
-          "fogDensity": 0.179,
-          "fogColor": "#bcc0cc",
+          "color": "#dece9e",
+          "intensity": 1.331,
+          "ambient": 0.453,
+          "fillColor": "#677a85",
+          "rimColor": "#99bfbd",
+          "fogDensity": 0.234,
+          "fogColor": "#adb2c2",
           "shadowSoftness": 0.45,
-          "shadowColor": "#334142",
-          "contrast": 0.669
+          "shadowColor": "#2e373d",
+          "contrast": 0.651
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -1467,20 +1734,20 @@
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.4786666666666667,
-          "seed": 907517
+          "intensity": 0.48352941176470593,
+          "seed": 315905
         },
         {
           "kind": "ink-outline",
-          "width": 5.733333333333333,
+          "width": 5.794117647058824,
           "intensity": 1,
           "seed": 4
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.47333333333333333,
-          "seed": 870012
+          "intensity": 0.47941176470588237,
+          "seed": 396779
         },
         {
           "kind": "paper-texture",
@@ -1494,37 +1761,65 @@
         },
         {
           "kind": "speed-lines",
-          "count": 30,
-          "intensity": 0.3466666666666667,
-          "seed": 619325
+          "count": 31,
+          "intensity": 0.35882352941176476,
+          "seed": 120974
         },
         {
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 571331
+          "seed": 206370
         },
         {
           "kind": "motion-streaks",
           "count": 16,
-          "intensity": 0.24266666666666667,
-          "seed": 304734
+          "intensity": 0.25117647058823533,
+          "seed": 612564
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 4
+        },
+        {
+          "kind": "panel-shutter",
+          "intensity": 0.6,
+          "seed": 4
+        },
+        {
+          "kind": "dry-brush",
+          "intensity": 0.25,
+          "seed": 4
         }
       ],
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9d3d3f",
-          "trim": "#d4c97d",
-          "shadow": "#442728",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26632",
+          "trim": "#79d276",
+          "shadow": "#3e2c20",
+          "skin": "#debfab",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#79bc38",
+          "trim": "#76d2b2",
+          "shadow": "#303e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4aafa3",
+          "trim": "#76a3d2",
+          "shadow": "#203e3b",
+          "skin": "#d7c0b4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }
@@ -1532,11 +1827,11 @@
     {
       "id": 6,
       "index": 5,
-      "a": 1422,
+      "a": 1518,
       "b": 1800,
-      "text": "Afterward, armies were told to break step on bridges. The bridge was rebuilt with a sign, but the sign did not mention the song.",
+      "text": "Tomas pointed toward the long road around the water. Mara smiled at Elise and walked with both of them toward the sunset.",
       "beat": 6,
-      "intensity": 0.8766666666666667,
+      "intensity": 0.8270588235294117,
       "emotion": "curious",
       "timeOfDay": "day",
       "weather": "clear",
@@ -1544,37 +1839,37 @@
       "period": "victorian",
       "location": "city",
       "environment": "city",
-      "seed": 3586884804,
+      "seed": 2605370044,
       "palette": {
         "id": "scene-6",
-        "hue": 17,
-        "storyHue": 0,
-        "warmth": 0.467,
-        "saturation": 0.443,
-        "contrast": 0.72,
-        "brightness": 0.836,
-        "haze": 0.21,
-        "intensity": 0.877,
-        "ink": "#131a1a",
-        "paper": "#dad9d5",
-        "inkSoft": "rgba(19,26,26,0.55)",
-        "skyTop": "#7188b0",
-        "skyHorizon": "#c1c5d7",
-        "fog": "#babecb",
-        "ground": "#806f58",
+        "hue": 40,
+        "storyHue": 24,
+        "warmth": 0.247,
+        "saturation": 0.474,
+        "contrast": 0.682,
+        "brightness": 0.695,
+        "haze": 0.407,
+        "intensity": 0.827,
+        "ink": "#13181b",
+        "paper": "#d1d2cc",
+        "inkSoft": "rgba(19,24,27,0.55)",
+        "skyTop": "#607cab",
+        "skyHorizon": "#b3b8d0",
+        "fog": "#b1b6c5",
+        "ground": "#787750",
         "building": [
-          "#9b9966",
-          "#8aa077",
-          "#617585"
+          "#82945d",
+          "#709c6d",
+          "#5a607e"
         ],
-        "key": "#e3d9b7",
-        "fill": "#708e8f",
-        "rim": "#a7c7ba",
-        "accent": "#62c9b3",
-        "halftone": "rgba(19,26,26,0.32)",
-        "shadow": "#324142",
-        "crosshatch": "rgba(19,26,26,0.42)",
-        "paperGrain": "rgba(19,26,26,0.06)"
+        "key": "#dfd6ab",
+        "fill": "#697c89",
+        "rim": "#9dc3c1",
+        "accent": "#54b6c9",
+        "halftone": "rgba(19,24,27,0.32)",
+        "shadow": "#2f383f",
+        "crosshatch": "rgba(19,24,27,0.42)",
+        "paperGrain": "rgba(19,24,27,0.06)"
       },
       "light": {
         "condition": "daylight",
@@ -1583,27 +1878,27 @@
           0.8,
           0.4
         ],
-        "color": "#e3d1a9",
-        "intensity": 1.46,
-        "ambient": 0.505,
-        "fillColor": "#708e8f",
-        "rimColor": "#a7c7ba",
-        "fogDensity": 0.179,
-        "fogColor": "#babecb",
+        "color": "#e0d0a2",
+        "intensity": 1.372,
+        "ambient": 0.469,
+        "fillColor": "#697c89",
+        "rimColor": "#9dc3c1",
+        "fogDensity": 0.234,
+        "fogColor": "#b1b6c5",
         "shadowSoftness": 0.45,
-        "shadowColor": "#324142",
-        "contrast": 0.72
+        "shadowColor": "#2f383f",
+        "contrast": 0.682
       },
       "env": {
         "kind": "city",
-        "seed": 952253,
+        "seed": 788017,
         "sky": {
-          "top": "#7188b0",
-          "horizon": "#c1c5d7",
-          "fog": "#babecb"
+          "top": "#607cab",
+          "horizon": "#b3b8d0",
+          "fog": "#b1b6c5"
         },
         "ground": {
-          "color": "#806f58",
+          "color": "#787750",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -1615,12 +1910,12 @@
               70
             ],
             "count": 14,
-            "color": "#919dae",
+            "color": "#878ca7",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 350376
+            "seed": 887279
           },
           {
             "name": "mid",
@@ -1629,14 +1924,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b9966",
+            "color": "#82945d",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 244333
+            "seed": 506444
           },
           {
             "name": "near",
@@ -1645,14 +1940,14 @@
               12
             ],
             "count": 6,
-            "color": "#8aa077",
+            "color": "#709c6d",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 228131
+            "seed": 386653
           },
           {
             "name": "foreground",
@@ -1661,12 +1956,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#806f58",
+            "color": "#787750",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 344998
+            "seed": 720291
           }
         ],
         "props": [
@@ -1677,15 +1972,15 @@
           "window"
         ],
         "fog": {
-          "color": "#babecb",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#b1b6c5",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
           "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -1694,21 +1989,21 @@
             0.8,
             0.4
           ],
-          "color": "#e3d1a9",
-          "intensity": 1.46,
-          "ambient": 0.505,
-          "fillColor": "#708e8f",
-          "rimColor": "#a7c7ba",
-          "fogDensity": 0.179,
-          "fogColor": "#babecb",
+          "color": "#e0d0a2",
+          "intensity": 1.372,
+          "ambient": 0.469,
+          "fillColor": "#697c89",
+          "rimColor": "#9dc3c1",
+          "fogDensity": 0.234,
+          "fogColor": "#b1b6c5",
           "shadowSoftness": 0.45,
-          "shadowColor": "#324142",
-          "contrast": 0.72
+          "shadowColor": "#2f383f",
+          "contrast": 0.682
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -1719,20 +2014,20 @@
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.5153333333333334,
-          "seed": 244331
+          "intensity": 0.5054117647058824,
+          "seed": 649663
         },
         {
           "kind": "ink-outline",
-          "width": 6.191666666666666,
+          "width": 6.067647058823529,
           "intensity": 1,
           "seed": 5
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.5191666666666667,
-          "seed": 689447
+          "intensity": 0.5067647058823529,
+          "seed": 56324
         },
         {
           "kind": "paper-texture",
@@ -1746,49 +2041,77 @@
         },
         {
           "kind": "speed-lines",
-          "count": 35,
-          "intensity": 0.43833333333333335,
-          "seed": 755528
+          "count": 34,
+          "intensity": 0.41352941176470587,
+          "seed": 162787
         },
         {
           "kind": "impact-burst",
           "at": 0.62,
-          "intensity": 0.8766666666666667,
-          "seed": 268470
+          "intensity": 0.8270588235294117,
+          "seed": 667559
         },
         {
           "kind": "ink-splash",
           "count": 8,
           "intensity": 0.5,
-          "seed": 352110
+          "seed": 908406
         },
         {
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 435493
+          "seed": 572134
         },
         {
           "kind": "motion-streaks",
           "count": 18,
-          "intensity": 0.30683333333333335,
-          "seed": 345907
+          "intensity": 0.2894705882352941,
+          "seed": 527930
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 5
+        },
+        {
+          "kind": "radial-iris",
+          "intensity": 0.6,
+          "seed": 5
+        },
+        {
+          "kind": "dry-brush",
+          "intensity": 0.25,
+          "seed": 5
         }
       ],
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9c3b3d",
-          "trim": "#d4c97c",
-          "shadow": "#432627",
-          "skin": "#decac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c46936",
+          "trim": "#7bd278",
+          "shadow": "#402e22",
+          "skin": "#dfbfac",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#7cbd3c",
+          "trim": "#78d2b3",
+          "shadow": "#314022",
+          "skin": "#d3c5ae",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4db1a5",
+          "trim": "#78a5d2",
+          "shadow": "#22403d",
+          "skin": "#d7c0b5",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }
@@ -1799,7 +2122,7 @@
       "id": 1,
       "sceneId": 1,
       "a": 0,
-      "b": 282,
+      "b": 262,
       "composition": {
         "rule": "thirds-wide",
         "foreground": false,
@@ -1811,7 +2134,7 @@
           {
             "t": 0,
             "pos": [
-              -0.557640284486115,
+              -1.1245358185842633,
               4.2,
               20
             ],
@@ -1826,7 +2149,7 @@
           {
             "t": 1,
             "pos": [
-              -0.557640284486115,
+              -1.1245358185842633,
               4.6000000000000005,
               17.6
             ],
@@ -1842,15 +2165,28 @@
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "fall",
+          "id": "mara",
+          "x": -1.3,
+          "action": "stand",
           "expression": "curious",
-          "gesture": "two-hand",
+          "gesture": "rest",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
+          },
+          "intensity": 0.28
+        },
+        {
+          "id": "elise",
+          "x": 1.3,
+          "action": "stand",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
           },
           "intensity": 0.28
         }
@@ -1860,7 +2196,7 @@
           "kind": "halftone",
           "density": 5,
           "intensity": 0.396,
-          "seed": 50125
+          "seed": 129214
         },
         {
           "kind": "ink-outline",
@@ -1872,7 +2208,7 @@
           "kind": "crosshatch",
           "spacing": 8,
           "intensity": 0.37,
-          "seed": 197050
+          "seed": 905669
         },
         {
           "kind": "paper-texture",
@@ -1888,56 +2224,66 @@
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 472621
+          "seed": 574898
         },
         {
           "kind": "motion-streaks",
           "count": 10,
           "intensity": 0.098,
-          "seed": 119189
+          "seed": 318051
+        },
+        {
+          "kind": "panel-shutter",
+          "intensity": 0.6,
+          "seed": 0
+        },
+        {
+          "kind": "registration-offset",
+          "intensity": 0.25,
+          "seed": 0
         }
       ],
       "palette": {
         "id": "scene-1",
-        "hue": 345,
-        "storyHue": 0,
-        "warmth": 0.502,
-        "saturation": 0.383,
-        "contrast": 0.553,
-        "brightness": 0.912,
-        "haze": 0.21,
+        "hue": 6,
+        "storyHue": 24,
+        "warmth": 0.1,
+        "saturation": 0.42,
+        "contrast": 0.528,
+        "brightness": 0.636,
+        "haze": 0.407,
         "intensity": 0.28,
-        "ink": "#151d19",
-        "paper": "#dddbda",
-        "inkSoft": "rgba(21,29,25,0.55)",
-        "skyTop": "#b17d94",
-        "skyHorizon": "#dbc9ce",
-        "fog": "#cec0c5",
-        "ground": "#82605e",
+        "ink": "#151d1c",
+        "paper": "#cfcdc9",
+        "inkSoft": "rgba(21,29,28,0.55)",
+        "skyTop": "#5e86a3",
+        "skyHorizon": "#afb9cb",
+        "fog": "#aeb6c1",
+        "ground": "#725d50",
         "building": [
-          "#9b816e",
-          "#a0a07e",
-          "#668684"
+          "#8d825e",
+          "#87966c",
+          "#5a7179"
         ],
-        "key": "#d4e5be",
-        "fill": "#769083",
-        "rim": "#aec8af",
-        "accent": "#6fc485",
-        "halftone": "rgba(21,29,25,0.32)",
-        "shadow": "#35423c",
-        "crosshatch": "rgba(21,29,25,0.42)",
-        "paperGrain": "rgba(21,29,25,0.06)"
+        "key": "#dcd0a7",
+        "fill": "#698480",
+        "rim": "#9bbea9",
+        "accent": "#56c196",
+        "halftone": "rgba(21,29,28,0.32)",
+        "shadow": "#2f3d3a",
+        "crosshatch": "rgba(21,29,28,0.42)",
+        "paperGrain": "rgba(21,29,28,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 717482,
+        "seed": 959012,
         "sky": {
-          "top": "#b17d94",
-          "horizon": "#dbc9ce",
-          "fog": "#cec0c5"
+          "top": "#5e86a3",
+          "horizon": "#afb9cb",
+          "fog": "#aeb6c1"
         },
         "ground": {
-          "color": "#82605e",
+          "color": "#725d50",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -1949,12 +2295,12 @@
               70
             ],
             "count": 14,
-            "color": "#a1a8a9",
+            "color": "#8595a2",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 787414
+            "seed": 81125
           },
           {
             "name": "mid",
@@ -1963,14 +2309,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b816e",
+            "color": "#8d825e",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 927865
+            "seed": 253439
           },
           {
             "name": "near",
@@ -1979,14 +2325,14 @@
               12
             ],
             "count": 6,
-            "color": "#a0a07e",
+            "color": "#87966c",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 170724
+            "seed": 16134
           },
           {
             "name": "foreground",
@@ -1995,12 +2341,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#82605e",
+            "color": "#725d50",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 343407
+            "seed": 397248
           }
         ],
         "props": [
@@ -2011,15 +2357,15 @@
           "window"
         ],
         "fog": {
-          "color": "#cec0c5",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#aeb6c1",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -2028,21 +2374,21 @@
             0.8,
             0.4
           ],
-          "color": "#d7daae",
-          "intensity": 1.507,
-          "ambient": 0.524,
-          "fillColor": "#769083",
-          "rimColor": "#aec8af",
-          "fogDensity": 0.179,
-          "fogColor": "#cec0c5",
+          "color": "#ddcca0",
+          "intensity": 1.335,
+          "ambient": 0.454,
+          "fillColor": "#698480",
+          "rimColor": "#9bbea9",
+          "fogDensity": 0.234,
+          "fogColor": "#aeb6c1",
           "shadowSoftness": 0.45,
-          "shadowColor": "#35423c",
-          "contrast": 0.553
+          "shadowColor": "#2f3d3a",
+          "contrast": 0.528
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -2056,25 +2402,43 @@
           0.8,
           0.4
         ],
-        "color": "#d7daae",
-        "intensity": 1.507,
-        "ambient": 0.524,
-        "fillColor": "#769083",
-        "rimColor": "#aec8af",
-        "fogDensity": 0.179,
-        "fogColor": "#cec0c5",
+        "color": "#ddcca0",
+        "intensity": 1.335,
+        "ambient": 0.454,
+        "fillColor": "#698480",
+        "rimColor": "#9bbea9",
+        "fogDensity": 0.234,
+        "fogColor": "#aeb6c1",
         "shadowSoftness": 0.45,
-        "shadowColor": "#35423c",
-        "contrast": 0.553
+        "shadowColor": "#2f3d3a",
+        "contrast": 0.528
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9f4042",
-          "trim": "#d4ca7f",
-          "shadow": "#452829",
-          "skin": "#dfcbc2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26632",
+          "trim": "#79d276",
+          "shadow": "#3e2c20",
+          "skin": "#debfac",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#7abc38",
+          "trim": "#76d2b2",
+          "shadow": "#303e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4aafa3",
+          "trim": "#76a3d2",
+          "shadow": "#203e3c",
+          "skin": "#d7c0b4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }
@@ -2082,8 +2446,8 @@
     {
       "id": 2,
       "sceneId": 2,
-      "a": 282,
-      "b": 428,
+      "a": 262,
+      "b": 397,
       "composition": {
         "rule": "thirds-wide",
         "foreground": false,
@@ -2095,7 +2459,7 @@
           {
             "t": 0,
             "pos": [
-              1.0302562793716787,
+              0.8900771239772439,
               2.2,
               12
             ],
@@ -2110,7 +2474,7 @@
           {
             "t": 1,
             "pos": [
-              1.0302562793716787,
+              0.8900771239772439,
               2.2,
               7.4399999999999995
             ],
@@ -2126,37 +2490,50 @@
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "walk",
+          "id": "mara",
+          "x": -1.3,
+          "action": "interact",
           "expression": "curious",
-          "gesture": "rest",
+          "gesture": "two-hand",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
           },
-          "intensity": 0.38333333333333336
+          "intensity": 0.3894117647058824
+        },
+        {
+          "id": "elise",
+          "x": 1.3,
+          "action": "interact",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.3894117647058824
         }
       ],
       "fx": [
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.4166666666666667,
-          "seed": 330676
+          "intensity": 0.4178823529411765,
+          "seed": 354192
         },
         {
           "kind": "ink-outline",
-          "width": 4.958333333333333,
+          "width": 4.973529411764706,
           "intensity": 1,
           "seed": 1
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.3958333333333333,
-          "seed": 392352
+          "intensity": 0.3973529411764706,
+          "seed": 2867
         },
         {
           "kind": "paper-texture",
@@ -2172,62 +2549,72 @@
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 504345
+          "seed": 398294
         },
         {
           "kind": "motion-streaks",
           "count": 11,
-          "intensity": 0.13416666666666666,
-          "seed": 359042
+          "intensity": 0.13629411764705884,
+          "seed": 782444
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 1
+        },
+        {
+          "kind": "radial-iris",
+          "intensity": 0.6,
+          "seed": 1
+        },
+        {
+          "kind": "registration-offset",
+          "intensity": 0.25,
+          "seed": 1
         }
       ],
       "palette": {
         "id": "scene-2",
-        "hue": 11,
-        "storyHue": 0,
-        "warmth": 0.469,
-        "saturation": 0.393,
-        "contrast": 0.582,
-        "brightness": 0.843,
-        "haze": 0.21,
-        "intensity": 0.383,
-        "ink": "#151c1c",
-        "paper": "#dad9d5",
-        "inkSoft": "rgba(21,28,28,0.55)",
-        "skyTop": "#758cad",
-        "skyHorizon": "#c3c7d7",
-        "fog": "#bcc0cb",
-        "ground": "#7e6c5b",
+        "hue": 13,
+        "storyHue": 24,
+        "warmth": 0.102,
+        "saturation": 0.431,
+        "contrast": 0.559,
+        "brightness": 0.629,
+        "haze": 0.407,
+        "intensity": 0.389,
+        "ink": "#151d1c",
+        "paper": "#cfcec9",
+        "inkSoft": "rgba(21,29,28,0.55)",
+        "skyTop": "#5c82a3",
+        "skyHorizon": "#aeb8cb",
+        "fog": "#adb5c1",
+        "ground": "#72614f",
         "building": [
-          "#999269",
-          "#8d9e7a",
-          "#637883"
+          "#8d875d",
+          "#82976b",
+          "#596d79"
         ],
-        "key": "#e3d9b8",
-        "fill": "#728e8c",
-        "rim": "#a9c5b7",
-        "accent": "#69c3a7",
-        "halftone": "rgba(21,28,28,0.32)",
-        "shadow": "#334140",
-        "crosshatch": "rgba(21,28,28,0.42)",
-        "paperGrain": "rgba(21,28,28,0.06)"
+        "key": "#dcd0a7",
+        "fill": "#688483",
+        "rim": "#9bbead",
+        "accent": "#54c2a3",
+        "halftone": "rgba(21,29,28,0.32)",
+        "shadow": "#2f3d3c",
+        "crosshatch": "rgba(21,29,28,0.42)",
+        "paperGrain": "rgba(21,29,28,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 68972,
+        "seed": 355093,
         "sky": {
-          "top": "#758cad",
-          "horizon": "#c3c7d7",
-          "fog": "#bcc0cb"
+          "top": "#5c82a3",
+          "horizon": "#aeb8cb",
+          "fog": "#adb5c1"
         },
         "ground": {
-          "color": "#7e6c5b",
+          "color": "#72614f",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -2239,12 +2626,12 @@
               70
             ],
             "count": 14,
-            "color": "#93a0ad",
+            "color": "#8493a2",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 361307
+            "seed": 204946
           },
           {
             "name": "mid",
@@ -2253,14 +2640,14 @@
               32
             ],
             "count": 10,
-            "color": "#999269",
+            "color": "#8d875d",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 27269
+            "seed": 312100
           },
           {
             "name": "near",
@@ -2269,14 +2656,14 @@
               12
             ],
             "count": 6,
-            "color": "#8d9e7a",
+            "color": "#82976b",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 82596
+            "seed": 919561
           },
           {
             "name": "foreground",
@@ -2285,12 +2672,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#7e6c5b",
+            "color": "#72614f",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 156544
+            "seed": 954955
           }
         ],
         "props": [
@@ -2301,15 +2688,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bcc0cb",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#adb5c1",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -2318,21 +2705,21 @@
             0.8,
             0.4
           ],
-          "color": "#e3d1aa",
-          "intensity": 1.464,
-          "ambient": 0.506,
-          "fillColor": "#728e8c",
-          "rimColor": "#a9c5b7",
-          "fogDensity": 0.179,
-          "fogColor": "#bcc0cb",
+          "color": "#ddcca0",
+          "intensity": 1.331,
+          "ambient": 0.453,
+          "fillColor": "#688483",
+          "rimColor": "#9bbead",
+          "fogDensity": 0.234,
+          "fogColor": "#adb5c1",
           "shadowSoftness": 0.45,
-          "shadowColor": "#334140",
-          "contrast": 0.582
+          "shadowColor": "#2f3d3c",
+          "contrast": 0.559
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -2346,34 +2733,59 @@
           0.8,
           0.4
         ],
-        "color": "#e3d1aa",
-        "intensity": 1.464,
-        "ambient": 0.506,
-        "fillColor": "#728e8c",
-        "rimColor": "#a9c5b7",
-        "fogDensity": 0.179,
-        "fogColor": "#bcc0cb",
+        "color": "#ddcca0",
+        "intensity": 1.331,
+        "ambient": 0.453,
+        "fillColor": "#688483",
+        "rimColor": "#9bbead",
+        "fogDensity": 0.234,
+        "fogColor": "#adb5c1",
         "shadowSoftness": 0.45,
-        "shadowColor": "#334140",
-        "contrast": 0.582
+        "shadowColor": "#2f3d3c",
+        "contrast": 0.559
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9c3c3d",
-          "trim": "#d4c97d",
-          "shadow": "#432627",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26632",
+          "trim": "#79d276",
+          "shadow": "#3e2c20",
+          "skin": "#debfab",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#79bc38",
+          "trim": "#76d2b2",
+          "shadow": "#303e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4aafa3",
+          "trim": "#76a3d2",
+          "shadow": "#203e3b",
+          "skin": "#d7c0b4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
+      },
+      "interaction": {
+        "kind": "mutual-attention",
+        "participants": [
+          "mara",
+          "elise"
+        ]
       }
     },
     {
       "id": 3,
       "sceneId": 2,
-      "a": 428,
-      "b": 574,
+      "a": 397,
+      "b": 532,
       "composition": {
         "rule": "thirds-close",
         "foreground": true,
@@ -2385,7 +2797,7 @@
           {
             "t": 0,
             "pos": [
-              0.6611777979880571,
+              1.0687005512416363,
               1.9,
               5.5
             ],
@@ -2400,7 +2812,7 @@
           {
             "t": 1,
             "pos": [
-              0.6611777979880571,
+              1.0687005512416363,
               1.9,
               5.17
             ],
@@ -2416,37 +2828,50 @@
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "walk",
+          "id": "mara",
+          "x": -1.3,
+          "action": "interact",
           "expression": "curious",
-          "gesture": "rest",
+          "gesture": "two-hand",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
           },
-          "intensity": 0.38333333333333336
+          "intensity": 0.3894117647058824
+        },
+        {
+          "id": "elise",
+          "x": 1.3,
+          "action": "interact",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.3894117647058824
         }
       ],
       "fx": [
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.4166666666666667,
-          "seed": 330676
+          "intensity": 0.4178823529411765,
+          "seed": 354192
         },
         {
           "kind": "ink-outline",
-          "width": 4.958333333333333,
+          "width": 4.973529411764706,
           "intensity": 1,
           "seed": 1
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.3958333333333333,
-          "seed": 392352
+          "intensity": 0.3973529411764706,
+          "seed": 2867
         },
         {
           "kind": "paper-texture",
@@ -2462,62 +2887,72 @@
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 504345
+          "seed": 398294
         },
         {
           "kind": "motion-streaks",
           "count": 11,
-          "intensity": 0.13416666666666666,
-          "seed": 359042
+          "intensity": 0.13629411764705884,
+          "seed": 782444
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 1
+        },
+        {
+          "kind": "radial-iris",
+          "intensity": 0.6,
+          "seed": 1
+        },
+        {
+          "kind": "registration-offset",
+          "intensity": 0.25,
+          "seed": 1
         }
       ],
       "palette": {
         "id": "scene-2",
-        "hue": 11,
-        "storyHue": 0,
-        "warmth": 0.469,
-        "saturation": 0.393,
-        "contrast": 0.582,
-        "brightness": 0.843,
-        "haze": 0.21,
-        "intensity": 0.383,
-        "ink": "#151c1c",
-        "paper": "#dad9d5",
-        "inkSoft": "rgba(21,28,28,0.55)",
-        "skyTop": "#758cad",
-        "skyHorizon": "#c3c7d7",
-        "fog": "#bcc0cb",
-        "ground": "#7e6c5b",
+        "hue": 13,
+        "storyHue": 24,
+        "warmth": 0.102,
+        "saturation": 0.431,
+        "contrast": 0.559,
+        "brightness": 0.629,
+        "haze": 0.407,
+        "intensity": 0.389,
+        "ink": "#151d1c",
+        "paper": "#cfcec9",
+        "inkSoft": "rgba(21,29,28,0.55)",
+        "skyTop": "#5c82a3",
+        "skyHorizon": "#aeb8cb",
+        "fog": "#adb5c1",
+        "ground": "#72614f",
         "building": [
-          "#999269",
-          "#8d9e7a",
-          "#637883"
+          "#8d875d",
+          "#82976b",
+          "#596d79"
         ],
-        "key": "#e3d9b8",
-        "fill": "#728e8c",
-        "rim": "#a9c5b7",
-        "accent": "#69c3a7",
-        "halftone": "rgba(21,28,28,0.32)",
-        "shadow": "#334140",
-        "crosshatch": "rgba(21,28,28,0.42)",
-        "paperGrain": "rgba(21,28,28,0.06)"
+        "key": "#dcd0a7",
+        "fill": "#688483",
+        "rim": "#9bbead",
+        "accent": "#54c2a3",
+        "halftone": "rgba(21,29,28,0.32)",
+        "shadow": "#2f3d3c",
+        "crosshatch": "rgba(21,29,28,0.42)",
+        "paperGrain": "rgba(21,29,28,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 68972,
+        "seed": 355093,
         "sky": {
-          "top": "#758cad",
-          "horizon": "#c3c7d7",
-          "fog": "#bcc0cb"
+          "top": "#5c82a3",
+          "horizon": "#aeb8cb",
+          "fog": "#adb5c1"
         },
         "ground": {
-          "color": "#7e6c5b",
+          "color": "#72614f",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -2529,12 +2964,12 @@
               70
             ],
             "count": 14,
-            "color": "#93a0ad",
+            "color": "#8493a2",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 361307
+            "seed": 204946
           },
           {
             "name": "mid",
@@ -2543,14 +2978,14 @@
               32
             ],
             "count": 10,
-            "color": "#999269",
+            "color": "#8d875d",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 27269
+            "seed": 312100
           },
           {
             "name": "near",
@@ -2559,14 +2994,14 @@
               12
             ],
             "count": 6,
-            "color": "#8d9e7a",
+            "color": "#82976b",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 82596
+            "seed": 919561
           },
           {
             "name": "foreground",
@@ -2575,12 +3010,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#7e6c5b",
+            "color": "#72614f",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 156544
+            "seed": 954955
           }
         ],
         "props": [
@@ -2591,15 +3026,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bcc0cb",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#adb5c1",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -2608,21 +3043,21 @@
             0.8,
             0.4
           ],
-          "color": "#e3d1aa",
-          "intensity": 1.464,
-          "ambient": 0.506,
-          "fillColor": "#728e8c",
-          "rimColor": "#a9c5b7",
-          "fogDensity": 0.179,
-          "fogColor": "#bcc0cb",
+          "color": "#ddcca0",
+          "intensity": 1.331,
+          "ambient": 0.453,
+          "fillColor": "#688483",
+          "rimColor": "#9bbead",
+          "fogDensity": 0.234,
+          "fogColor": "#adb5c1",
           "shadowSoftness": 0.45,
-          "shadowColor": "#334140",
-          "contrast": 0.582
+          "shadowColor": "#2f3d3c",
+          "contrast": 0.559
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -2636,34 +3071,59 @@
           0.8,
           0.4
         ],
-        "color": "#e3d1aa",
-        "intensity": 1.464,
-        "ambient": 0.506,
-        "fillColor": "#728e8c",
-        "rimColor": "#a9c5b7",
-        "fogDensity": 0.179,
-        "fogColor": "#bcc0cb",
+        "color": "#ddcca0",
+        "intensity": 1.331,
+        "ambient": 0.453,
+        "fillColor": "#688483",
+        "rimColor": "#9bbead",
+        "fogDensity": 0.234,
+        "fogColor": "#adb5c1",
         "shadowSoftness": 0.45,
-        "shadowColor": "#334140",
-        "contrast": 0.582
+        "shadowColor": "#2f3d3c",
+        "contrast": 0.559
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9c3c3d",
-          "trim": "#d4c97d",
-          "shadow": "#432627",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26632",
+          "trim": "#79d276",
+          "shadow": "#3e2c20",
+          "skin": "#debfab",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#79bc38",
+          "trim": "#76d2b2",
+          "shadow": "#303e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4aafa3",
+          "trim": "#76a3d2",
+          "shadow": "#203e3b",
+          "skin": "#d7c0b4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
+      },
+      "interaction": {
+        "kind": "mutual-attention",
+        "participants": [
+          "mara",
+          "elise"
+        ]
       }
     },
     {
       "id": 4,
       "sceneId": 3,
-      "a": 574,
-      "b": 671,
+      "a": 532,
+      "b": 695,
       "composition": {
         "rule": "thirds-wide",
         "foreground": false,
@@ -2706,37 +3166,50 @@
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "hold",
+          "id": "mara",
+          "x": -1.3,
+          "action": "walk",
           "expression": "curious",
-          "gesture": "hold",
+          "gesture": "rest",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
           },
-          "intensity": 0.4866666666666667
+          "intensity": 0.4988235294117648
+        },
+        {
+          "id": "elise",
+          "x": 1.3,
+          "action": "walk",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.4988235294117648
         }
       ],
       "fx": [
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.43733333333333335,
-          "seed": 548268
+          "intensity": 0.439764705882353,
+          "seed": 566498
         },
         {
           "kind": "ink-outline",
-          "width": 5.216666666666667,
+          "width": 5.247058823529412,
           "intensity": 1,
           "seed": 2
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.42166666666666663,
-          "seed": 258344
+          "intensity": 0.42470588235294116,
+          "seed": 306409
         },
         {
           "kind": "paper-texture",
@@ -2752,62 +3225,72 @@
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 870560
+          "seed": 542939
         },
         {
           "kind": "motion-streaks",
           "count": 13,
-          "intensity": 0.17033333333333334,
-          "seed": 636062
+          "intensity": 0.17458823529411766,
+          "seed": 351076
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 2
+        },
+        {
+          "kind": "panel-shutter",
+          "intensity": 0.6,
+          "seed": 2
+        },
+        {
+          "kind": "registration-offset",
+          "intensity": 0.25,
+          "seed": 2
         }
       ],
       "palette": {
         "id": "scene-3",
-        "hue": 5,
-        "storyHue": 0,
-        "warmth": 0.453,
-        "saturation": 0.404,
-        "contrast": 0.611,
-        "brightness": 0.881,
-        "haze": 0.21,
-        "intensity": 0.487,
-        "ink": "#141c1b",
-        "paper": "#dcdbd8",
-        "inkSoft": "rgba(20,28,27,0.55)",
-        "skyTop": "#7891b0",
-        "skyHorizon": "#c6cbd9",
-        "fog": "#bec2cd",
-        "ground": "#816a5c",
+        "hue": 31,
+        "storyHue": 24,
+        "warmth": 0.131,
+        "saturation": 0.442,
+        "contrast": 0.59,
+        "brightness": 0.614,
+        "haze": 0.407,
+        "intensity": 0.499,
+        "ink": "#141a1c",
+        "paper": "#cdcec8",
+        "inkSoft": "rgba(20,26,28,0.55)",
+        "skyTop": "#5a79a3",
+        "skyHorizon": "#acb3ca",
+        "fog": "#acb2c1",
+        "ground": "#716b4e",
         "building": [
-          "#9b8f6b",
-          "#93a07c",
-          "#647d85"
+          "#848d5b",
+          "#74976a",
+          "#596379"
         ],
-        "key": "#e4dabb",
-        "fill": "#74908b",
-        "rim": "#abc7b6",
-        "accent": "#6ac69f",
-        "halftone": "rgba(20,28,27,0.32)",
-        "shadow": "#34423f",
-        "crosshatch": "rgba(20,28,27,0.42)",
-        "paperGrain": "rgba(20,28,27,0.06)"
+        "key": "#dcd2a5",
+        "fill": "#677c84",
+        "rim": "#99beb7",
+        "accent": "#52c2c3",
+        "halftone": "rgba(20,26,28,0.32)",
+        "shadow": "#2e393c",
+        "crosshatch": "rgba(20,26,28,0.42)",
+        "paperGrain": "rgba(20,26,28,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 936511,
+        "seed": 987331,
         "sky": {
-          "top": "#7891b0",
-          "horizon": "#c6cbd9",
-          "fog": "#bec2cd"
+          "top": "#5a79a3",
+          "horizon": "#acb3ca",
+          "fog": "#acb2c1"
         },
         "ground": {
-          "color": "#816a5c",
+          "color": "#716b4e",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -2819,12 +3302,12 @@
               70
             ],
             "count": 14,
-            "color": "#95a4af",
+            "color": "#838ba2",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 884968
+            "seed": 355710
           },
           {
             "name": "mid",
@@ -2833,14 +3316,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b8f6b",
+            "color": "#848d5b",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 612468
+            "seed": 731838
           },
           {
             "name": "near",
@@ -2849,14 +3332,14 @@
               12
             ],
             "count": 6,
-            "color": "#93a07c",
+            "color": "#74976a",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 575815
+            "seed": 316470
           },
           {
             "name": "foreground",
@@ -2865,12 +3348,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#816a5c",
+            "color": "#716b4e",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 336526
+            "seed": 755344
           }
         ],
         "props": [
@@ -2881,15 +3364,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bec2cd",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#acb2c1",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -2898,21 +3381,21 @@
             0.8,
             0.4
           ],
-          "color": "#e4d2ad",
-          "intensity": 1.488,
-          "ambient": 0.516,
-          "fillColor": "#74908b",
-          "rimColor": "#abc7b6",
-          "fogDensity": 0.179,
-          "fogColor": "#bec2cd",
+          "color": "#ddce9e",
+          "intensity": 1.321,
+          "ambient": 0.449,
+          "fillColor": "#677c84",
+          "rimColor": "#99beb7",
+          "fogDensity": 0.234,
+          "fogColor": "#acb2c1",
           "shadowSoftness": 0.45,
-          "shadowColor": "#34423f",
-          "contrast": 0.611
+          "shadowColor": "#2e393c",
+          "contrast": 0.59
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -2926,25 +3409,43 @@
           0.8,
           0.4
         ],
-        "color": "#e4d2ad",
-        "intensity": 1.488,
-        "ambient": 0.516,
-        "fillColor": "#74908b",
-        "rimColor": "#abc7b6",
-        "fogDensity": 0.179,
-        "fogColor": "#bec2cd",
+        "color": "#ddce9e",
+        "intensity": 1.321,
+        "ambient": 0.449,
+        "fillColor": "#677c84",
+        "rimColor": "#99beb7",
+        "fogDensity": 0.234,
+        "fogColor": "#acb2c1",
         "shadowSoftness": 0.45,
-        "shadowColor": "#34423f",
-        "contrast": 0.611
+        "shadowColor": "#2e393c",
+        "contrast": 0.59
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9e3e40",
-          "trim": "#d4c97e",
-          "shadow": "#442728",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26531",
+          "trim": "#78d176",
+          "shadow": "#3e2b20",
+          "skin": "#debeab",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#79bb37",
+          "trim": "#76d1b1",
+          "shadow": "#2f3e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#49aea2",
+          "trim": "#76a3d1",
+          "shadow": "#203e3b",
+          "skin": "#d7bfb4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }
@@ -2952,8 +3453,8 @@
     {
       "id": 5,
       "sceneId": 3,
-      "a": 671,
-      "b": 768,
+      "a": 695,
+      "b": 857,
       "composition": {
         "rule": "thirds-close",
         "foreground": true,
@@ -2965,7 +3466,7 @@
           {
             "t": 0,
             "pos": [
-              -0.6666485063731671,
+              -0.5776949144899846,
               1.9,
               5.2
             ],
@@ -2980,7 +3481,7 @@
           {
             "t": 1,
             "pos": [
-              -0.6666485063731671,
+              -0.5776949144899846,
               1.9,
               4.784000000000001
             ],
@@ -2996,37 +3497,50 @@
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "hold",
+          "id": "mara",
+          "x": -1.3,
+          "action": "walk",
           "expression": "curious",
-          "gesture": "hold",
+          "gesture": "rest",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
           },
-          "intensity": 0.4866666666666667
+          "intensity": 0.4988235294117648
+        },
+        {
+          "id": "elise",
+          "x": 1.3,
+          "action": "walk",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.4988235294117648
         }
       ],
       "fx": [
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.43733333333333335,
-          "seed": 548268
+          "intensity": 0.439764705882353,
+          "seed": 566498
         },
         {
           "kind": "ink-outline",
-          "width": 5.216666666666667,
+          "width": 5.247058823529412,
           "intensity": 1,
           "seed": 2
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.42166666666666663,
-          "seed": 258344
+          "intensity": 0.42470588235294116,
+          "seed": 306409
         },
         {
           "kind": "paper-texture",
@@ -3042,62 +3556,72 @@
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 870560
+          "seed": 542939
         },
         {
           "kind": "motion-streaks",
           "count": 13,
-          "intensity": 0.17033333333333334,
-          "seed": 636062
+          "intensity": 0.17458823529411766,
+          "seed": 351076
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 2
+        },
+        {
+          "kind": "panel-shutter",
+          "intensity": 0.6,
+          "seed": 2
+        },
+        {
+          "kind": "registration-offset",
+          "intensity": 0.25,
+          "seed": 2
         }
       ],
       "palette": {
         "id": "scene-3",
-        "hue": 5,
-        "storyHue": 0,
-        "warmth": 0.453,
-        "saturation": 0.404,
-        "contrast": 0.611,
-        "brightness": 0.881,
-        "haze": 0.21,
-        "intensity": 0.487,
-        "ink": "#141c1b",
-        "paper": "#dcdbd8",
-        "inkSoft": "rgba(20,28,27,0.55)",
-        "skyTop": "#7891b0",
-        "skyHorizon": "#c6cbd9",
-        "fog": "#bec2cd",
-        "ground": "#816a5c",
+        "hue": 31,
+        "storyHue": 24,
+        "warmth": 0.131,
+        "saturation": 0.442,
+        "contrast": 0.59,
+        "brightness": 0.614,
+        "haze": 0.407,
+        "intensity": 0.499,
+        "ink": "#141a1c",
+        "paper": "#cdcec8",
+        "inkSoft": "rgba(20,26,28,0.55)",
+        "skyTop": "#5a79a3",
+        "skyHorizon": "#acb3ca",
+        "fog": "#acb2c1",
+        "ground": "#716b4e",
         "building": [
-          "#9b8f6b",
-          "#93a07c",
-          "#647d85"
+          "#848d5b",
+          "#74976a",
+          "#596379"
         ],
-        "key": "#e4dabb",
-        "fill": "#74908b",
-        "rim": "#abc7b6",
-        "accent": "#6ac69f",
-        "halftone": "rgba(20,28,27,0.32)",
-        "shadow": "#34423f",
-        "crosshatch": "rgba(20,28,27,0.42)",
-        "paperGrain": "rgba(20,28,27,0.06)"
+        "key": "#dcd2a5",
+        "fill": "#677c84",
+        "rim": "#99beb7",
+        "accent": "#52c2c3",
+        "halftone": "rgba(20,26,28,0.32)",
+        "shadow": "#2e393c",
+        "crosshatch": "rgba(20,26,28,0.42)",
+        "paperGrain": "rgba(20,26,28,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 936511,
+        "seed": 987331,
         "sky": {
-          "top": "#7891b0",
-          "horizon": "#c6cbd9",
-          "fog": "#bec2cd"
+          "top": "#5a79a3",
+          "horizon": "#acb3ca",
+          "fog": "#acb2c1"
         },
         "ground": {
-          "color": "#816a5c",
+          "color": "#716b4e",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -3109,12 +3633,12 @@
               70
             ],
             "count": 14,
-            "color": "#95a4af",
+            "color": "#838ba2",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 884968
+            "seed": 355710
           },
           {
             "name": "mid",
@@ -3123,14 +3647,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b8f6b",
+            "color": "#848d5b",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 612468
+            "seed": 731838
           },
           {
             "name": "near",
@@ -3139,14 +3663,14 @@
               12
             ],
             "count": 6,
-            "color": "#93a07c",
+            "color": "#74976a",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 575815
+            "seed": 316470
           },
           {
             "name": "foreground",
@@ -3155,12 +3679,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#816a5c",
+            "color": "#716b4e",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 336526
+            "seed": 755344
           }
         ],
         "props": [
@@ -3171,15 +3695,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bec2cd",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#acb2c1",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -3188,21 +3712,21 @@
             0.8,
             0.4
           ],
-          "color": "#e4d2ad",
-          "intensity": 1.488,
-          "ambient": 0.516,
-          "fillColor": "#74908b",
-          "rimColor": "#abc7b6",
-          "fogDensity": 0.179,
-          "fogColor": "#bec2cd",
+          "color": "#ddce9e",
+          "intensity": 1.321,
+          "ambient": 0.449,
+          "fillColor": "#677c84",
+          "rimColor": "#99beb7",
+          "fogDensity": 0.234,
+          "fogColor": "#acb2c1",
           "shadowSoftness": 0.45,
-          "shadowColor": "#34423f",
-          "contrast": 0.611
+          "shadowColor": "#2e393c",
+          "contrast": 0.59
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -3216,25 +3740,43 @@
           0.8,
           0.4
         ],
-        "color": "#e4d2ad",
-        "intensity": 1.488,
-        "ambient": 0.516,
-        "fillColor": "#74908b",
-        "rimColor": "#abc7b6",
-        "fogDensity": 0.179,
-        "fogColor": "#bec2cd",
+        "color": "#ddce9e",
+        "intensity": 1.321,
+        "ambient": 0.449,
+        "fillColor": "#677c84",
+        "rimColor": "#99beb7",
+        "fogDensity": 0.234,
+        "fogColor": "#acb2c1",
         "shadowSoftness": 0.45,
-        "shadowColor": "#34423f",
-        "contrast": 0.611
+        "shadowColor": "#2e393c",
+        "contrast": 0.59
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9e3e40",
-          "trim": "#d4c97e",
-          "shadow": "#442728",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26531",
+          "trim": "#78d176",
+          "shadow": "#3e2b20",
+          "skin": "#debeab",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#79bb37",
+          "trim": "#76d1b1",
+          "shadow": "#2f3e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#49aea2",
+          "trim": "#76a3d1",
+          "shadow": "#203e3b",
+          "skin": "#d7bfb4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }
@@ -3242,8 +3784,8 @@
     {
       "id": 6,
       "sceneId": 4,
-      "a": 768,
-      "b": 910,
+      "a": 857,
+      "b": 1009,
       "composition": {
         "rule": "thirds-wide",
         "foreground": false,
@@ -3255,7 +3797,7 @@
           {
             "t": 0,
             "pos": [
-              0.8682825876399876,
+              -0.9962783727794886,
               2.4,
               11
             ],
@@ -3270,7 +3812,7 @@
           {
             "t": 1,
             "pos": [
-              0.8682825876399876,
+              -0.9962783727794886,
               2.4,
               11
             ],
@@ -3286,37 +3828,63 @@
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "walk",
+          "id": "mara",
+          "x": -2.6,
+          "action": "interact",
           "expression": "curious",
-          "gesture": "rest",
+          "gesture": "two-hand",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
           },
-          "intensity": 0.5900000000000001
+          "intensity": 0.6082352941176471
+        },
+        {
+          "id": "elise",
+          "x": 0,
+          "action": "interact",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.6082352941176471
+        },
+        {
+          "id": "tomas",
+          "x": 2.6,
+          "action": "interact",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.6082352941176471
         }
       ],
       "fx": [
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.4580000000000001,
-          "seed": 28045
+          "intensity": 0.46164705882352947,
+          "seed": 994451
         },
         {
           "kind": "ink-outline",
-          "width": 5.475,
+          "width": 5.520588235294118,
           "intensity": 1,
           "seed": 3
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.4475,
-          "seed": 520158
+          "intensity": 0.45205882352941174,
+          "seed": 598027
         },
         {
           "kind": "paper-texture",
@@ -3330,70 +3898,80 @@
         },
         {
           "kind": "speed-lines",
-          "count": 27,
-          "intensity": 0.29500000000000004,
-          "seed": 990476
+          "count": 28,
+          "intensity": 0.30411764705882355,
+          "seed": 666434
         },
         {
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 552202
+          "seed": 31093
         },
         {
           "kind": "motion-streaks",
-          "count": 14,
-          "intensity": 0.20650000000000002,
-          "seed": 237864
+          "count": 15,
+          "intensity": 0.21288235294117647,
+          "seed": 716347
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 3
+        },
+        {
+          "kind": "radial-iris",
+          "intensity": 0.6,
+          "seed": 3
+        },
+        {
+          "kind": "dry-brush",
+          "intensity": 0.25,
+          "seed": 3
         }
       ],
       "palette": {
         "id": "scene-4",
-        "hue": 21,
-        "storyHue": 0,
-        "warmth": 0.396,
-        "saturation": 0.414,
-        "contrast": 0.64,
-        "brightness": 0.884,
-        "haze": 0.21,
-        "intensity": 0.59,
-        "ink": "#141b1c",
-        "paper": "#dcdcd8",
-        "inkSoft": "rgba(20,27,28,0.55)",
-        "skyTop": "#788cb1",
-        "skyHorizon": "#c6c9da",
-        "fog": "#bec1cd",
-        "ground": "#82755c",
+        "hue": 32,
+        "storyHue": 24,
+        "warmth": 0.116,
+        "saturation": 0.453,
+        "contrast": 0.62,
+        "brightness": 0.667,
+        "haze": 0.407,
+        "intensity": 0.608,
+        "ink": "#141a1c",
+        "paper": "#d0d1cb",
+        "inkSoft": "rgba(20,26,28,0.55)",
+        "skyTop": "#5e7da7",
+        "skyHorizon": "#b1b7ce",
+        "fog": "#afb5c3",
+        "ground": "#756f50",
         "building": [
-          "#9b9c6b",
-          "#89a17b",
-          "#647486"
+          "#87915d",
+          "#75996c",
+          "#5a647c"
         ],
-        "key": "#e4dcbb",
-        "fill": "#738d90",
-        "rim": "#abc8be",
-        "accent": "#69c7b9",
-        "halftone": "rgba(20,27,28,0.32)",
-        "shadow": "#344142",
-        "crosshatch": "rgba(20,27,28,0.42)",
-        "paperGrain": "rgba(20,27,28,0.06)"
+        "key": "#ded4a9",
+        "fill": "#697e87",
+        "rim": "#9cc1ba",
+        "accent": "#54c2c6",
+        "halftone": "rgba(20,26,28,0.32)",
+        "shadow": "#2f3a3e",
+        "crosshatch": "rgba(20,26,28,0.42)",
+        "paperGrain": "rgba(20,26,28,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 376072,
+        "seed": 626879,
         "sky": {
-          "top": "#788cb1",
-          "horizon": "#c6c9da",
-          "fog": "#bec1cd"
+          "top": "#5e7da7",
+          "horizon": "#b1b7ce",
+          "fog": "#afb5c3"
         },
         "ground": {
-          "color": "#82755c",
+          "color": "#756f50",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -3405,12 +3983,12 @@
               70
             ],
             "count": 14,
-            "color": "#959fb0",
+            "color": "#868ea5",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 939359
+            "seed": 145704
           },
           {
             "name": "mid",
@@ -3419,14 +3997,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b9c6b",
+            "color": "#87915d",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 606016
+            "seed": 619688
           },
           {
             "name": "near",
@@ -3435,14 +4013,14 @@
               12
             ],
             "count": 6,
-            "color": "#89a17b",
+            "color": "#75996c",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 558855
+            "seed": 524445
           },
           {
             "name": "foreground",
@@ -3451,12 +4029,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#82755c",
+            "color": "#756f50",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 758493
+            "seed": 303042
           }
         ],
         "props": [
@@ -3467,15 +4045,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bec1cd",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#afb5c3",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -3484,21 +4062,21 @@
             0.8,
             0.4
           ],
-          "color": "#e4d4ae",
-          "intensity": 1.49,
-          "ambient": 0.517,
-          "fillColor": "#738d90",
-          "rimColor": "#abc8be",
-          "fogDensity": 0.179,
-          "fogColor": "#bec1cd",
+          "color": "#dfd0a2",
+          "intensity": 1.354,
+          "ambient": 0.462,
+          "fillColor": "#697e87",
+          "rimColor": "#9cc1ba",
+          "fogDensity": 0.234,
+          "fogColor": "#afb5c3",
           "shadowSoftness": 0.45,
-          "shadowColor": "#344142",
-          "contrast": 0.64
+          "shadowColor": "#2f3a3e",
+          "contrast": 0.62
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -3512,34 +4090,60 @@
           0.8,
           0.4
         ],
-        "color": "#e4d4ae",
-        "intensity": 1.49,
-        "ambient": 0.517,
-        "fillColor": "#738d90",
-        "rimColor": "#abc8be",
-        "fogDensity": 0.179,
-        "fogColor": "#bec1cd",
+        "color": "#dfd0a2",
+        "intensity": 1.354,
+        "ambient": 0.462,
+        "fillColor": "#697e87",
+        "rimColor": "#9cc1ba",
+        "fogDensity": 0.234,
+        "fogColor": "#afb5c3",
         "shadowSoftness": 0.45,
-        "shadowColor": "#344142",
-        "contrast": 0.64
+        "shadowColor": "#2f3a3e",
+        "contrast": 0.62
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9e3e40",
-          "trim": "#d4ca7e",
-          "shadow": "#442728",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c36834",
+          "trim": "#7ad277",
+          "shadow": "#3f2d21",
+          "skin": "#dfbfac",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#7bbd3a",
+          "trim": "#77d2b2",
+          "shadow": "#313f21",
+          "skin": "#d3c5ae",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4cb0a4",
+          "trim": "#77a4d2",
+          "shadow": "#213f3c",
+          "skin": "#d7c0b5",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
+      },
+      "interaction": {
+        "kind": "mutual-attention",
+        "participants": [
+          "mara",
+          "elise",
+          "tomas"
+        ]
       }
     },
     {
       "id": 7,
       "sceneId": 4,
-      "a": 910,
-      "b": 1051,
+      "a": 1009,
+      "b": 1160,
       "composition": {
         "rule": "thirds-close",
         "foreground": true,
@@ -3582,37 +4186,63 @@
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "walk",
+          "id": "mara",
+          "x": -2.6,
+          "action": "interact",
           "expression": "curious",
-          "gesture": "rest",
+          "gesture": "two-hand",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
           },
-          "intensity": 0.5900000000000001
+          "intensity": 0.6082352941176471
+        },
+        {
+          "id": "elise",
+          "x": 0,
+          "action": "interact",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.6082352941176471
+        },
+        {
+          "id": "tomas",
+          "x": 2.6,
+          "action": "interact",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.6082352941176471
         }
       ],
       "fx": [
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.4580000000000001,
-          "seed": 28045
+          "intensity": 0.46164705882352947,
+          "seed": 994451
         },
         {
           "kind": "ink-outline",
-          "width": 5.475,
+          "width": 5.520588235294118,
           "intensity": 1,
           "seed": 3
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.4475,
-          "seed": 520158
+          "intensity": 0.45205882352941174,
+          "seed": 598027
         },
         {
           "kind": "paper-texture",
@@ -3626,70 +4256,80 @@
         },
         {
           "kind": "speed-lines",
-          "count": 27,
-          "intensity": 0.29500000000000004,
-          "seed": 990476
+          "count": 28,
+          "intensity": 0.30411764705882355,
+          "seed": 666434
         },
         {
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 552202
+          "seed": 31093
         },
         {
           "kind": "motion-streaks",
-          "count": 14,
-          "intensity": 0.20650000000000002,
-          "seed": 237864
+          "count": 15,
+          "intensity": 0.21288235294117647,
+          "seed": 716347
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 3
+        },
+        {
+          "kind": "radial-iris",
+          "intensity": 0.6,
+          "seed": 3
+        },
+        {
+          "kind": "dry-brush",
+          "intensity": 0.25,
+          "seed": 3
         }
       ],
       "palette": {
         "id": "scene-4",
-        "hue": 21,
-        "storyHue": 0,
-        "warmth": 0.396,
-        "saturation": 0.414,
-        "contrast": 0.64,
-        "brightness": 0.884,
-        "haze": 0.21,
-        "intensity": 0.59,
-        "ink": "#141b1c",
-        "paper": "#dcdcd8",
-        "inkSoft": "rgba(20,27,28,0.55)",
-        "skyTop": "#788cb1",
-        "skyHorizon": "#c6c9da",
-        "fog": "#bec1cd",
-        "ground": "#82755c",
+        "hue": 32,
+        "storyHue": 24,
+        "warmth": 0.116,
+        "saturation": 0.453,
+        "contrast": 0.62,
+        "brightness": 0.667,
+        "haze": 0.407,
+        "intensity": 0.608,
+        "ink": "#141a1c",
+        "paper": "#d0d1cb",
+        "inkSoft": "rgba(20,26,28,0.55)",
+        "skyTop": "#5e7da7",
+        "skyHorizon": "#b1b7ce",
+        "fog": "#afb5c3",
+        "ground": "#756f50",
         "building": [
-          "#9b9c6b",
-          "#89a17b",
-          "#647486"
+          "#87915d",
+          "#75996c",
+          "#5a647c"
         ],
-        "key": "#e4dcbb",
-        "fill": "#738d90",
-        "rim": "#abc8be",
-        "accent": "#69c7b9",
-        "halftone": "rgba(20,27,28,0.32)",
-        "shadow": "#344142",
-        "crosshatch": "rgba(20,27,28,0.42)",
-        "paperGrain": "rgba(20,27,28,0.06)"
+        "key": "#ded4a9",
+        "fill": "#697e87",
+        "rim": "#9cc1ba",
+        "accent": "#54c2c6",
+        "halftone": "rgba(20,26,28,0.32)",
+        "shadow": "#2f3a3e",
+        "crosshatch": "rgba(20,26,28,0.42)",
+        "paperGrain": "rgba(20,26,28,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 376072,
+        "seed": 626879,
         "sky": {
-          "top": "#788cb1",
-          "horizon": "#c6c9da",
-          "fog": "#bec1cd"
+          "top": "#5e7da7",
+          "horizon": "#b1b7ce",
+          "fog": "#afb5c3"
         },
         "ground": {
-          "color": "#82755c",
+          "color": "#756f50",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -3701,12 +4341,12 @@
               70
             ],
             "count": 14,
-            "color": "#959fb0",
+            "color": "#868ea5",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 939359
+            "seed": 145704
           },
           {
             "name": "mid",
@@ -3715,14 +4355,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b9c6b",
+            "color": "#87915d",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 606016
+            "seed": 619688
           },
           {
             "name": "near",
@@ -3731,14 +4371,14 @@
               12
             ],
             "count": 6,
-            "color": "#89a17b",
+            "color": "#75996c",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 558855
+            "seed": 524445
           },
           {
             "name": "foreground",
@@ -3747,12 +4387,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#82755c",
+            "color": "#756f50",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 758493
+            "seed": 303042
           }
         ],
         "props": [
@@ -3763,15 +4403,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bec1cd",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#afb5c3",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
-          "enabled": false,
+          "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -3780,21 +4420,21 @@
             0.8,
             0.4
           ],
-          "color": "#e4d4ae",
-          "intensity": 1.49,
-          "ambient": 0.517,
-          "fillColor": "#738d90",
-          "rimColor": "#abc8be",
-          "fogDensity": 0.179,
-          "fogColor": "#bec1cd",
+          "color": "#dfd0a2",
+          "intensity": 1.354,
+          "ambient": 0.462,
+          "fillColor": "#697e87",
+          "rimColor": "#9cc1ba",
+          "fogDensity": 0.234,
+          "fogColor": "#afb5c3",
           "shadowSoftness": 0.45,
-          "shadowColor": "#344142",
-          "contrast": 0.64
+          "shadowColor": "#2f3a3e",
+          "contrast": 0.62
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -3808,34 +4448,60 @@
           0.8,
           0.4
         ],
-        "color": "#e4d4ae",
-        "intensity": 1.49,
-        "ambient": 0.517,
-        "fillColor": "#738d90",
-        "rimColor": "#abc8be",
-        "fogDensity": 0.179,
-        "fogColor": "#bec1cd",
+        "color": "#dfd0a2",
+        "intensity": 1.354,
+        "ambient": 0.462,
+        "fillColor": "#697e87",
+        "rimColor": "#9cc1ba",
+        "fogDensity": 0.234,
+        "fogColor": "#afb5c3",
         "shadowSoftness": 0.45,
-        "shadowColor": "#344142",
-        "contrast": 0.64
+        "shadowColor": "#2f3a3e",
+        "contrast": 0.62
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9e3e40",
-          "trim": "#d4ca7e",
-          "shadow": "#442728",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c36834",
+          "trim": "#7ad277",
+          "shadow": "#3f2d21",
+          "skin": "#dfbfac",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#7bbd3a",
+          "trim": "#77d2b2",
+          "shadow": "#313f21",
+          "skin": "#d3c5ae",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4cb0a4",
+          "trim": "#77a4d2",
+          "shadow": "#213f3c",
+          "skin": "#d7c0b5",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
+      },
+      "interaction": {
+        "kind": "mutual-attention",
+        "participants": [
+          "mara",
+          "elise",
+          "tomas"
+        ]
       }
     },
     {
       "id": 8,
       "sceneId": 5,
-      "a": 1051,
-      "b": 1237,
+      "a": 1160,
+      "b": 1339,
       "composition": {
         "rule": "thirds-wide",
         "foreground": false,
@@ -3847,7 +4513,7 @@
           {
             "t": 0,
             "pos": [
-              -1.1242052607238293,
+              -0.5452568301931024,
               0.35,
               8
             ],
@@ -3862,7 +4528,7 @@
           {
             "t": 1,
             "pos": [
-              -1.1242052607238293,
+              -0.5452568301931024,
               0.8,
               8
             ],
@@ -3878,37 +4544,63 @@
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "point",
+          "id": "mara",
+          "x": -2.6,
+          "action": "interact",
           "expression": "curious",
-          "gesture": "point",
+          "gesture": "two-hand",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
           },
-          "intensity": 0.6933333333333334
+          "intensity": 0.7176470588235295
+        },
+        {
+          "id": "elise",
+          "x": 0,
+          "action": "interact",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.7176470588235295
+        },
+        {
+          "id": "tomas",
+          "x": 2.6,
+          "action": "interact",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.7176470588235295
         }
       ],
       "fx": [
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.4786666666666667,
-          "seed": 907517
+          "intensity": 0.48352941176470593,
+          "seed": 315905
         },
         {
           "kind": "ink-outline",
-          "width": 5.733333333333333,
+          "width": 5.794117647058824,
           "intensity": 1,
           "seed": 4
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.47333333333333333,
-          "seed": 870012
+          "intensity": 0.47941176470588237,
+          "seed": 396779
         },
         {
           "kind": "paper-texture",
@@ -3922,70 +4614,80 @@
         },
         {
           "kind": "speed-lines",
-          "count": 30,
-          "intensity": 0.3466666666666667,
-          "seed": 619325
+          "count": 31,
+          "intensity": 0.35882352941176476,
+          "seed": 120974
         },
         {
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 571331
+          "seed": 206370
         },
         {
           "kind": "motion-streaks",
           "count": 16,
-          "intensity": 0.24266666666666667,
-          "seed": 304734
+          "intensity": 0.25117647058823533,
+          "seed": 612564
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 4
+        },
+        {
+          "kind": "panel-shutter",
+          "intensity": 0.6,
+          "seed": 4
+        },
+        {
+          "kind": "dry-brush",
+          "intensity": 0.25,
+          "seed": 4
         }
       ],
       "palette": {
         "id": "scene-5",
-        "hue": 17,
-        "storyHue": 0,
-        "warmth": 0.519,
-        "saturation": 0.424,
-        "contrast": 0.669,
-        "brightness": 0.865,
-        "haze": 0.21,
-        "intensity": 0.693,
-        "ink": "#141b1b",
-        "paper": "#dbdbd7",
-        "inkSoft": "rgba(20,27,27,0.55)",
-        "skyTop": "#758bb1",
-        "skyHorizon": "#c4c8d9",
-        "fog": "#bcc0cc",
-        "ground": "#81715a",
+        "hue": 38,
+        "storyHue": 24,
+        "warmth": 0.218,
+        "saturation": 0.464,
+        "contrast": 0.651,
+        "brightness": 0.629,
+        "haze": 0.407,
+        "intensity": 0.718,
+        "ink": "#14181b",
+        "paper": "#cdcfc8",
+        "inkSoft": "rgba(20,24,27,0.55)",
+        "skyTop": "#5a77a6",
+        "skyHorizon": "#adb3cc",
+        "fog": "#adb2c2",
+        "ground": "#73714e",
         "building": [
-          "#9c9969",
-          "#8ba07a",
-          "#637685"
+          "#7f8f5b",
+          "#6e986a",
+          "#585f7a"
         ],
-        "key": "#e4dbba",
-        "fill": "#728f90",
-        "rim": "#a9c7bb",
-        "accent": "#67c8b3",
-        "halftone": "rgba(20,27,27,0.32)",
-        "shadow": "#334142",
-        "crosshatch": "rgba(20,27,27,0.42)",
-        "paperGrain": "rgba(20,27,27,0.06)"
+        "key": "#ddd3a6",
+        "fill": "#677a85",
+        "rim": "#99bfbd",
+        "accent": "#50b7c6",
+        "halftone": "rgba(20,24,27,0.32)",
+        "shadow": "#2e373d",
+        "crosshatch": "rgba(20,24,27,0.42)",
+        "paperGrain": "rgba(20,24,27,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 569307,
+        "seed": 39402,
         "sky": {
-          "top": "#758bb1",
-          "horizon": "#c4c8d9",
-          "fog": "#bcc0cc"
+          "top": "#5a77a6",
+          "horizon": "#adb3cc",
+          "fog": "#adb2c2"
         },
         "ground": {
-          "color": "#81715a",
+          "color": "#73714e",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -3997,12 +4699,12 @@
               70
             ],
             "count": 14,
-            "color": "#949faf",
+            "color": "#8389a3",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 788413
+            "seed": 413659
           },
           {
             "name": "mid",
@@ -4011,14 +4713,14 @@
               32
             ],
             "count": 10,
-            "color": "#9c9969",
+            "color": "#7f8f5b",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 106052
+            "seed": 847682
           },
           {
             "name": "near",
@@ -4027,14 +4729,14 @@
               12
             ],
             "count": 6,
-            "color": "#8ba07a",
+            "color": "#6e986a",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 854489
+            "seed": 880656
           },
           {
             "name": "foreground",
@@ -4043,12 +4745,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#81715a",
+            "color": "#73714e",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 314520
+            "seed": 262118
           }
         ],
         "props": [
@@ -4059,15 +4761,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bcc0cc",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#adb2c2",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
           "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -4076,21 +4778,21 @@
             0.8,
             0.4
           ],
-          "color": "#e4d2ab",
-          "intensity": 1.478,
-          "ambient": 0.512,
-          "fillColor": "#728f90",
-          "rimColor": "#a9c7bb",
-          "fogDensity": 0.179,
-          "fogColor": "#bcc0cc",
+          "color": "#dece9e",
+          "intensity": 1.331,
+          "ambient": 0.453,
+          "fillColor": "#677a85",
+          "rimColor": "#99bfbd",
+          "fogDensity": 0.234,
+          "fogColor": "#adb2c2",
           "shadowSoftness": 0.45,
-          "shadowColor": "#334142",
-          "contrast": 0.669
+          "shadowColor": "#2e373d",
+          "contrast": 0.651
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -4104,34 +4806,60 @@
           0.8,
           0.4
         ],
-        "color": "#e4d2ab",
-        "intensity": 1.478,
-        "ambient": 0.512,
-        "fillColor": "#728f90",
-        "rimColor": "#a9c7bb",
-        "fogDensity": 0.179,
-        "fogColor": "#bcc0cc",
+        "color": "#dece9e",
+        "intensity": 1.331,
+        "ambient": 0.453,
+        "fillColor": "#677a85",
+        "rimColor": "#99bfbd",
+        "fogDensity": 0.234,
+        "fogColor": "#adb2c2",
         "shadowSoftness": 0.45,
-        "shadowColor": "#334142",
-        "contrast": 0.669
+        "shadowColor": "#2e373d",
+        "contrast": 0.651
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9d3d3f",
-          "trim": "#d4c97d",
-          "shadow": "#442728",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26632",
+          "trim": "#79d276",
+          "shadow": "#3e2c20",
+          "skin": "#debfab",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#79bc38",
+          "trim": "#76d2b2",
+          "shadow": "#303e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4aafa3",
+          "trim": "#76a3d2",
+          "shadow": "#203e3b",
+          "skin": "#d7c0b4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
+      },
+      "interaction": {
+        "kind": "mutual-attention",
+        "participants": [
+          "mara",
+          "elise",
+          "tomas"
+        ]
       }
     },
     {
       "id": 9,
       "sceneId": 5,
-      "a": 1237,
-      "b": 1422,
+      "a": 1339,
+      "b": 1518,
       "composition": {
         "rule": "thirds-close",
         "foreground": true,
@@ -4143,7 +4871,7 @@
           {
             "t": 0,
             "pos": [
-              -0.9458197204396129,
+              -1.0646195881068707,
               2,
               10
             ],
@@ -4158,7 +4886,7 @@
           {
             "t": 1,
             "pos": [
-              -0.9458197204396129,
+              -1.0646195881068707,
               2,
               6.2
             ],
@@ -4174,37 +4902,63 @@
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "point",
+          "id": "mara",
+          "x": -2.6,
+          "action": "interact",
           "expression": "curious",
-          "gesture": "point",
+          "gesture": "two-hand",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
           },
-          "intensity": 0.6933333333333334
+          "intensity": 0.7176470588235295
+        },
+        {
+          "id": "elise",
+          "x": 0,
+          "action": "interact",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.7176470588235295
+        },
+        {
+          "id": "tomas",
+          "x": 2.6,
+          "action": "interact",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.7176470588235295
         }
       ],
       "fx": [
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.4786666666666667,
-          "seed": 907517
+          "intensity": 0.48352941176470593,
+          "seed": 315905
         },
         {
           "kind": "ink-outline",
-          "width": 5.733333333333333,
+          "width": 5.794117647058824,
           "intensity": 1,
           "seed": 4
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.47333333333333333,
-          "seed": 870012
+          "intensity": 0.47941176470588237,
+          "seed": 396779
         },
         {
           "kind": "paper-texture",
@@ -4218,70 +4972,80 @@
         },
         {
           "kind": "speed-lines",
-          "count": 30,
-          "intensity": 0.3466666666666667,
-          "seed": 619325
+          "count": 31,
+          "intensity": 0.35882352941176476,
+          "seed": 120974
         },
         {
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 571331
+          "seed": 206370
         },
         {
           "kind": "motion-streaks",
           "count": 16,
-          "intensity": 0.24266666666666667,
-          "seed": 304734
+          "intensity": 0.25117647058823533,
+          "seed": 612564
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 4
+        },
+        {
+          "kind": "panel-shutter",
+          "intensity": 0.6,
+          "seed": 4
+        },
+        {
+          "kind": "dry-brush",
+          "intensity": 0.25,
+          "seed": 4
         }
       ],
       "palette": {
         "id": "scene-5",
-        "hue": 17,
-        "storyHue": 0,
-        "warmth": 0.519,
-        "saturation": 0.424,
-        "contrast": 0.669,
-        "brightness": 0.865,
-        "haze": 0.21,
-        "intensity": 0.693,
-        "ink": "#141b1b",
-        "paper": "#dbdbd7",
-        "inkSoft": "rgba(20,27,27,0.55)",
-        "skyTop": "#758bb1",
-        "skyHorizon": "#c4c8d9",
-        "fog": "#bcc0cc",
-        "ground": "#81715a",
+        "hue": 38,
+        "storyHue": 24,
+        "warmth": 0.218,
+        "saturation": 0.464,
+        "contrast": 0.651,
+        "brightness": 0.629,
+        "haze": 0.407,
+        "intensity": 0.718,
+        "ink": "#14181b",
+        "paper": "#cdcfc8",
+        "inkSoft": "rgba(20,24,27,0.55)",
+        "skyTop": "#5a77a6",
+        "skyHorizon": "#adb3cc",
+        "fog": "#adb2c2",
+        "ground": "#73714e",
         "building": [
-          "#9c9969",
-          "#8ba07a",
-          "#637685"
+          "#7f8f5b",
+          "#6e986a",
+          "#585f7a"
         ],
-        "key": "#e4dbba",
-        "fill": "#728f90",
-        "rim": "#a9c7bb",
-        "accent": "#67c8b3",
-        "halftone": "rgba(20,27,27,0.32)",
-        "shadow": "#334142",
-        "crosshatch": "rgba(20,27,27,0.42)",
-        "paperGrain": "rgba(20,27,27,0.06)"
+        "key": "#ddd3a6",
+        "fill": "#677a85",
+        "rim": "#99bfbd",
+        "accent": "#50b7c6",
+        "halftone": "rgba(20,24,27,0.32)",
+        "shadow": "#2e373d",
+        "crosshatch": "rgba(20,24,27,0.42)",
+        "paperGrain": "rgba(20,24,27,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 569307,
+        "seed": 39402,
         "sky": {
-          "top": "#758bb1",
-          "horizon": "#c4c8d9",
-          "fog": "#bcc0cc"
+          "top": "#5a77a6",
+          "horizon": "#adb3cc",
+          "fog": "#adb2c2"
         },
         "ground": {
-          "color": "#81715a",
+          "color": "#73714e",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -4293,12 +5057,12 @@
               70
             ],
             "count": 14,
-            "color": "#949faf",
+            "color": "#8389a3",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 788413
+            "seed": 413659
           },
           {
             "name": "mid",
@@ -4307,14 +5071,14 @@
               32
             ],
             "count": 10,
-            "color": "#9c9969",
+            "color": "#7f8f5b",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 106052
+            "seed": 847682
           },
           {
             "name": "near",
@@ -4323,14 +5087,14 @@
               12
             ],
             "count": 6,
-            "color": "#8ba07a",
+            "color": "#6e986a",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 854489
+            "seed": 880656
           },
           {
             "name": "foreground",
@@ -4339,12 +5103,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#81715a",
+            "color": "#73714e",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 314520
+            "seed": 262118
           }
         ],
         "props": [
@@ -4355,15 +5119,15 @@
           "window"
         ],
         "fog": {
-          "color": "#bcc0cc",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#adb2c2",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
           "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -4372,21 +5136,21 @@
             0.8,
             0.4
           ],
-          "color": "#e4d2ab",
-          "intensity": 1.478,
-          "ambient": 0.512,
-          "fillColor": "#728f90",
-          "rimColor": "#a9c7bb",
-          "fogDensity": 0.179,
-          "fogColor": "#bcc0cc",
+          "color": "#dece9e",
+          "intensity": 1.331,
+          "ambient": 0.453,
+          "fillColor": "#677a85",
+          "rimColor": "#99bfbd",
+          "fogDensity": 0.234,
+          "fogColor": "#adb2c2",
           "shadowSoftness": 0.45,
-          "shadowColor": "#334142",
-          "contrast": 0.669
+          "shadowColor": "#2e373d",
+          "contrast": 0.651
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -4400,34 +5164,60 @@
           0.8,
           0.4
         ],
-        "color": "#e4d2ab",
-        "intensity": 1.478,
-        "ambient": 0.512,
-        "fillColor": "#728f90",
-        "rimColor": "#a9c7bb",
-        "fogDensity": 0.179,
-        "fogColor": "#bcc0cc",
+        "color": "#dece9e",
+        "intensity": 1.331,
+        "ambient": 0.453,
+        "fillColor": "#677a85",
+        "rimColor": "#99bfbd",
+        "fogDensity": 0.234,
+        "fogColor": "#adb2c2",
         "shadowSoftness": 0.45,
-        "shadowColor": "#334142",
-        "contrast": 0.669
+        "shadowColor": "#2e373d",
+        "contrast": 0.651
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9d3d3f",
-          "trim": "#d4c97d",
-          "shadow": "#442728",
-          "skin": "#dfcac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c26632",
+          "trim": "#79d276",
+          "shadow": "#3e2c20",
+          "skin": "#debfab",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#79bc38",
+          "trim": "#76d2b2",
+          "shadow": "#303e20",
+          "skin": "#d3c4ad",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4aafa3",
+          "trim": "#76a3d2",
+          "shadow": "#203e3b",
+          "skin": "#d7c0b4",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
+      },
+      "interaction": {
+        "kind": "mutual-attention",
+        "participants": [
+          "mara",
+          "elise",
+          "tomas"
+        ]
       }
     },
     {
       "id": 10,
       "sceneId": 6,
-      "a": 1422,
-      "b": 1611,
+      "a": 1518,
+      "b": 1659,
       "composition": {
         "rule": "thirds-wide",
         "foreground": false,
@@ -4449,7 +5239,7 @@
               0
             ],
             "fov": 44,
-            "roll": 1.2
+            "roll": -1.2
           },
           {
             "t": 1,
@@ -4464,43 +5254,69 @@
               0
             ],
             "fov": 44,
-            "roll": 4
+            "roll": -4
           }
         ]
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "react",
+          "id": "mara",
+          "x": -2.6,
+          "action": "walk",
           "expression": "curious",
-          "gesture": "open-palm",
+          "gesture": "rest",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
           },
-          "intensity": 0.8766666666666667
+          "intensity": 0.8270588235294117
+        },
+        {
+          "id": "elise",
+          "x": 0,
+          "action": "walk",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.8270588235294117
+        },
+        {
+          "id": "tomas",
+          "x": 2.6,
+          "action": "walk",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.8270588235294117
         }
       ],
       "fx": [
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.5153333333333334,
-          "seed": 244331
+          "intensity": 0.5054117647058824,
+          "seed": 649663
         },
         {
           "kind": "ink-outline",
-          "width": 6.191666666666666,
+          "width": 6.067647058823529,
           "intensity": 1,
           "seed": 5
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.5191666666666667,
-          "seed": 689447
+          "intensity": 0.5067647058823529,
+          "seed": 56324
         },
         {
           "kind": "paper-texture",
@@ -4514,82 +5330,92 @@
         },
         {
           "kind": "speed-lines",
-          "count": 35,
-          "intensity": 0.43833333333333335,
-          "seed": 755528
+          "count": 34,
+          "intensity": 0.41352941176470587,
+          "seed": 162787
         },
         {
           "kind": "impact-burst",
           "at": 0.62,
-          "intensity": 0.8766666666666667,
-          "seed": 268470
+          "intensity": 0.8270588235294117,
+          "seed": 667559
         },
         {
           "kind": "ink-splash",
           "count": 8,
           "intensity": 0.5,
-          "seed": 352110
+          "seed": 908406
         },
         {
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 435493
+          "seed": 572134
         },
         {
           "kind": "motion-streaks",
           "count": 18,
-          "intensity": 0.30683333333333335,
-          "seed": 345907
+          "intensity": 0.2894705882352941,
+          "seed": 527930
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 5
+        },
+        {
+          "kind": "radial-iris",
+          "intensity": 0.6,
+          "seed": 5
+        },
+        {
+          "kind": "dry-brush",
+          "intensity": 0.25,
+          "seed": 5
         }
       ],
       "palette": {
         "id": "scene-6",
-        "hue": 17,
-        "storyHue": 0,
-        "warmth": 0.467,
-        "saturation": 0.443,
-        "contrast": 0.72,
-        "brightness": 0.836,
-        "haze": 0.21,
-        "intensity": 0.877,
-        "ink": "#131a1a",
-        "paper": "#dad9d5",
-        "inkSoft": "rgba(19,26,26,0.55)",
-        "skyTop": "#7188b0",
-        "skyHorizon": "#c1c5d7",
-        "fog": "#babecb",
-        "ground": "#806f58",
+        "hue": 40,
+        "storyHue": 24,
+        "warmth": 0.247,
+        "saturation": 0.474,
+        "contrast": 0.682,
+        "brightness": 0.695,
+        "haze": 0.407,
+        "intensity": 0.827,
+        "ink": "#13181b",
+        "paper": "#d1d2cc",
+        "inkSoft": "rgba(19,24,27,0.55)",
+        "skyTop": "#607cab",
+        "skyHorizon": "#b3b8d0",
+        "fog": "#b1b6c5",
+        "ground": "#787750",
         "building": [
-          "#9b9966",
-          "#8aa077",
-          "#617585"
+          "#82945d",
+          "#709c6d",
+          "#5a607e"
         ],
-        "key": "#e3d9b7",
-        "fill": "#708e8f",
-        "rim": "#a7c7ba",
-        "accent": "#62c9b3",
-        "halftone": "rgba(19,26,26,0.32)",
-        "shadow": "#324142",
-        "crosshatch": "rgba(19,26,26,0.42)",
-        "paperGrain": "rgba(19,26,26,0.06)"
+        "key": "#dfd6ab",
+        "fill": "#697c89",
+        "rim": "#9dc3c1",
+        "accent": "#54b6c9",
+        "halftone": "rgba(19,24,27,0.32)",
+        "shadow": "#2f383f",
+        "crosshatch": "rgba(19,24,27,0.42)",
+        "paperGrain": "rgba(19,24,27,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 952253,
+        "seed": 788017,
         "sky": {
-          "top": "#7188b0",
-          "horizon": "#c1c5d7",
-          "fog": "#babecb"
+          "top": "#607cab",
+          "horizon": "#b3b8d0",
+          "fog": "#b1b6c5"
         },
         "ground": {
-          "color": "#806f58",
+          "color": "#787750",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -4601,12 +5427,12 @@
               70
             ],
             "count": 14,
-            "color": "#919dae",
+            "color": "#878ca7",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 350376
+            "seed": 887279
           },
           {
             "name": "mid",
@@ -4615,14 +5441,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b9966",
+            "color": "#82945d",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 244333
+            "seed": 506444
           },
           {
             "name": "near",
@@ -4631,14 +5457,14 @@
               12
             ],
             "count": 6,
-            "color": "#8aa077",
+            "color": "#709c6d",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 228131
+            "seed": 386653
           },
           {
             "name": "foreground",
@@ -4647,12 +5473,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#806f58",
+            "color": "#787750",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 344998
+            "seed": 720291
           }
         ],
         "props": [
@@ -4663,15 +5489,15 @@
           "window"
         ],
         "fog": {
-          "color": "#babecb",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#b1b6c5",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
           "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -4680,21 +5506,21 @@
             0.8,
             0.4
           ],
-          "color": "#e3d1a9",
-          "intensity": 1.46,
-          "ambient": 0.505,
-          "fillColor": "#708e8f",
-          "rimColor": "#a7c7ba",
-          "fogDensity": 0.179,
-          "fogColor": "#babecb",
+          "color": "#e0d0a2",
+          "intensity": 1.372,
+          "ambient": 0.469,
+          "fillColor": "#697c89",
+          "rimColor": "#9dc3c1",
+          "fogDensity": 0.234,
+          "fogColor": "#b1b6c5",
           "shadowSoftness": 0.45,
-          "shadowColor": "#324142",
-          "contrast": 0.72
+          "shadowColor": "#2f383f",
+          "contrast": 0.682
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -4708,25 +5534,43 @@
           0.8,
           0.4
         ],
-        "color": "#e3d1a9",
-        "intensity": 1.46,
-        "ambient": 0.505,
-        "fillColor": "#708e8f",
-        "rimColor": "#a7c7ba",
-        "fogDensity": 0.179,
-        "fogColor": "#babecb",
+        "color": "#e0d0a2",
+        "intensity": 1.372,
+        "ambient": 0.469,
+        "fillColor": "#697c89",
+        "rimColor": "#9dc3c1",
+        "fogDensity": 0.234,
+        "fogColor": "#b1b6c5",
         "shadowSoftness": 0.45,
-        "shadowColor": "#324142",
-        "contrast": 0.72
+        "shadowColor": "#2f383f",
+        "contrast": 0.682
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9c3b3d",
-          "trim": "#d4c97c",
-          "shadow": "#432627",
-          "skin": "#decac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c46936",
+          "trim": "#7bd278",
+          "shadow": "#402e22",
+          "skin": "#dfbfac",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#7cbd3c",
+          "trim": "#78d2b3",
+          "shadow": "#314022",
+          "skin": "#d3c5ae",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4db1a5",
+          "trim": "#78a5d2",
+          "shadow": "#22403d",
+          "skin": "#d7c0b5",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }
@@ -4734,7 +5578,7 @@
     {
       "id": 11,
       "sceneId": 6,
-      "a": 1611,
+      "a": 1659,
       "b": 1800,
       "composition": {
         "rule": "thirds-close",
@@ -4747,7 +5591,7 @@
           {
             "t": 0,
             "pos": [
-              -0.8322848746553064,
+              0.6850777605548501,
               1.9,
               5.5
             ],
@@ -4762,7 +5606,7 @@
           {
             "t": 1,
             "pos": [
-              -0.8322848746553064,
+              0.6850777605548501,
               1.9,
               5.17
             ],
@@ -4778,37 +5622,63 @@
       },
       "characters": [
         {
-          "id": "soldier",
-          "x": -1.5,
-          "action": "react",
+          "id": "mara",
+          "x": -2.6,
+          "action": "walk",
           "expression": "curious",
-          "gesture": "open-palm",
+          "gesture": "rest",
           "gaze": {
-            "target": "other",
-            "x": 0.35,
-            "y": 0.1
+            "target": "elise",
+            "x": 0.65,
+            "y": 0
           },
-          "intensity": 0.8766666666666667
+          "intensity": 0.8270588235294117
+        },
+        {
+          "id": "elise",
+          "x": 0,
+          "action": "walk",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.8270588235294117
+        },
+        {
+          "id": "tomas",
+          "x": 2.6,
+          "action": "walk",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "mara",
+            "x": -0.65,
+            "y": 0
+          },
+          "intensity": 0.8270588235294117
         }
       ],
       "fx": [
         {
           "kind": "halftone",
           "density": 5,
-          "intensity": 0.5153333333333334,
-          "seed": 244331
+          "intensity": 0.5054117647058824,
+          "seed": 649663
         },
         {
           "kind": "ink-outline",
-          "width": 6.191666666666666,
+          "width": 6.067647058823529,
           "intensity": 1,
           "seed": 5
         },
         {
           "kind": "crosshatch",
           "spacing": 8,
-          "intensity": 0.5191666666666667,
-          "seed": 689447
+          "intensity": 0.5067647058823529,
+          "seed": 56324
         },
         {
           "kind": "paper-texture",
@@ -4822,82 +5692,92 @@
         },
         {
           "kind": "speed-lines",
-          "count": 35,
-          "intensity": 0.43833333333333335,
-          "seed": 755528
+          "count": 34,
+          "intensity": 0.41352941176470587,
+          "seed": 162787
         },
         {
           "kind": "impact-burst",
           "at": 0.62,
-          "intensity": 0.8766666666666667,
-          "seed": 268470
+          "intensity": 0.8270588235294117,
+          "seed": 667559
         },
         {
           "kind": "ink-splash",
           "count": 8,
           "intensity": 0.5,
-          "seed": 352110
+          "seed": 908406
         },
         {
           "kind": "dust-particles",
           "count": 40,
           "intensity": 0.5,
-          "seed": 435493
+          "seed": 572134
         },
         {
           "kind": "motion-streaks",
           "count": 18,
-          "intensity": 0.30683333333333335,
-          "seed": 345907
+          "intensity": 0.2894705882352941,
+          "seed": 527930
         },
         {
           "kind": "comic-transition",
           "at": 0,
           "intensity": 0.6,
           "seed": 5
+        },
+        {
+          "kind": "radial-iris",
+          "intensity": 0.6,
+          "seed": 5
+        },
+        {
+          "kind": "dry-brush",
+          "intensity": 0.25,
+          "seed": 5
         }
       ],
       "palette": {
         "id": "scene-6",
-        "hue": 17,
-        "storyHue": 0,
-        "warmth": 0.467,
-        "saturation": 0.443,
-        "contrast": 0.72,
-        "brightness": 0.836,
-        "haze": 0.21,
-        "intensity": 0.877,
-        "ink": "#131a1a",
-        "paper": "#dad9d5",
-        "inkSoft": "rgba(19,26,26,0.55)",
-        "skyTop": "#7188b0",
-        "skyHorizon": "#c1c5d7",
-        "fog": "#babecb",
-        "ground": "#806f58",
+        "hue": 40,
+        "storyHue": 24,
+        "warmth": 0.247,
+        "saturation": 0.474,
+        "contrast": 0.682,
+        "brightness": 0.695,
+        "haze": 0.407,
+        "intensity": 0.827,
+        "ink": "#13181b",
+        "paper": "#d1d2cc",
+        "inkSoft": "rgba(19,24,27,0.55)",
+        "skyTop": "#607cab",
+        "skyHorizon": "#b3b8d0",
+        "fog": "#b1b6c5",
+        "ground": "#787750",
         "building": [
-          "#9b9966",
-          "#8aa077",
-          "#617585"
+          "#82945d",
+          "#709c6d",
+          "#5a607e"
         ],
-        "key": "#e3d9b7",
-        "fill": "#708e8f",
-        "rim": "#a7c7ba",
-        "accent": "#62c9b3",
-        "halftone": "rgba(19,26,26,0.32)",
-        "shadow": "#324142",
-        "crosshatch": "rgba(19,26,26,0.42)",
-        "paperGrain": "rgba(19,26,26,0.06)"
+        "key": "#dfd6ab",
+        "fill": "#697c89",
+        "rim": "#9dc3c1",
+        "accent": "#54b6c9",
+        "halftone": "rgba(19,24,27,0.32)",
+        "shadow": "#2f383f",
+        "crosshatch": "rgba(19,24,27,0.42)",
+        "paperGrain": "rgba(19,24,27,0.06)"
       },
       "env": {
         "kind": "city",
-        "seed": 952253,
+        "seed": 788017,
         "sky": {
-          "top": "#7188b0",
-          "horizon": "#c1c5d7",
-          "fog": "#babecb"
+          "top": "#607cab",
+          "horizon": "#b3b8d0",
+          "fog": "#b1b6c5"
         },
         "ground": {
-          "color": "#806f58",
+          "color": "#787750",
           "y": 0,
           "texture": "crosshatch"
         },
@@ -4909,12 +5789,12 @@
               70
             ],
             "count": 14,
-            "color": "#919dae",
+            "color": "#878ca7",
             "parallax": 0.06,
             "shapes": [
               "silhouette"
             ],
-            "seed": 350376
+            "seed": 887279
           },
           {
             "name": "mid",
@@ -4923,14 +5803,14 @@
               32
             ],
             "count": 10,
-            "color": "#9b9966",
+            "color": "#82945d",
             "parallax": 0.22,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 244333
+            "seed": 506444
           },
           {
             "name": "near",
@@ -4939,14 +5819,14 @@
               12
             ],
             "count": 6,
-            "color": "#8aa077",
+            "color": "#709c6d",
             "parallax": 0.55,
             "shapes": [
               "block",
               "column",
               "arch"
             ],
-            "seed": 228131
+            "seed": 386653
           },
           {
             "name": "foreground",
@@ -4955,12 +5835,12 @@
               3.5
             ],
             "count": 3,
-            "color": "#806f58",
+            "color": "#787750",
             "parallax": 1.05,
             "shapes": [
               "prop"
             ],
-            "seed": 344998
+            "seed": 720291
           }
         ],
         "props": [
@@ -4971,15 +5851,15 @@
           "window"
         ],
         "fog": {
-          "color": "#babecb",
-          "near": 19.26,
-          "far": 123.2,
-          "density": 0.21
+          "color": "#b1b6c5",
+          "near": 20.442,
+          "far": 107.44,
+          "density": 0.407
         },
         "dof": {
           "enabled": true,
           "focusZ": 8,
-          "cInf": 11.26
+          "cInf": 12.442
         },
         "lighting": {
           "condition": "daylight",
@@ -4988,21 +5868,21 @@
             0.8,
             0.4
           ],
-          "color": "#e3d1a9",
-          "intensity": 1.46,
-          "ambient": 0.505,
-          "fillColor": "#708e8f",
-          "rimColor": "#a7c7ba",
-          "fogDensity": 0.179,
-          "fogColor": "#babecb",
+          "color": "#e0d0a2",
+          "intensity": 1.372,
+          "ambient": 0.469,
+          "fillColor": "#697c89",
+          "rimColor": "#9dc3c1",
+          "fogDensity": 0.234,
+          "fogColor": "#b1b6c5",
           "shadowSoftness": 0.45,
-          "shadowColor": "#324142",
-          "contrast": 0.72
+          "shadowColor": "#2f383f",
+          "contrast": 0.682
         },
         "atmospheric": {
-          "dust": 0.168,
-          "haze": 0.21,
-          "particles": 26
+          "dust": 0.3256,
+          "haze": 0.407,
+          "particles": 34
         },
         "parallax": true,
         "perspective": true,
@@ -5016,25 +5896,43 @@
           0.8,
           0.4
         ],
-        "color": "#e3d1a9",
-        "intensity": 1.46,
-        "ambient": 0.505,
-        "fillColor": "#708e8f",
-        "rimColor": "#a7c7ba",
-        "fogDensity": 0.179,
-        "fogColor": "#babecb",
+        "color": "#e0d0a2",
+        "intensity": 1.372,
+        "ambient": 0.469,
+        "fillColor": "#697c89",
+        "rimColor": "#9dc3c1",
+        "fogDensity": 0.234,
+        "fogColor": "#b1b6c5",
         "shadowSoftness": 0.45,
-        "shadowColor": "#324142",
-        "contrast": 0.72
+        "shadowColor": "#2f383f",
+        "contrast": 0.682
       },
       "characterColors": {
-        "soldier": {
-          "hue": 359,
-          "main": "#9c3b3d",
-          "trim": "#d4c97c",
-          "shadow": "#432627",
-          "skin": "#decac2",
-          "hair": "#8f7023",
+        "mara": {
+          "hue": 22,
+          "main": "#c46936",
+          "trim": "#7bd278",
+          "shadow": "#402e22",
+          "skin": "#dfbfac",
+          "hair": "#8e5b29",
+          "ink": "#141018"
+        },
+        "elise": {
+          "hue": 90,
+          "main": "#7cbd3c",
+          "trim": "#78d2b3",
+          "shadow": "#314022",
+          "skin": "#d3c5ae",
+          "hair": "#b79c65",
+          "ink": "#141018"
+        },
+        "tomas": {
+          "hue": 173,
+          "main": "#4db1a5",
+          "trim": "#78a5d2",
+          "shadow": "#22403d",
+          "skin": "#d7c0b5",
+          "hair": "#ca9a51",
           "ink": "#141018"
         }
       }

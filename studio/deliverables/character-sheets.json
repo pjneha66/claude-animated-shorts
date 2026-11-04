@@ -1,13 +1,13 @@
 [
   {
-    "characterId": "soldier",
-    "consistencyHash": 3889340256,
+    "characterId": "mara",
+    "consistencyHash": 1306754444,
     "views": 3,
     "expressions": 5,
     "gestures": 5,
     "spec": {
-      "characterId": "soldier",
-      "consistencyHash": 3889340256,
+      "characterId": "mara",
+      "consistencyHash": 1306754444,
       "views": [
         "front",
         "three-quarter",
@@ -28,8 +28,74 @@
         "fist"
       ],
       "walkCycle": "contact / pass / high / pass / contact",
-      "notes": "Face square-jaw, hair braided, doublet with fine-lines, dimple. Fixed costume hue 359°."
+      "notes": "Face bean, hair close-cropped, dress with crosshatch, none. Fixed costume hue 22\u00b0."
     },
-    "file": "studio/out/sheets/soldier-reference-sheet.png"
+    "file": "studio/deliverables/mara-reference-sheet.png"
+  },
+  {
+    "characterId": "elise",
+    "consistencyHash": 943079117,
+    "views": 3,
+    "expressions": 5,
+    "gestures": 5,
+    "spec": {
+      "characterId": "elise",
+      "consistencyHash": 943079117,
+      "views": [
+        "front",
+        "three-quarter",
+        "profile"
+      ],
+      "expressions": [
+        "neutral",
+        "happy",
+        "surprised",
+        "angry",
+        "fearful"
+      ],
+      "gestures": [
+        "rest",
+        "open-palm",
+        "point",
+        "wave",
+        "fist"
+      ],
+      "walkCycle": "contact / pass / high / pass / contact",
+      "notes": "Face square-jaw, hair slicked, jacket with crosshatch, beauty-mark. Fixed costume hue 90\u00b0."
+    },
+    "file": "studio/deliverables/elise-reference-sheet.png"
+  },
+  {
+    "characterId": "tomas",
+    "consistencyHash": 3804008293,
+    "views": 3,
+    "expressions": 5,
+    "gestures": 5,
+    "spec": {
+      "characterId": "tomas",
+      "consistencyHash": 3804008293,
+      "views": [
+        "front",
+        "three-quarter",
+        "profile"
+      ],
+      "expressions": [
+        "neutral",
+        "happy",
+        "surprised",
+        "angry",
+        "fearful"
+      ],
+      "gestures": [
+        "rest",
+        "open-palm",
+        "point",
+        "wave",
+        "fist"
+      ],
+      "walkCycle": "contact / pass / high / pass / contact",
+      "notes": "Face heart, hair wavy, workshirt with fine-lines, dimple. Fixed costume hue 173\u00b0."
+    },
+    "file": "studio/deliverables/tomas-reference-sheet.png"
   }
 ]

@@ -29,37 +29,59 @@ export async function renderRemotion(plan, opts = {}) {
   const spec = resolveRenderSpec(plan, { ...opts, backend: 'chrome' }, opts.hardware || {});
   const outPath = path.resolve(opts.out || path.join(studioDir, 'out', `${slug(plan.meta.title)}-${spec.quality}-chrome.mp4`));
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  const framesDir = path.join(path.dirname(outPath), `.frames-${slug(plan.meta.title)}-${spec.quality}`);
-  fs.mkdirSync(framesDir, { recursive: true });
+  const framesDir = fs.mkdtempSync(path.join(path.dirname(outPath), `frames-${slug(plan.meta.title)}-${spec.quality}-`));
   const disk = diskSpaceCheck(path.dirname(outPath));
   if (!disk.ok) throw new Error(`Not enough local disk space (${disk.freeGB ?? 0} GB free)`);
   const ffmpeg = findFfmpeg();
   writeGeneratedPlan(plan, studioDir);
 
   const scale = spec.width / plan.meta.width;
-  const args = ['remotion', 'render', 'src/index.js', 'StudioShort', framesDir,
-    '--image-format=png', `--scale=${scale}`, `--concurrency=${spec.concurrency}`,
-    '--gl=angle', '--log=error', '--overwrite'];
-  const browser = process.env.CHROME_PATH || opts.hardware?.tools?.chromium;
-  if (browser && fs.existsSync(browser)) args.push(`--browser-executable=${browser}`);
-  const remotion = spawn('npx', args, { cwd: studioDir, stdio: ['ignore', 'pipe', 'pipe'], env: { ...process.env, REMOTION_TMP: process.env.REMOTION_TMP || path.join(studioDir, 'out', 'tmp') } });
   let log = '';
-  remotion.stdout.on('data', (d) => { log += d.toString(); });
-  remotion.stderr.on('data', (d) => { log += d.toString(); });
-  const [code] = await once(remotion, 'close');
-  if (code !== 0) throw new Error(`Local Remotion render failed (${code}): ${log.slice(-800)}`);
+  const browserPath = process.env.CHROME_PATH || opts.hardware?.tools?.chromium;
+  if (!browserPath || !fs.existsSync(browserPath)) throw new Error('Set CHROME_PATH to an installed local browser; automatic browser downloads are disabled.');
+  const mode = process.env.CHROME_CAPTURE_MODE || 'stills';
+  if (mode === 'stills') {
+    // RenderStill avoids the shared-memory sequence capture path that hangs on
+    // some Chromium distributions. Bundle once and reuse the local browser.
+    const { bundle } = await import('@remotion/bundler');
+    const { openBrowser, renderStill } = await import('@remotion/renderer');
+    const serveUrl = await bundle({ entryPoint: path.join(studioDir, 'src/index.js'), outDir: path.join(studioDir, 'out', 'chrome-bundle') });
+    const chromiumOptions = { gl: process.env.CHROME_GL || 'angle' };
+    const instance = await openBrowser('chrome', { browserExecutable: browserPath, chromiumOptions });
+    try {
+      const composition = { id: opts.compositionId || 'StudioShort', width: plan.meta.width, height: plan.meta.height,
+        fps: plan.meta.fps, durationInFrames: plan.meta.totalFrames, props: { plan }, defaultProps: { plan } };
+      for (let frame=0; frame<spec.totalFrames; frame++) {
+        await renderStill({ serveUrl, composition, inputProps: { plan }, frame, scale, imageFormat: 'png',
+          output: path.join(framesDir, `frame-${String(frame).padStart(6,'0')}.png`),
+          puppeteerInstance: instance, browserExecutable: browserPath, chromiumOptions, timeoutInMilliseconds: 30000, logLevel: 'error' });
+        opts.onProgress?.(frame+1, spec.totalFrames);
+      }
+    } finally { await instance.close({ silent: true }); }
+  } else if (mode === 'sequence') {
+    const args = ['--no-install', 'remotion', 'render', 'src/index.js', opts.compositionId || 'StudioShort', framesDir,
+      '--sequence', '--image-format=png', `--scale=${scale}`, `--concurrency=${spec.concurrency}`,
+      `--gl=${process.env.CHROME_GL || 'angle'}`, '--log=error', '--overwrite', `--browser-executable=${browserPath}`];
+    const remotion = spawn('npx', args, { cwd: studioDir, stdio: ['ignore', 'pipe', 'pipe'] });
+    remotion.stdout.on('data', d => { log += d.toString(); });
+    remotion.stderr.on('data', d => { log += d.toString(); });
+    const [code] = await once(remotion, 'close');
+    if (code !== 0) throw new Error(`Local Remotion render failed (${code}): ${log.slice(-800)}`);
+  } else throw new Error(`Unknown Chrome capture mode: ${mode}`);
 
   const pngs = fs.readdirSync(framesDir).filter((f) => f.toLowerCase().endsWith('.png')).sort();
-  if (!pngs.length) throw new Error('Remotion produced no local frames');
+  if (pngs.length !== spec.totalFrames) throw new Error(`Expected ${spec.totalFrames} local Chrome frames; got ${pngs.length}`);
+  const partialPath = path.join(path.dirname(outPath), `.${path.basename(outPath, '.mp4')}-partial.mp4`);
   const enc = spawn(ffmpeg, ['-y', '-hide_banner', '-loglevel', 'error', '-framerate', String(spec.fps),
     '-pattern_type', 'glob', '-i', path.join(framesDir, '*.png'),
     '-an', '-c:v', 'libx264', '-preset', spec.preset, '-crf', String(spec.crf),
-    '-pix_fmt', spec.pixelFormat, '-movflags', '+faststart', outPath], { stdio: ['ignore', 'ignore', 'pipe'] });
+    '-pix_fmt', spec.pixelFormat, '-movflags', '+faststart', partialPath], { stdio: ['ignore', 'ignore', 'pipe'] });
   let encErr = ''; enc.stderr.on('data', (d) => { encErr += d.toString(); });
   const [encCode] = await once(enc, 'close');
   if (encCode !== 0) throw new Error(`Local ffmpeg encode failed (${encCode}): ${encErr.slice(-600)}`);
-  const verification = verifySilentMp4(ffmpeg, outPath);
+  const verification = verifySilentMp4(ffmpeg, partialPath);
   if (!verification.ok) throw new Error(`Output is not a silent H.264 MP4: ${JSON.stringify(verification)}`);
+  fs.renameSync(partialPath, outPath);
   if (!process.env.KEEP_FRAMES) fs.rmSync(framesDir, { recursive: true, force: true });
   return { outPath, spec, verification, framesRendered: pngs.length, backend: 'chrome', local: true, logTail: log.slice(-200) };
 }

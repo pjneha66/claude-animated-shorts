@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T04:30:32.355Z",
+  "generated": "2026-11-04T11:33:33.145Z",
   "resolution": [
     270,
     480
@@ -24,24 +24,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        6.66,
-        14.19,
-        19.01,
-        14.76
+        117.31,
+        14.03,
+        16.59,
+        7.59
       ],
-      "meanLuma": 125.19,
+      "meanLuma": 120.59,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
         140.6
       ],
       "characters": 1,
-      "faceVariance": 1124.4,
-      "handVariance": 2861,
+      "faceVariance": 1616.9,
+      "handVariance": 2759.7,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -64,24 +62,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        8.01,
-        13.74,
-        19.8,
-        16.3
+        117.35,
+        13.81,
+        17.55,
+        11
       ],
-      "meanLuma": 125.16,
+      "meanLuma": 120.68,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
         140.6
       ],
       "characters": 1,
-      "faceVariance": 1122.7,
-      "handVariance": 2855.6,
+      "faceVariance": 1579,
+      "handVariance": 2751.9,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -104,24 +100,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        11.25,
-        15.92,
-        23.6,
-        22.54
+        117.51,
+        13.55,
+        15.93,
+        11.72
       ],
-      "meanLuma": 124.28,
+      "meanLuma": 120.57,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
-        140.6
+        140.5
       ],
       "characters": 1,
-      "faceVariance": 1385.2,
-      "handVariance": 2790,
+      "faceVariance": 1895.9,
+      "handVariance": 2758.3,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -144,24 +138,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        6.86,
-        14.35,
-        19.44,
-        15.36
+        117.39,
+        14.21,
+        17.14,
+        8.27
       ],
-      "meanLuma": 125.32,
+      "meanLuma": 120.84,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
         140.6
       ],
       "characters": 1,
-      "faceVariance": 1221.3,
-      "handVariance": 3008.5,
+      "faceVariance": 1664.7,
+      "handVariance": 2843.5,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -184,24 +176,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        6.85,
-        13.6,
-        18.01,
-        14.47
+        117.95,
+        13.59,
+        16.13,
+        6.58
       ],
-      "meanLuma": 124.56,
+      "meanLuma": 120.38,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
-        140.6
+        140.5
       ],
       "characters": 1,
-      "faceVariance": 1137.8,
-      "handVariance": 2866.4,
+      "faceVariance": 1610.7,
+      "handVariance": 2771.1,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -224,24 +214,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        8.69,
-        14.22,
-        19.02,
-        17.45
+        116.91,
+        14.16,
+        16.24,
+        6.84
       ],
-      "meanLuma": 125.01,
+      "meanLuma": 120.38,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
         140.6
       ],
       "characters": 1,
-      "faceVariance": 1206.6,
-      "handVariance": 2910.1,
+      "faceVariance": 1623.9,
+      "handVariance": 2803.7,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -264,24 +252,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        7.81,
-        15.53,
-        20.17,
-        16.62
+        117.64,
+        15.48,
+        18.32,
+        6.78
       ],
-      "meanLuma": 124.81,
+      "meanLuma": 119.86,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
         140.6
       ],
       "characters": 1,
-      "faceVariance": 1239.4,
-      "handVariance": 3030.8,
+      "faceVariance": 1822.8,
+      "handVariance": 2960.9,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -304,24 +290,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        7.68,
-        13.6,
-        18.31,
-        14.48
+        117.98,
+        13.55,
+        16.04,
+        6.27
       ],
-      "meanLuma": 124.8,
+      "meanLuma": 119.92,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
         140.6
       ],
       "characters": 1,
-      "faceVariance": 1110.2,
-      "handVariance": 2892.3,
+      "faceVariance": 1630.7,
+      "handVariance": 2859,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -344,24 +328,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        11.38,
-        19.38,
-        27.23,
-        23.02
+        111.88,
+        20.91,
+        23.13,
+        5.62
       ],
-      "meanLuma": 120.83,
+      "meanLuma": 112.83,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
         140.6
       ],
       "characters": 2,
-      "faceVariance": 1738.9,
-      "handVariance": 3096.7,
+      "faceVariance": 2950.3,
+      "handVariance": 2839.5,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -384,24 +366,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        15.56,
-        25.69,
-        37.68,
-        32.47
+        109.55,
+        9.41,
+        10.44,
+        11.33
       ],
-      "meanLuma": 118.58,
+      "meanLuma": 115.25,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
         140.6
       ],
       "characters": 3,
-      "faceVariance": 1797.8,
-      "handVariance": 3492.2,
+      "faceVariance": 2198.7,
+      "handVariance": 3131.4,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -424,24 +404,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        27.3,
-        34.19,
-        33.92,
-        28.14
+        106.86,
+        32.59,
+        31.49,
+        26.03
       ],
-      "meanLuma": 109.96,
+      "meanLuma": 115.07,
       "skyRGB": [
-        140.5,
-        114.3,
-        118.6
+        149.1,
+        119,
+        129.6
       ],
       "characters": 1,
-      "faceVariance": 2924.5,
-      "handVariance": 2949.6,
+      "faceVariance": 2130.5,
+      "handVariance": 2669.1,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -465,24 +443,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        2.86,
-        5.64,
-        7.49,
-        5.79
+        63.12,
+        5.61,
+        6.58,
+        3.1
       ],
-      "meanLuma": 83.58,
+      "meanLuma": 82.21,
       "skyRGB": [
         93.1,
         87.9,
         89.5
       ],
       "characters": 1,
-      "faceVariance": 165.9,
-      "handVariance": 442.4,
+      "faceVariance": 238,
+      "handVariance": 438.2,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -506,24 +482,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        7.12,
-        15.76,
-        21.54,
-        15.4
+        137.91,
+        15.62,
+        18.94,
+        8.23
       ],
-      "meanLuma": 119.07,
+      "meanLuma": 116.01,
       "skyRGB": [
-        214.5,
-        72.3,
-        177.7
+        214.4,
+        72.2,
+        177.6
       ],
       "characters": 1,
-      "faceVariance": 756.9,
-      "handVariance": 2615.4,
+      "faceVariance": 1100.4,
+      "handVariance": 2597,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -546,24 +520,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        8.51,
-        13.24,
-        18.39,
-        16.46
+        118.2,
+        13.17,
+        15.74,
+        6.21
       ],
-      "meanLuma": 124.77,
+      "meanLuma": 120.59,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
         140.6
       ],
       "characters": 1,
-      "faceVariance": 1119.7,
-      "handVariance": 2828.8,
+      "faceVariance": 1366.9,
+      "handVariance": 2741.5,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     },
@@ -586,24 +558,22 @@
       },
       "failed": [],
       "frameDiffs": [
-        8.05,
-        14.24,
-        19.96,
-        16.82
+        117.67,
+        14.23,
+        17.92,
+        11.65
       ],
-      "meanLuma": 125.59,
+      "meanLuma": 121.47,
       "skyRGB": [
-        160.6,
+        160.5,
         127.4,
         140.6
       ],
       "characters": 1,
-      "faceVariance": 1194.1,
-      "handVariance": 2945,
+      "faceVariance": 1587.7,
+      "handVariance": 2782.2,
       "rigIssues": [],
-      "faceIssues": [
-        "static eyelids / no blinking"
-      ],
+      "faceIssues": [],
       "handIssues": [],
       "cameraIssues": []
     }

@@ -106,10 +106,10 @@ export async function runVisualQA(plan, opts = {}) {
       frames.push(stats); images.push(new Uint8ClampedArray(data));
     }
     const diffs = images.slice(1).map((im, i) => frameDiff(images[i], im));
-    const faceVar = regionStats(images[0], W, H, { x0: 0.25, y0: 0.12, x1: 0.75, y1: 0.48 }).variance;
-    const handVar = regionStats(images[0], W, H, { x0: 0.05, y0: 0.42, x1: 0.95, y1: 0.80 }).variance;
-    const luma = meanColor(images[0], W, H, { x0: 0, y0: 0, x1: 1, y1: 1 });
-    const sky = meanColor(images[0], W, H, { x0: 0, y0: 0.02, x1: 1, y1: 0.22 });
+    const faceVar = regionStats(images[2], W, H, { x0: 0.25, y0: 0.12, x1: 0.75, y1: 0.48 }).variance;
+    const handVar = regionStats(images[2], W, H, { x0: 0.05, y0: 0.42, x1: 0.95, y1: 0.80 }).variance;
+    const luma = meanColor(images[2], W, H, { x0: 0, y0: 0, x1: 1, y1: 1 });
+    const sky = meanColor(images[2], W, H, { x0: 0, y0: 0.02, x1: 1, y1: 0.22 });
     const meanLuma = 0.299 * luma[0] + 0.587 * luma[1] + 0.114 * luma[2];
     const headPositions = frames.map((s) => s.characters.map((c) => `${c.head.x},${c.head.y}`).join('|'));
     const separations = frames.flatMap((s) => {
@@ -119,7 +119,7 @@ export async function runVisualQA(plan, opts = {}) {
     const charWidth = Math.max(...frames.flatMap((s) => s.characters.map((c) => 62 * c.scale)));
     const eyeOpens = frames.map((s) => s.characters[0]?.eyeOpen ?? 1);
     const fingerSets = new Set(frames.map((s) => (s.characters[0]?.fingers || []).join(',')));
-    const poses = [0, 10, 20, 30, 40].map((f) => poseCharacter(design, { frame: f, action: test.action, expression: test.expression, gesture: test.gesture, gaze: { x: 0.3, y: 0 }, intensity: 0.6 }));
+    const poses = Array.from({ length: 180 }, (_, f) => f).map((f) => poseCharacter(design, { frame: f, action: test.action, expression: test.expression, gesture: test.gesture, gaze: { x: 0.3, y: 0 }, intensity: 0.6 }));
     const rig = rigQualityCheck(poses), face = facialQualityCheck(poses.map((p) => p.face)), hands = handQualityCheck(poses.map((p) => ({ ...p.hands.R, fingers: p.fingers.R, side: 'R' })));
     const cam = cameraQualityCheck([shot]);
     const consistency = verifyConsistency(plan.designs, plan.scenes);

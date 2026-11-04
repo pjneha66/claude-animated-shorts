@@ -13,8 +13,10 @@ export function ThreeWorld({ env, palette, frame }) {
         const z = -(layer.zRange[0] + (layer.zRange[1] - layer.zRange[0]) * rnd());
         const w = 2 + rnd() * (layer.name === 'far' ? 5 : 3.2);
         const h = 3 + rnd() * (layer.name === 'far' ? 9 : 6);
-        const d = 2 + rnd() * 3;
-        const x = (i - layer.count / 2) * (layer.name === 'far' ? 7 : 4.6) + (rnd() - 0.5) * 2;
+        const d = layer.name === 'foreground' ? .8 : 2 + rnd() * 3;
+        let x = (i - layer.count / 2) * (layer.name === 'far' ? 7 : 4.6) + (rnd() - 0.5) * 2;
+        // Keep the acting corridor clear; foreground occluders frame the sides.
+        if (layer.name === 'foreground') x = Math.sign(x || 1) * (6 + Math.abs(x));
         out.push({ key: `${layer.name}-${i}`, x, y: h / 2, z, w, h, d,
           color: layer.name === 'far' ? palette.building[2] : layer.name === 'mid' ? palette.building[i % 3] : layer.color,
           ink: layer.name !== 'far', parallax: layer.parallax });

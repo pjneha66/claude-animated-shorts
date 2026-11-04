@@ -1,0 +1,558 @@
+{
+  "version": 1,
+  "fps": 30,
+  "totalFrames": 1800,
+  "intervalConvention": "[in,out)",
+  "beats": [
+    {
+      "id": 1,
+      "in": 0,
+      "out": 262,
+      "emotion": "curious"
+    },
+    {
+      "id": 2,
+      "in": 262,
+      "out": 532,
+      "emotion": "curious"
+    },
+    {
+      "id": 3,
+      "in": 532,
+      "out": 857,
+      "emotion": "curious"
+    },
+    {
+      "id": 4,
+      "in": 857,
+      "out": 1160,
+      "emotion": "curious"
+    },
+    {
+      "id": 5,
+      "in": 1160,
+      "out": 1518,
+      "emotion": "curious"
+    },
+    {
+      "id": 6,
+      "in": 1518,
+      "out": 1800,
+      "emotion": "curious"
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "scene": 1,
+      "in": 0,
+      "out": 262,
+      "seconds": [
+        0,
+        8.733333333333333
+      ],
+      "characters": [
+        "mara",
+        "elise"
+      ],
+      "camera": {
+        "type": "wide-establishing",
+        "purpose": "establish place and scale",
+        "from": [
+          -1.1245358185842633,
+          4.2,
+          20
+        ],
+        "to": [
+          -1.1245358185842633,
+          4.6000000000000005,
+          17.6
+        ],
+        "lookFrom": [
+          0,
+          1.6,
+          0
+        ],
+        "lookTo": [
+          0,
+          1.6,
+          0
+        ],
+        "fov": [
+          52,
+          52
+        ],
+        "lensMm": [
+          36.9,
+          36.9
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "scene": 2,
+      "in": 262,
+      "out": 397,
+      "seconds": [
+        8.733333333333333,
+        13.233333333333333
+      ],
+      "characters": [
+        "mara",
+        "elise"
+      ],
+      "camera": {
+        "type": "dolly-in",
+        "purpose": "draw attention to a reaction",
+        "from": [
+          0.8900771239772439,
+          2.2,
+          12
+        ],
+        "to": [
+          0.8900771239772439,
+          2.2,
+          7.4399999999999995
+        ],
+        "lookFrom": [
+          0,
+          1.7,
+          0
+        ],
+        "lookTo": [
+          0,
+          1.7,
+          0
+        ],
+        "fov": [
+          44,
+          41
+        ],
+        "lensMm": [
+          44.6,
+          48.1
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "scene": 2,
+      "in": 397,
+      "out": 532,
+      "seconds": [
+        13.233333333333333,
+        17.733333333333334
+      ],
+      "characters": [
+        "mara",
+        "elise"
+      ],
+      "camera": {
+        "type": "close-up",
+        "purpose": "facial expression",
+        "from": [
+          1.0687005512416363,
+          1.9,
+          5.5
+        ],
+        "to": [
+          1.0687005512416363,
+          1.9,
+          5.17
+        ],
+        "lookFrom": [
+          0,
+          1.9,
+          0
+        ],
+        "lookTo": [
+          0,
+          1.9,
+          0
+        ],
+        "fov": [
+          38,
+          38
+        ],
+        "lensMm": [
+          52.3,
+          52.3
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "scene": 3,
+      "in": 532,
+      "out": 695,
+      "seconds": [
+        17.733333333333334,
+        23.166666666666668
+      ],
+      "characters": [
+        "mara",
+        "elise"
+      ],
+      "camera": {
+        "type": "tracking",
+        "purpose": "follow an action laterally",
+        "from": [
+          -2.6,
+          2,
+          9
+        ],
+        "to": [
+          2.6,
+          2,
+          9
+        ],
+        "lookFrom": [
+          0,
+          1.6,
+          0
+        ],
+        "lookTo": [
+          1.2,
+          1.6,
+          0
+        ],
+        "fov": [
+          46,
+          46
+        ],
+        "lensMm": [
+          42.4,
+          42.4
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "scene": 3,
+      "in": 695,
+      "out": 857,
+      "seconds": [
+        23.166666666666668,
+        28.566666666666666
+      ],
+      "characters": [
+        "mara",
+        "elise"
+      ],
+      "camera": {
+        "type": "reaction-shot",
+        "purpose": "show the emotional response",
+        "from": [
+          -0.5776949144899846,
+          1.9,
+          5.2
+        ],
+        "to": [
+          -0.5776949144899846,
+          1.9,
+          4.784000000000001
+        ],
+        "lookFrom": [
+          0,
+          1.9,
+          0
+        ],
+        "lookTo": [
+          0,
+          1.9,
+          0
+        ],
+        "fov": [
+          38,
+          38
+        ],
+        "lensMm": [
+          52.3,
+          52.3
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "scene": 4,
+      "in": 857,
+      "out": 1009,
+      "seconds": [
+        28.566666666666666,
+        33.63333333333333
+      ],
+      "characters": [
+        "mara",
+        "elise",
+        "tomas"
+      ],
+      "camera": {
+        "type": "pan",
+        "purpose": "scan a space or reveal",
+        "from": [
+          -0.9962783727794886,
+          2.4,
+          11
+        ],
+        "to": [
+          -0.9962783727794886,
+          2.4,
+          11
+        ],
+        "lookFrom": [
+          -3.2,
+          1.7,
+          0
+        ],
+        "lookTo": [
+          3.2,
+          1.7,
+          0
+        ],
+        "fov": [
+          46,
+          46
+        ],
+        "lensMm": [
+          42.4,
+          42.4
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "scene": 4,
+      "in": 1009,
+      "out": 1160,
+      "seconds": [
+        33.63333333333333,
+        38.666666666666664
+      ],
+      "characters": [
+        "mara",
+        "elise",
+        "tomas"
+      ],
+      "camera": {
+        "type": "over-the-shoulder",
+        "purpose": "show a relationship / point of view",
+        "from": [
+          -1.5,
+          2.1,
+          6.5
+        ],
+        "to": [
+          -1,
+          2.1,
+          6.5
+        ],
+        "lookFrom": [
+          0,
+          1.8,
+          0
+        ],
+        "lookTo": [
+          0.7,
+          1.8,
+          0
+        ],
+        "fov": [
+          40,
+          40
+        ],
+        "lensMm": [
+          49.5,
+          49.5
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "scene": 5,
+      "in": 1160,
+      "out": 1339,
+      "seconds": [
+        38.666666666666664,
+        44.63333333333333
+      ],
+      "characters": [
+        "mara",
+        "elise",
+        "tomas"
+      ],
+      "camera": {
+        "type": "low-angle",
+        "purpose": "power or looming threat",
+        "from": [
+          -0.5452568301931024,
+          0.35,
+          8
+        ],
+        "to": [
+          -0.5452568301931024,
+          0.8,
+          8
+        ],
+        "lookFrom": [
+          0,
+          2.4,
+          0
+        ],
+        "lookTo": [
+          0,
+          2.7,
+          0
+        ],
+        "fov": [
+          48,
+          48
+        ],
+        "lensMm": [
+          40.4,
+          40.4
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "scene": 5,
+      "in": 1339,
+      "out": 1518,
+      "seconds": [
+        44.63333333333333,
+        50.6
+      ],
+      "characters": [
+        "mara",
+        "elise",
+        "tomas"
+      ],
+      "camera": {
+        "type": "push-in",
+        "purpose": "increase emotional intensity",
+        "from": [
+          -1.0646195881068707,
+          2,
+          10
+        ],
+        "to": [
+          -1.0646195881068707,
+          2,
+          6.2
+        ],
+        "lookFrom": [
+          0,
+          1.8,
+          0
+        ],
+        "lookTo": [
+          0,
+          1.8,
+          0
+        ],
+        "fov": [
+          40,
+          37
+        ],
+        "lensMm": [
+          49.5,
+          53.8
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "scene": 6,
+      "in": 1518,
+      "out": 1659,
+      "seconds": [
+        50.6,
+        55.3
+      ],
+      "characters": [
+        "mara",
+        "elise",
+        "tomas"
+      ],
+      "camera": {
+        "type": "orbit",
+        "purpose": "circle a character for emphasis",
+        "from": [
+          -4.2,
+          2.2,
+          7.2
+        ],
+        "to": [
+          4.2,
+          2.2,
+          7.2
+        ],
+        "lookFrom": [
+          0,
+          1.7,
+          0
+        ],
+        "lookTo": [
+          0,
+          1.7,
+          0
+        ],
+        "fov": [
+          44,
+          44
+        ],
+        "lensMm": [
+          44.6,
+          44.6
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "scene": 6,
+      "in": 1659,
+      "out": 1800,
+      "seconds": [
+        55.3,
+        60
+      ],
+      "characters": [
+        "mara",
+        "elise",
+        "tomas"
+      ],
+      "camera": {
+        "type": "close-up",
+        "purpose": "facial expression",
+        "from": [
+          0.6850777605548501,
+          1.9,
+          5.5
+        ],
+        "to": [
+          0.6850777605548501,
+          1.9,
+          5.17
+        ],
+        "lookFrom": [
+          0,
+          1.9,
+          0
+        ],
+        "lookTo": [
+          0,
+          1.9,
+          0
+        ],
+        "fov": [
+          38,
+          38
+        ],
+        "lensMm": [
+          52.3,
+          52.3
+        ]
+      }
+    }
+  ]
+}

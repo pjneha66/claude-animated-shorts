@@ -90,15 +90,19 @@ export function buildPlan(analysis, designs, director, opts = {}) {
         characters: designs.slice(0, clamp(scene.intensity > 0.6 ? Math.min(3, designs.length) : Math.min(2, designs.length), 1, 3)).map((d, k) => {
           const actionWord = beatActionForScene(analysis, scene.index, k);
           return {
-            id: d.id, x: [-1.5, 0, 1.5][k] ?? 0,
+            id: d.id, x: (k - (Math.min(designs.length, scene.intensity > 0.6 ? 3 : 2) - 1) / 2) * 2.6,
             action: actionWord, expression: EXPRESSION_FOR_EMOTION[scene.emotion] || 'curious',
-            gesture: gestureFor(actionWord), gaze: k === 0 ? { target: 'other', x: 0.35, y: 0.1 } : { target: 'camera', x: 0, y: 0 },
+            gesture: gestureFor(actionWord), gaze: designs.length > 1 ? { target: designs[k === 0 ? 1 : 0].id, x: k === 0 ? 0.65 : -0.65, y: 0 } : { target: 'camera', x: 0, y: 0 },
             intensity: scene.intensity,
           };
         }),
         fx: scene.fx, palette: scene.palette, env: scene.env, light: scene.light,
         characterColors: scene.characterColors,
       };
+      if (shot.characters.length > 1 && /reach|held|hold|together|help|touch|embrace/i.test(scene.text)) {
+        shot.characters.forEach(c => { c.action = 'interact'; c.gesture = 'two-hand'; });
+        shot.interaction = { kind: 'mutual-attention', participants: shot.characters.map(c => c.id) };
+      }
       shots.push(shot);
       s = e;
     });

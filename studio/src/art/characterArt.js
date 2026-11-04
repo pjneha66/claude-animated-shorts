@@ -158,6 +158,7 @@ function drawTorso(ctx, pose, costume, ink, design, palette) {
     { x: pelvis.x + w * 0.9, y: pelvis.y + 6 }, { x: pelvis.x + w * 0.45, y: pelvis.y + 12 },
     { x: pelvis.x - w * 0.45, y: pelvis.y + 12 }, { x: pelvis.x - w * 0.9, y: pelvis.y + 6 },
   ];
+  for (let i = 2; i < pts.length; i++) pts[i].x += pose.body.cloth || 0;
   poly(ctx, pts, costume.main, ink, 5);
   // illustrated shadow + halftone / crosshatch on one flank
   const bbox = { x0: Math.min(...pts.map((p) => p.x)) - 6, y0: Math.min(...pts.map((p) => p.y)) - 6, x1: Math.max(...pts.map((p) => p.x)) + 6, y1: Math.max(...pts.map((p) => p.y)) + 6 };
@@ -182,7 +183,7 @@ function drawHead(ctx, pose, design, costume, ink, palette) {
   halftoneRegion(ctx, { x0: head.x - rx, y0: head.y - ry, x1: head.x + rx, y1: head.y + ry }, withAlpha(ink, 0.20), 5, 1.0,
     (c) => { c.beginPath(); c.moveTo(head.x + rx * 0.25, head.y - ry); c.lineTo(head.x + rx, head.y - ry * 0.2); c.lineTo(head.x + rx * 0.7, head.y + ry); c.lineTo(head.x + rx * 0.2, head.y + ry); c.closePath(); });
   drawFace(ctx, head, design, pose.face, costume, ink, rx, ry);
-  drawHair(ctx, head.x, head.y, rx, ry, { ...design.hair, highlight: costume.hair }, ink);
+  drawHair(ctx, head.x + (pose.body.hair || 0), head.y, rx, ry, { ...design.hair, highlight: costume.hair }, ink);
   // accessories on head
   if (design.accessories.includes('hat')) { poly(ctx, [{ x: head.x - rx * 1.2, y: head.y - ry * 0.9 }, { x: head.x + rx * 1.2, y: head.y - ry * 0.9 }, { x: head.x + rx * 0.8, y: head.y - ry * 1.6 }, { x: head.x - rx * 0.8, y: head.y - ry * 1.6 }], costume.trim, ink, 4); }
 }
