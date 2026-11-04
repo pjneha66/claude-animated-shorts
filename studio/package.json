@@ -1,0 +1,32 @@
+{
+  "name": "local-cinematic-visual-animation-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fully local, visual-only, silent animated-short studio (Remotion + Three.js + Chromium + FFmpeg, with a Canvas2D software fallback)",
+  "scripts": {
+    "studio": "node src/cli/studio.mjs",
+    "doctor": "node src/cli/studio.mjs doctor",
+    "rules": "node src/cli/studio.mjs rules",
+    "test": "node tests/run_tests.mjs",
+    "plan": "node src/cli/studio.mjs plan presets/scripts/bridge.txt",
+    "qa": "node src/cli/studio.mjs qa --quality low",
+    "render:software": "node src/cli/studio.mjs render presets/scripts/bridge.txt --backend software --quality low",
+    "render:chrome": "node src/cli/studio.mjs render presets/scripts/bridge.txt --backend chrome --quality high",
+    "remotion:studio": "remotion studio src/index.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.1.0",
+    "@react-three/fiber": "^9.1.2",
+    "@react-three/postprocessing": "^3.0.4",
+    "@remotion/three": "^4.0.290",
+    "postprocessing": "^6.37.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.290",
+    "three": "^0.175.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12"
+  }
+}

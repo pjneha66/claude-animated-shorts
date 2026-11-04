@@ -1,0 +1,16 @@
+# Generated renders, review sheets and backups
+out/
+backup/
+remotion-tmp/
+studio/**/.frames-*/
+studio/**/*.rgba
+# NOTE: studio/deliverables/ is intentionally NOT ignored — it holds the required
+# finished silent MP4, reference sheets and QA evidence, and must survive snapshots.
+
+# Python / Node artifacts
+__pycache__/
+*.py[cod]
+node_modules/
+
+# macOS
+.DS_Store

@@ -1,0 +1,35 @@
+[
+  {
+    "characterId": "soldier",
+    "consistencyHash": 3889340256,
+    "views": 3,
+    "expressions": 5,
+    "gestures": 5,
+    "spec": {
+      "characterId": "soldier",
+      "consistencyHash": 3889340256,
+      "views": [
+        "front",
+        "three-quarter",
+        "profile"
+      ],
+      "expressions": [
+        "neutral",
+        "happy",
+        "surprised",
+        "angry",
+        "fearful"
+      ],
+      "gestures": [
+        "rest",
+        "open-palm",
+        "point",
+        "wave",
+        "fist"
+      ],
+      "walkCycle": "contact / pass / high / pass / contact",
+      "notes": "Face square-jaw, hair braided, doublet with fine-lines, dimple. Fixed costume hue 359°."
+    },
+    "file": "studio/out/sheets/soldier-reference-sheet.png"
+  }
+]

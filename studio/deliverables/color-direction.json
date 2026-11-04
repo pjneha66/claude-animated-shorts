@@ -1,0 +1,231 @@
+{
+  "bridge": {
+    "genre": "historical",
+    "tone": "curious",
+    "timeOfDay": "day",
+    "weather": "clear",
+    "storyHue": 0,
+    "characters": [
+      {
+        "name": "Soldier",
+        "hue": 359
+      }
+    ],
+    "scenes": [
+      {
+        "id": 1,
+        "emotion": "curious",
+        "intensity": 0.28,
+        "hue": 345,
+        "skyTop": "#b17d94",
+        "ink": "#151d19",
+        "accent": "#6fc485"
+      },
+      {
+        "id": 2,
+        "emotion": "curious",
+        "intensity": 0.38,
+        "hue": 11,
+        "skyTop": "#758cad",
+        "ink": "#151c1c",
+        "accent": "#69c3a7"
+      },
+      {
+        "id": 3,
+        "emotion": "curious",
+        "intensity": 0.49,
+        "hue": 5,
+        "skyTop": "#7891b0",
+        "ink": "#141c1b",
+        "accent": "#6ac69f"
+      },
+      {
+        "id": 4,
+        "emotion": "curious",
+        "intensity": 0.59,
+        "hue": 21,
+        "skyTop": "#788cb1",
+        "ink": "#141b1c",
+        "accent": "#69c7b9"
+      },
+      {
+        "id": 5,
+        "emotion": "curious",
+        "intensity": 0.69,
+        "hue": 17,
+        "skyTop": "#758bb1",
+        "ink": "#141b1b",
+        "accent": "#67c8b3"
+      },
+      {
+        "id": 6,
+        "emotion": "curious",
+        "intensity": 0.88,
+        "hue": 17,
+        "skyTop": "#7188b0",
+        "ink": "#131a1a",
+        "accent": "#62c9b3"
+      }
+    ]
+  },
+  "lighthouse": {
+    "genre": "horror",
+    "tone": "curious",
+    "timeOfDay": "night",
+    "weather": "fog",
+    "storyHue": 346,
+    "characters": [
+      {
+        "name": "Mara",
+        "hue": 185
+      }
+    ],
+    "scenes": [
+      {
+        "id": 1,
+        "emotion": "curious",
+        "intensity": 0.28,
+        "hue": 351,
+        "skyTop": "#4f4f57",
+        "ink": "#121916",
+        "accent": "#598568"
+      },
+      {
+        "id": 2,
+        "emotion": "curious",
+        "intensity": 0.36,
+        "hue": 333,
+        "skyTop": "#4f5057",
+        "ink": "#121914",
+        "accent": "#59855b"
+      },
+      {
+        "id": 3,
+        "emotion": "curious",
+        "intensity": 0.45,
+        "hue": 354,
+        "skyTop": "#4f5057",
+        "ink": "#121816",
+        "accent": "#59856b"
+      },
+      {
+        "id": 4,
+        "emotion": "curious",
+        "intensity": 0.53,
+        "hue": 354,
+        "skyTop": "#4f5057",
+        "ink": "#111816",
+        "accent": "#59856b"
+      },
+      {
+        "id": 5,
+        "emotion": "curious",
+        "intensity": 0.61,
+        "hue": 7,
+        "skyTop": "#4f5057",
+        "ink": "#111817",
+        "accent": "#598574"
+      },
+      {
+        "id": 6,
+        "emotion": "curious",
+        "intensity": 0.69,
+        "hue": 359,
+        "skyTop": "#4f5057",
+        "ink": "#111716",
+        "accent": "#59856f"
+      },
+      {
+        "id": 7,
+        "emotion": "curious",
+        "intensity": 0.78,
+        "hue": 18,
+        "skyTop": "#4f5057",
+        "ink": "#111717",
+        "accent": "#59857c"
+      },
+      {
+        "id": 8,
+        "emotion": "curious",
+        "intensity": 0.86,
+        "hue": 14,
+        "skyTop": "#4f5057",
+        "ink": "#101717",
+        "accent": "#59857a"
+      }
+    ]
+  },
+  "garden": {
+    "genre": "romance",
+    "tone": "curious",
+    "timeOfDay": "dawn",
+    "weather": "wind",
+    "storyHue": 265,
+    "characters": [
+      {
+        "name": "Elise",
+        "hue": 257
+      },
+      {
+        "name": "Tomas",
+        "hue": 324
+      }
+    ],
+    "scenes": [
+      {
+        "id": 1,
+        "emotion": "curious",
+        "intensity": 0.28,
+        "hue": 277,
+        "skyTop": "#5d84a8",
+        "ink": "#1c1f16",
+        "accent": "#b9c753"
+      },
+      {
+        "id": 2,
+        "emotion": "curious",
+        "intensity": 0.38,
+        "hue": 283,
+        "skyTop": "#597ea7",
+        "ink": "#1b1f16",
+        "accent": "#aec84f"
+      },
+      {
+        "id": 3,
+        "emotion": "curious",
+        "intensity": 0.49,
+        "hue": 289,
+        "skyTop": "#5a7da9",
+        "ink": "#191e16",
+        "accent": "#a2c94f"
+      },
+      {
+        "id": 4,
+        "emotion": "curious",
+        "intensity": 0.59,
+        "hue": 289,
+        "skyTop": "#5b7fab",
+        "ink": "#191e16",
+        "accent": "#a4cb4f"
+      },
+      {
+        "id": 5,
+        "emotion": "curious",
+        "intensity": 0.69,
+        "hue": 302,
+        "skyTop": "#5573a7",
+        "ink": "#171d15",
+        "accent": "#85cb49"
+      },
+      {
+        "id": 6,
+        "emotion": "curious",
+        "intensity": 0.8,
+        "hue": 302,
+        "skyTop": "#5776ab",
+        "ink": "#171d15",
+        "accent": "#87cd4b"
+      }
+    ]
+  }
+}
