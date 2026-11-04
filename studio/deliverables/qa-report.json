@@ -1,0 +1,615 @@
+{
+  "generated": "2026-11-04T04:30:32.355Z",
+  "resolution": [
+    270,
+    480
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Character idle",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        6.66,
+        14.19,
+        19.01,
+        14.76
+      ],
+      "meanLuma": 125.19,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 1,
+      "faceVariance": 1124.4,
+      "handVariance": 2861,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 2,
+      "name": "Character walking",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        8.01,
+        13.74,
+        19.8,
+        16.3
+      ],
+      "meanLuma": 125.16,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 1,
+      "faceVariance": 1122.7,
+      "handVariance": 2855.6,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 3,
+      "name": "Character running",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        11.25,
+        15.92,
+        23.6,
+        22.54
+      ],
+      "meanLuma": 124.28,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 1,
+      "faceVariance": 1385.2,
+      "handVariance": 2790,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 4,
+      "name": "Character blinking",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        6.86,
+        14.35,
+        19.44,
+        15.36
+      ],
+      "meanLuma": 125.32,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 1,
+      "faceVariance": 1221.3,
+      "handVariance": 3008.5,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 5,
+      "name": "Character looking around",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        6.85,
+        13.6,
+        18.01,
+        14.47
+      ],
+      "meanLuma": 124.56,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 1,
+      "faceVariance": 1137.8,
+      "handVariance": 2866.4,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 6,
+      "name": "Facial expressions",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        8.69,
+        14.22,
+        19.02,
+        17.45
+      ],
+      "meanLuma": 125.01,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 1,
+      "faceVariance": 1206.6,
+      "handVariance": 2910.1,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 7,
+      "name": "Hand gestures",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        7.81,
+        15.53,
+        20.17,
+        16.62
+      ],
+      "meanLuma": 124.81,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 1,
+      "faceVariance": 1239.4,
+      "handVariance": 3030.8,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 8,
+      "name": "Finger articulation",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        7.68,
+        13.6,
+        18.31,
+        14.48
+      ],
+      "meanLuma": 124.8,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 1,
+      "faceVariance": 1110.2,
+      "handVariance": 2892.3,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 9,
+      "name": "Two-character interactions",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        11.38,
+        19.38,
+        27.23,
+        23.02
+      ],
+      "meanLuma": 120.83,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 2,
+      "faceVariance": 1738.9,
+      "handVariance": 3096.7,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 10,
+      "name": "Multi-character scenes",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        15.56,
+        25.69,
+        37.68,
+        32.47
+      ],
+      "meanLuma": 118.58,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 3,
+      "faceVariance": 1797.8,
+      "handVariance": 3492.2,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 11,
+      "name": "Cinematic camera movements",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        27.3,
+        34.19,
+        33.92,
+        28.14
+      ],
+      "meanLuma": 109.96,
+      "skyRGB": [
+        140.5,
+        114.3,
+        118.6
+      ],
+      "characters": 1,
+      "faceVariance": 2924.5,
+      "handVariance": 2949.6,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 12,
+      "name": "Different lighting conditions",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true,
+        "lighting-varies": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        2.86,
+        5.64,
+        7.49,
+        5.79
+      ],
+      "meanLuma": 83.58,
+      "skyRGB": [
+        93.1,
+        87.9,
+        89.5
+      ],
+      "characters": 1,
+      "faceVariance": 165.9,
+      "handVariance": 442.4,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 13,
+      "name": "Different colour palettes",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true,
+        "palette-varies": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        7.12,
+        15.76,
+        21.54,
+        15.4
+      ],
+      "meanLuma": 119.07,
+      "skyRGB": [
+        214.5,
+        72.3,
+        177.7
+      ],
+      "characters": 1,
+      "faceVariance": 756.9,
+      "handVariance": 2615.4,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 14,
+      "name": "Comic-book visual effects",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        8.51,
+        13.24,
+        18.39,
+        16.46
+      ],
+      "meanLuma": 124.77,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 1,
+      "faceVariance": 1119.7,
+      "handVariance": 2828.8,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    },
+    {
+      "id": 15,
+      "name": "Complete animated sequence",
+      "checks": {
+        "frames-change": true,
+        "character-motion": true,
+        "character-count": true,
+        "face-not-static": true,
+        "hands-not-frozen": true,
+        "joints-ok": true,
+        "camera-ok": true,
+        "palette-ok": true,
+        "consistency-ok": true,
+        "no-clipping": true,
+        "no-overlap": true,
+        "image-has-detail": true
+      },
+      "failed": [],
+      "frameDiffs": [
+        8.05,
+        14.24,
+        19.96,
+        16.82
+      ],
+      "meanLuma": 125.59,
+      "skyRGB": [
+        160.6,
+        127.4,
+        140.6
+      ],
+      "characters": 1,
+      "faceVariance": 1194.1,
+      "handVariance": 2945,
+      "rigIssues": [],
+      "faceIssues": [
+        "static eyelids / no blinking"
+      ],
+      "handIssues": [],
+      "cameraIssues": []
+    }
+  ],
+  "issues": [],
+  "fixes": [],
+  "passed": 15,
+  "total": 15
+}

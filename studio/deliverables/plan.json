@@ -1,0 +1,5043 @@
+{
+  "meta": {
+    "title": "The Bridge That Fell for a Song",
+    "seed": 3193923222,
+    "source": "deterministic-local",
+    "ai": {
+      "used": false,
+      "reason": "not requested"
+    },
+    "silent": true,
+    "audio": false,
+    "subtitles": false,
+    "captions": false,
+    "textOverlays": false,
+    "fps": 30,
+    "seconds": 60,
+    "totalFrames": 1800,
+    "width": 1080,
+    "height": 1920,
+    "aspect": "9:16",
+    "quality": "high",
+    "visualOnly": true,
+    "output": "h264-mp4-no-audio",
+    "createdBy": "local-cinematic-visual-animation-studio",
+    "styleReference": "studio/assets/style_reference.jpg",
+    "styleTechnique": [
+      "thick-black-ink",
+      "ben-day-halftone",
+      "crosshatching",
+      "illustrated-shadows",
+      "printed-paper"
+    ],
+    "palettePolicy": "script-aware-dynamic"
+  },
+  "analysis": {
+    "title": "The Bridge That Fell for a Song",
+    "seed": 3193923222,
+    "wordCount": 115,
+    "sentences": [
+      "The Bridge That Fell for a Song.",
+      "In 1831, the town of Broughton was proud of its new iron bridge.",
+      "Seventy-four soldiers marched across it in step, boots ringing on the deck.",
+      "The bridge began to sway with every step.",
+      "A bolt snapped.",
+      "The deck folded into the river.",
+      "Luckily, nobody drowned.",
+      "Unluckily, the whole town had to walk the long way round for a year.",
+      "A child on a swing knows the trick: a small push at the right moment grows into a huge arc.",
+      "The soldiers were the push.",
+      "Afterward, armies were told to break step on bridges.",
+      "The bridge was rebuilt with a sign, but the sign did not mention the song."
+    ],
+    "characters": [
+      {
+        "name": "Soldier",
+        "id": "soldier",
+        "role": "protagonist",
+        "mentions": 1,
+        "inferred": true
+      }
+    ],
+    "actions": [
+      "walk",
+      "fell",
+      "break",
+      "step"
+    ],
+    "beats": [
+      {
+        "id": 1,
+        "text": "The Bridge That Fell for a Song. In 1831, the town of Broughton was proud of its new iron bridge.",
+        "wordCount": 20,
+        "intensity": 0.28,
+        "emotion": "curious",
+        "actions": [
+          "fell"
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Seventy-four soldiers marched across it in step, boots ringing on the deck. The bridge began to sway with every step.",
+        "wordCount": 20,
+        "intensity": 0.38333333333333336,
+        "emotion": "curious",
+        "actions": [
+          "step"
+        ]
+      },
+      {
+        "id": 3,
+        "text": "A bolt snapped. The deck folded into the river.",
+        "wordCount": 9,
+        "intensity": 0.4866666666666667,
+        "emotion": "curious",
+        "actions": []
+      },
+      {
+        "id": 4,
+        "text": "Luckily, nobody drowned. Unluckily, the whole town had to walk the long way round for a year.",
+        "wordCount": 17,
+        "intensity": 0.5900000000000001,
+        "emotion": "curious",
+        "actions": [
+          "walk"
+        ]
+      },
+      {
+        "id": 5,
+        "text": "A child on a swing knows the trick: a small push at the right moment grows into a huge arc. The soldiers were the push.",
+        "wordCount": 25,
+        "intensity": 0.6933333333333334,
+        "emotion": "curious",
+        "actions": []
+      },
+      {
+        "id": 6,
+        "text": "Afterward, armies were told to break step on bridges. The bridge was rebuilt with a sign, but the sign did not mention the song.",
+        "wordCount": 24,
+        "intensity": 0.8766666666666667,
+        "emotion": "curious",
+        "actions": [
+          "break",
+          "step"
+        ]
+      }
+    ],
+    "genre": {
+      "primary": "historical",
+      "weights": {
+        "historical": 1,
+        "horror": 0,
+        "romance": 0,
+        "fantasy": 0,
+        "action": 0,
+        "mystery": 0,
+        "comedy": 0
+      },
+      "confidence": 1.739
+    },
+    "atmosphere": {
+      "primary": "intimate",
+      "weights": {
+        "intimate": 1,
+        "ominous": 0,
+        "warm": 0,
+        "epic": 0,
+        "chaotic": 0
+      },
+      "confidence": 0.348
+    },
+    "timeOfDay": {
+      "primary": "day",
+      "weights": {
+        "dawn": 0,
+        "day": 0,
+        "sunset": 0,
+        "night": 0
+      },
+      "confidence": 0
+    },
+    "weather": {
+      "primary": "clear",
+      "weights": {
+        "clear": 0,
+        "rain": 0,
+        "fog": 0,
+        "snow": 0,
+        "wind": 0
+      },
+      "confidence": 0
+    },
+    "season": {
+      "primary": "summer",
+      "weights": {
+        "spring": 0,
+        "summer": 0,
+        "autumn": 0,
+        "winter": 0
+      },
+      "confidence": 0
+    },
+    "tone": {
+      "primary": "curious",
+      "weights": {
+        "joyful": 0,
+        "fearful": 0,
+        "melancholy": 0,
+        "curious": 0,
+        "angry": 0,
+        "tense": 0,
+        "surprised": 0
+      },
+      "confidence": 0
+    },
+    "lightingHint": {
+      "primary": "daylight",
+      "weights": {
+        "candlelight": 0,
+        "firelight": 0,
+        "moonlight": 0,
+        "spotlight": 0,
+        "interior": 0
+      },
+      "confidence": 0
+    },
+    "location": {
+      "primary": "city",
+      "weights": {
+        "city": 0.857,
+        "sea": 0.143,
+        "forest": 0,
+        "interior": 0,
+        "mountain": 0,
+        "battlefield": 0
+      },
+      "confidence": 2.087
+    },
+    "period": {
+      "primary": "victorian",
+      "weights": {
+        "victorian": 1,
+        "ancient": 0,
+        "medieval": 0,
+        "modern": 0,
+        "future": 0
+      },
+      "confidence": 0.348
+    },
+    "sceneIntensity": 0.35,
+    "source": "deterministic-local",
+    "ai": {
+      "used": false,
+      "reason": "not requested"
+    }
+  },
+  "designs": [
+    {
+      "id": "soldier",
+      "name": "Soldier",
+      "role": "protagonist",
+      "seed": 3112591165,
+      "face": {
+        "shape": "square-jaw",
+        "eyeShape": "wide",
+        "browShape": "thin",
+        "nose": "small",
+        "skinTone": "#dcc6bd"
+      },
+      "hair": {
+        "style": "braided",
+        "color": "#8f7023",
+        "highlight": "#d6b15c"
+      },
+      "proportions": {
+        "headHeight": 1.19,
+        "height": 3.46,
+        "shoulder": 1.15,
+        "legRatio": 0.51,
+        "build": "stout"
+      },
+      "clothing": {
+        "type": "doublet",
+        "texture": "fine-lines",
+        "primaryHue": 359,
+        "secondaryHue": 81,
+        "saturation": 0.7,
+        "lightness": 0.37,
+        "details": [
+          "embroidered panel",
+          "cuffs"
+        ]
+      },
+      "accessories": [
+        "belt",
+        "gloves"
+      ],
+      "personality": [
+        "playful",
+        "wary"
+      ],
+      "distinctive": "dimple",
+      "colorIdentity": {
+        "hue": 359,
+        "accentHue": 149,
+        "ink": "#141018"
+      },
+      "costume": {
+        "main": "#8c1b1d",
+        "trim": "#cfc36e",
+        "shadow": "#38191a"
+      },
+      "consistencyHash": 3889340256
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "index": 0,
+      "a": 0,
+      "b": 282,
+      "text": "The Bridge That Fell for a Song. In 1831, the town of Broughton was proud of its new iron bridge.",
+      "beat": 1,
+      "intensity": 0.28,
+      "emotion": "curious",
+      "timeOfDay": "day",
+      "weather": "clear",
+      "season": "summer",
+      "period": "victorian",
+      "location": "city",
+      "environment": "city",
+      "seed": 3536551947,
+      "palette": {
+        "id": "scene-1",
+        "hue": 345,
+        "storyHue": 0,
+        "warmth": 0.502,
+        "saturation": 0.383,
+        "contrast": 0.553,
+        "brightness": 0.912,
+        "haze": 0.21,
+        "intensity": 0.28,
+        "ink": "#151d19",
+        "paper": "#dddbda",
+        "inkSoft": "rgba(21,29,25,0.55)",
+        "skyTop": "#b17d94",
+        "skyHorizon": "#dbc9ce",
+        "fog": "#cec0c5",
+        "ground": "#82605e",
+        "building": [
+          "#9b816e",
+          "#a0a07e",
+          "#668684"
+        ],
+        "key": "#d4e5be",
+        "fill": "#769083",
+        "rim": "#aec8af",
+        "accent": "#6fc485",
+        "halftone": "rgba(21,29,25,0.32)",
+        "shadow": "#35423c",
+        "crosshatch": "rgba(21,29,25,0.42)",
+        "paperGrain": "rgba(21,29,25,0.06)"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#d7daae",
+        "intensity": 1.507,
+        "ambient": 0.524,
+        "fillColor": "#769083",
+        "rimColor": "#aec8af",
+        "fogDensity": 0.179,
+        "fogColor": "#cec0c5",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#35423c",
+        "contrast": 0.553
+      },
+      "env": {
+        "kind": "city",
+        "seed": 717482,
+        "sky": {
+          "top": "#b17d94",
+          "horizon": "#dbc9ce",
+          "fog": "#cec0c5"
+        },
+        "ground": {
+          "color": "#82605e",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#a1a8a9",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 787414
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b816e",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 927865
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#a0a07e",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 170724
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#82605e",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 343407
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#cec0c5",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#d7daae",
+          "intensity": 1.507,
+          "ambient": 0.524,
+          "fillColor": "#769083",
+          "rimColor": "#aec8af",
+          "fogDensity": 0.179,
+          "fogColor": "#cec0c5",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#35423c",
+          "contrast": 0.553
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-1"
+      },
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.396,
+          "seed": 50125
+        },
+        {
+          "kind": "ink-outline",
+          "width": 4.7,
+          "intensity": 1,
+          "seed": 0
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.37,
+          "seed": 197050
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 0
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 0
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 472621
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 10,
+          "intensity": 0.098,
+          "seed": 119189
+        }
+      ],
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9f4042",
+          "trim": "#d4ca7f",
+          "shadow": "#452829",
+          "skin": "#dfcbc2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "index": 1,
+      "a": 282,
+      "b": 574,
+      "text": "Seventy-four soldiers marched across it in step, boots ringing on the deck. The bridge began to sway with every step.",
+      "beat": 2,
+      "intensity": 0.38333333333333336,
+      "emotion": "curious",
+      "timeOfDay": "day",
+      "weather": "clear",
+      "season": "summer",
+      "period": "victorian",
+      "location": "city",
+      "environment": "city",
+      "seed": 3519774328,
+      "palette": {
+        "id": "scene-2",
+        "hue": 11,
+        "storyHue": 0,
+        "warmth": 0.469,
+        "saturation": 0.393,
+        "contrast": 0.582,
+        "brightness": 0.843,
+        "haze": 0.21,
+        "intensity": 0.383,
+        "ink": "#151c1c",
+        "paper": "#dad9d5",
+        "inkSoft": "rgba(21,28,28,0.55)",
+        "skyTop": "#758cad",
+        "skyHorizon": "#c3c7d7",
+        "fog": "#bcc0cb",
+        "ground": "#7e6c5b",
+        "building": [
+          "#999269",
+          "#8d9e7a",
+          "#637883"
+        ],
+        "key": "#e3d9b8",
+        "fill": "#728e8c",
+        "rim": "#a9c5b7",
+        "accent": "#69c3a7",
+        "halftone": "rgba(21,28,28,0.32)",
+        "shadow": "#334140",
+        "crosshatch": "rgba(21,28,28,0.42)",
+        "paperGrain": "rgba(21,28,28,0.06)"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e3d1aa",
+        "intensity": 1.464,
+        "ambient": 0.506,
+        "fillColor": "#728e8c",
+        "rimColor": "#a9c5b7",
+        "fogDensity": 0.179,
+        "fogColor": "#bcc0cb",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#334140",
+        "contrast": 0.582
+      },
+      "env": {
+        "kind": "city",
+        "seed": 68972,
+        "sky": {
+          "top": "#758cad",
+          "horizon": "#c3c7d7",
+          "fog": "#bcc0cb"
+        },
+        "ground": {
+          "color": "#7e6c5b",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#93a0ad",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 361307
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#999269",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 27269
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#8d9e7a",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 82596
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#7e6c5b",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 156544
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bcc0cb",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e3d1aa",
+          "intensity": 1.464,
+          "ambient": 0.506,
+          "fillColor": "#728e8c",
+          "rimColor": "#a9c5b7",
+          "fogDensity": 0.179,
+          "fogColor": "#bcc0cb",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#334140",
+          "contrast": 0.582
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-2"
+      },
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.4166666666666667,
+          "seed": 330676
+        },
+        {
+          "kind": "ink-outline",
+          "width": 4.958333333333333,
+          "intensity": 1,
+          "seed": 1
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.3958333333333333,
+          "seed": 392352
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 1
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 1
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 504345
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 11,
+          "intensity": 0.13416666666666666,
+          "seed": 359042
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 1
+        }
+      ],
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9c3c3d",
+          "trim": "#d4c97d",
+          "shadow": "#432627",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "index": 2,
+      "a": 574,
+      "b": 768,
+      "text": "A bolt snapped. The deck folded into the river.",
+      "beat": 3,
+      "intensity": 0.4866666666666667,
+      "emotion": "curious",
+      "timeOfDay": "day",
+      "weather": "clear",
+      "season": "summer",
+      "period": "victorian",
+      "location": "city",
+      "environment": "city",
+      "seed": 3570107185,
+      "palette": {
+        "id": "scene-3",
+        "hue": 5,
+        "storyHue": 0,
+        "warmth": 0.453,
+        "saturation": 0.404,
+        "contrast": 0.611,
+        "brightness": 0.881,
+        "haze": 0.21,
+        "intensity": 0.487,
+        "ink": "#141c1b",
+        "paper": "#dcdbd8",
+        "inkSoft": "rgba(20,28,27,0.55)",
+        "skyTop": "#7891b0",
+        "skyHorizon": "#c6cbd9",
+        "fog": "#bec2cd",
+        "ground": "#816a5c",
+        "building": [
+          "#9b8f6b",
+          "#93a07c",
+          "#647d85"
+        ],
+        "key": "#e4dabb",
+        "fill": "#74908b",
+        "rim": "#abc7b6",
+        "accent": "#6ac69f",
+        "halftone": "rgba(20,28,27,0.32)",
+        "shadow": "#34423f",
+        "crosshatch": "rgba(20,28,27,0.42)",
+        "paperGrain": "rgba(20,28,27,0.06)"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e4d2ad",
+        "intensity": 1.488,
+        "ambient": 0.516,
+        "fillColor": "#74908b",
+        "rimColor": "#abc7b6",
+        "fogDensity": 0.179,
+        "fogColor": "#bec2cd",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#34423f",
+        "contrast": 0.611
+      },
+      "env": {
+        "kind": "city",
+        "seed": 936511,
+        "sky": {
+          "top": "#7891b0",
+          "horizon": "#c6cbd9",
+          "fog": "#bec2cd"
+        },
+        "ground": {
+          "color": "#816a5c",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#95a4af",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 884968
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b8f6b",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 612468
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#93a07c",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 575815
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#816a5c",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 336526
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bec2cd",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e4d2ad",
+          "intensity": 1.488,
+          "ambient": 0.516,
+          "fillColor": "#74908b",
+          "rimColor": "#abc7b6",
+          "fogDensity": 0.179,
+          "fogColor": "#bec2cd",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#34423f",
+          "contrast": 0.611
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-3"
+      },
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.43733333333333335,
+          "seed": 548268
+        },
+        {
+          "kind": "ink-outline",
+          "width": 5.216666666666667,
+          "intensity": 1,
+          "seed": 2
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.42166666666666663,
+          "seed": 258344
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 2
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 2
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 870560
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 13,
+          "intensity": 0.17033333333333334,
+          "seed": 636062
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 2
+        }
+      ],
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9e3e40",
+          "trim": "#d4c97e",
+          "shadow": "#442728",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "index": 3,
+      "a": 768,
+      "b": 1051,
+      "text": "Luckily, nobody drowned. Unluckily, the whole town had to walk the long way round for a year.",
+      "beat": 4,
+      "intensity": 0.5900000000000001,
+      "emotion": "curious",
+      "timeOfDay": "day",
+      "weather": "clear",
+      "season": "summer",
+      "period": "victorian",
+      "location": "city",
+      "environment": "city",
+      "seed": 3553329566,
+      "palette": {
+        "id": "scene-4",
+        "hue": 21,
+        "storyHue": 0,
+        "warmth": 0.396,
+        "saturation": 0.414,
+        "contrast": 0.64,
+        "brightness": 0.884,
+        "haze": 0.21,
+        "intensity": 0.59,
+        "ink": "#141b1c",
+        "paper": "#dcdcd8",
+        "inkSoft": "rgba(20,27,28,0.55)",
+        "skyTop": "#788cb1",
+        "skyHorizon": "#c6c9da",
+        "fog": "#bec1cd",
+        "ground": "#82755c",
+        "building": [
+          "#9b9c6b",
+          "#89a17b",
+          "#647486"
+        ],
+        "key": "#e4dcbb",
+        "fill": "#738d90",
+        "rim": "#abc8be",
+        "accent": "#69c7b9",
+        "halftone": "rgba(20,27,28,0.32)",
+        "shadow": "#344142",
+        "crosshatch": "rgba(20,27,28,0.42)",
+        "paperGrain": "rgba(20,27,28,0.06)"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e4d4ae",
+        "intensity": 1.49,
+        "ambient": 0.517,
+        "fillColor": "#738d90",
+        "rimColor": "#abc8be",
+        "fogDensity": 0.179,
+        "fogColor": "#bec1cd",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#344142",
+        "contrast": 0.64
+      },
+      "env": {
+        "kind": "city",
+        "seed": 376072,
+        "sky": {
+          "top": "#788cb1",
+          "horizon": "#c6c9da",
+          "fog": "#bec1cd"
+        },
+        "ground": {
+          "color": "#82755c",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#959fb0",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 939359
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b9c6b",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 606016
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#89a17b",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 558855
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#82755c",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 758493
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bec1cd",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e4d4ae",
+          "intensity": 1.49,
+          "ambient": 0.517,
+          "fillColor": "#738d90",
+          "rimColor": "#abc8be",
+          "fogDensity": 0.179,
+          "fogColor": "#bec1cd",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#344142",
+          "contrast": 0.64
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-4"
+      },
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.4580000000000001,
+          "seed": 28045
+        },
+        {
+          "kind": "ink-outline",
+          "width": 5.475,
+          "intensity": 1,
+          "seed": 3
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.4475,
+          "seed": 520158
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 3
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 3
+        },
+        {
+          "kind": "speed-lines",
+          "count": 27,
+          "intensity": 0.29500000000000004,
+          "seed": 990476
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 552202
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 14,
+          "intensity": 0.20650000000000002,
+          "seed": 237864
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 3
+        }
+      ],
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9e3e40",
+          "trim": "#d4ca7e",
+          "shadow": "#442728",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "index": 4,
+      "a": 1051,
+      "b": 1422,
+      "text": "A child on a swing knows the trick: a small push at the right moment grows into a huge arc. The soldiers were the push.",
+      "beat": 5,
+      "intensity": 0.6933333333333334,
+      "emotion": "curious",
+      "timeOfDay": "day",
+      "weather": "clear",
+      "season": "summer",
+      "period": "victorian",
+      "location": "city",
+      "environment": "city",
+      "seed": 3603662423,
+      "palette": {
+        "id": "scene-5",
+        "hue": 17,
+        "storyHue": 0,
+        "warmth": 0.519,
+        "saturation": 0.424,
+        "contrast": 0.669,
+        "brightness": 0.865,
+        "haze": 0.21,
+        "intensity": 0.693,
+        "ink": "#141b1b",
+        "paper": "#dbdbd7",
+        "inkSoft": "rgba(20,27,27,0.55)",
+        "skyTop": "#758bb1",
+        "skyHorizon": "#c4c8d9",
+        "fog": "#bcc0cc",
+        "ground": "#81715a",
+        "building": [
+          "#9c9969",
+          "#8ba07a",
+          "#637685"
+        ],
+        "key": "#e4dbba",
+        "fill": "#728f90",
+        "rim": "#a9c7bb",
+        "accent": "#67c8b3",
+        "halftone": "rgba(20,27,27,0.32)",
+        "shadow": "#334142",
+        "crosshatch": "rgba(20,27,27,0.42)",
+        "paperGrain": "rgba(20,27,27,0.06)"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e4d2ab",
+        "intensity": 1.478,
+        "ambient": 0.512,
+        "fillColor": "#728f90",
+        "rimColor": "#a9c7bb",
+        "fogDensity": 0.179,
+        "fogColor": "#bcc0cc",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#334142",
+        "contrast": 0.669
+      },
+      "env": {
+        "kind": "city",
+        "seed": 569307,
+        "sky": {
+          "top": "#758bb1",
+          "horizon": "#c4c8d9",
+          "fog": "#bcc0cc"
+        },
+        "ground": {
+          "color": "#81715a",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#949faf",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 788413
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9c9969",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 106052
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#8ba07a",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 854489
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#81715a",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 314520
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bcc0cc",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": true,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e4d2ab",
+          "intensity": 1.478,
+          "ambient": 0.512,
+          "fillColor": "#728f90",
+          "rimColor": "#a9c7bb",
+          "fogDensity": 0.179,
+          "fogColor": "#bcc0cc",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#334142",
+          "contrast": 0.669
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-5"
+      },
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.4786666666666667,
+          "seed": 907517
+        },
+        {
+          "kind": "ink-outline",
+          "width": 5.733333333333333,
+          "intensity": 1,
+          "seed": 4
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.47333333333333333,
+          "seed": 870012
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 4
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 4
+        },
+        {
+          "kind": "speed-lines",
+          "count": 30,
+          "intensity": 0.3466666666666667,
+          "seed": 619325
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 571331
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 16,
+          "intensity": 0.24266666666666667,
+          "seed": 304734
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 4
+        }
+      ],
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9d3d3f",
+          "trim": "#d4c97d",
+          "shadow": "#442728",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "index": 5,
+      "a": 1422,
+      "b": 1800,
+      "text": "Afterward, armies were told to break step on bridges. The bridge was rebuilt with a sign, but the sign did not mention the song.",
+      "beat": 6,
+      "intensity": 0.8766666666666667,
+      "emotion": "curious",
+      "timeOfDay": "day",
+      "weather": "clear",
+      "season": "summer",
+      "period": "victorian",
+      "location": "city",
+      "environment": "city",
+      "seed": 3586884804,
+      "palette": {
+        "id": "scene-6",
+        "hue": 17,
+        "storyHue": 0,
+        "warmth": 0.467,
+        "saturation": 0.443,
+        "contrast": 0.72,
+        "brightness": 0.836,
+        "haze": 0.21,
+        "intensity": 0.877,
+        "ink": "#131a1a",
+        "paper": "#dad9d5",
+        "inkSoft": "rgba(19,26,26,0.55)",
+        "skyTop": "#7188b0",
+        "skyHorizon": "#c1c5d7",
+        "fog": "#babecb",
+        "ground": "#806f58",
+        "building": [
+          "#9b9966",
+          "#8aa077",
+          "#617585"
+        ],
+        "key": "#e3d9b7",
+        "fill": "#708e8f",
+        "rim": "#a7c7ba",
+        "accent": "#62c9b3",
+        "halftone": "rgba(19,26,26,0.32)",
+        "shadow": "#324142",
+        "crosshatch": "rgba(19,26,26,0.42)",
+        "paperGrain": "rgba(19,26,26,0.06)"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e3d1a9",
+        "intensity": 1.46,
+        "ambient": 0.505,
+        "fillColor": "#708e8f",
+        "rimColor": "#a7c7ba",
+        "fogDensity": 0.179,
+        "fogColor": "#babecb",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#324142",
+        "contrast": 0.72
+      },
+      "env": {
+        "kind": "city",
+        "seed": 952253,
+        "sky": {
+          "top": "#7188b0",
+          "horizon": "#c1c5d7",
+          "fog": "#babecb"
+        },
+        "ground": {
+          "color": "#806f58",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#919dae",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 350376
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b9966",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 244333
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#8aa077",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 228131
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#806f58",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 344998
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#babecb",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": true,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e3d1a9",
+          "intensity": 1.46,
+          "ambient": 0.505,
+          "fillColor": "#708e8f",
+          "rimColor": "#a7c7ba",
+          "fogDensity": 0.179,
+          "fogColor": "#babecb",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#324142",
+          "contrast": 0.72
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-6"
+      },
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.5153333333333334,
+          "seed": 244331
+        },
+        {
+          "kind": "ink-outline",
+          "width": 6.191666666666666,
+          "intensity": 1,
+          "seed": 5
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.5191666666666667,
+          "seed": 689447
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 5
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 5
+        },
+        {
+          "kind": "speed-lines",
+          "count": 35,
+          "intensity": 0.43833333333333335,
+          "seed": 755528
+        },
+        {
+          "kind": "impact-burst",
+          "at": 0.62,
+          "intensity": 0.8766666666666667,
+          "seed": 268470
+        },
+        {
+          "kind": "ink-splash",
+          "count": 8,
+          "intensity": 0.5,
+          "seed": 352110
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 435493
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 18,
+          "intensity": 0.30683333333333335,
+          "seed": 345907
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 5
+        }
+      ],
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9c3b3d",
+          "trim": "#d4c97c",
+          "shadow": "#432627",
+          "skin": "#decac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    }
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "sceneId": 1,
+      "a": 0,
+      "b": 282,
+      "composition": {
+        "rule": "thirds-wide",
+        "foreground": false,
+        "depth": true
+      },
+      "camera": {
+        "type": "wide-establishing",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              -0.557640284486115,
+              4.2,
+              20
+            ],
+            "look": [
+              0,
+              1.6,
+              0
+            ],
+            "fov": 52,
+            "roll": 0
+          },
+          {
+            "t": 1,
+            "pos": [
+              -0.557640284486115,
+              4.6000000000000005,
+              17.6
+            ],
+            "look": [
+              0,
+              1.6,
+              0
+            ],
+            "fov": 52,
+            "roll": 0
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "fall",
+          "expression": "curious",
+          "gesture": "two-hand",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.28
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.396,
+          "seed": 50125
+        },
+        {
+          "kind": "ink-outline",
+          "width": 4.7,
+          "intensity": 1,
+          "seed": 0
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.37,
+          "seed": 197050
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 0
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 0
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 472621
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 10,
+          "intensity": 0.098,
+          "seed": 119189
+        }
+      ],
+      "palette": {
+        "id": "scene-1",
+        "hue": 345,
+        "storyHue": 0,
+        "warmth": 0.502,
+        "saturation": 0.383,
+        "contrast": 0.553,
+        "brightness": 0.912,
+        "haze": 0.21,
+        "intensity": 0.28,
+        "ink": "#151d19",
+        "paper": "#dddbda",
+        "inkSoft": "rgba(21,29,25,0.55)",
+        "skyTop": "#b17d94",
+        "skyHorizon": "#dbc9ce",
+        "fog": "#cec0c5",
+        "ground": "#82605e",
+        "building": [
+          "#9b816e",
+          "#a0a07e",
+          "#668684"
+        ],
+        "key": "#d4e5be",
+        "fill": "#769083",
+        "rim": "#aec8af",
+        "accent": "#6fc485",
+        "halftone": "rgba(21,29,25,0.32)",
+        "shadow": "#35423c",
+        "crosshatch": "rgba(21,29,25,0.42)",
+        "paperGrain": "rgba(21,29,25,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 717482,
+        "sky": {
+          "top": "#b17d94",
+          "horizon": "#dbc9ce",
+          "fog": "#cec0c5"
+        },
+        "ground": {
+          "color": "#82605e",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#a1a8a9",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 787414
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b816e",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 927865
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#a0a07e",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 170724
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#82605e",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 343407
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#cec0c5",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#d7daae",
+          "intensity": 1.507,
+          "ambient": 0.524,
+          "fillColor": "#769083",
+          "rimColor": "#aec8af",
+          "fogDensity": 0.179,
+          "fogColor": "#cec0c5",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#35423c",
+          "contrast": 0.553
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-1"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#d7daae",
+        "intensity": 1.507,
+        "ambient": 0.524,
+        "fillColor": "#769083",
+        "rimColor": "#aec8af",
+        "fogDensity": 0.179,
+        "fogColor": "#cec0c5",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#35423c",
+        "contrast": 0.553
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9f4042",
+          "trim": "#d4ca7f",
+          "shadow": "#452829",
+          "skin": "#dfcbc2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "sceneId": 2,
+      "a": 282,
+      "b": 428,
+      "composition": {
+        "rule": "thirds-wide",
+        "foreground": false,
+        "depth": true
+      },
+      "camera": {
+        "type": "dolly-in",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              1.0302562793716787,
+              2.2,
+              12
+            ],
+            "look": [
+              0,
+              1.7,
+              0
+            ],
+            "fov": 44,
+            "roll": 0
+          },
+          {
+            "t": 1,
+            "pos": [
+              1.0302562793716787,
+              2.2,
+              7.4399999999999995
+            ],
+            "look": [
+              0,
+              1.7,
+              0
+            ],
+            "fov": 41,
+            "roll": 0
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "walk",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.38333333333333336
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.4166666666666667,
+          "seed": 330676
+        },
+        {
+          "kind": "ink-outline",
+          "width": 4.958333333333333,
+          "intensity": 1,
+          "seed": 1
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.3958333333333333,
+          "seed": 392352
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 1
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 1
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 504345
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 11,
+          "intensity": 0.13416666666666666,
+          "seed": 359042
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 1
+        }
+      ],
+      "palette": {
+        "id": "scene-2",
+        "hue": 11,
+        "storyHue": 0,
+        "warmth": 0.469,
+        "saturation": 0.393,
+        "contrast": 0.582,
+        "brightness": 0.843,
+        "haze": 0.21,
+        "intensity": 0.383,
+        "ink": "#151c1c",
+        "paper": "#dad9d5",
+        "inkSoft": "rgba(21,28,28,0.55)",
+        "skyTop": "#758cad",
+        "skyHorizon": "#c3c7d7",
+        "fog": "#bcc0cb",
+        "ground": "#7e6c5b",
+        "building": [
+          "#999269",
+          "#8d9e7a",
+          "#637883"
+        ],
+        "key": "#e3d9b8",
+        "fill": "#728e8c",
+        "rim": "#a9c5b7",
+        "accent": "#69c3a7",
+        "halftone": "rgba(21,28,28,0.32)",
+        "shadow": "#334140",
+        "crosshatch": "rgba(21,28,28,0.42)",
+        "paperGrain": "rgba(21,28,28,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 68972,
+        "sky": {
+          "top": "#758cad",
+          "horizon": "#c3c7d7",
+          "fog": "#bcc0cb"
+        },
+        "ground": {
+          "color": "#7e6c5b",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#93a0ad",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 361307
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#999269",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 27269
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#8d9e7a",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 82596
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#7e6c5b",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 156544
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bcc0cb",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e3d1aa",
+          "intensity": 1.464,
+          "ambient": 0.506,
+          "fillColor": "#728e8c",
+          "rimColor": "#a9c5b7",
+          "fogDensity": 0.179,
+          "fogColor": "#bcc0cb",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#334140",
+          "contrast": 0.582
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-2"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e3d1aa",
+        "intensity": 1.464,
+        "ambient": 0.506,
+        "fillColor": "#728e8c",
+        "rimColor": "#a9c5b7",
+        "fogDensity": 0.179,
+        "fogColor": "#bcc0cb",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#334140",
+        "contrast": 0.582
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9c3c3d",
+          "trim": "#d4c97d",
+          "shadow": "#432627",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "sceneId": 2,
+      "a": 428,
+      "b": 574,
+      "composition": {
+        "rule": "thirds-close",
+        "foreground": true,
+        "depth": true
+      },
+      "camera": {
+        "type": "close-up",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              0.6611777979880571,
+              1.9,
+              5.5
+            ],
+            "look": [
+              0,
+              1.9,
+              0
+            ],
+            "fov": 38,
+            "roll": 0
+          },
+          {
+            "t": 1,
+            "pos": [
+              0.6611777979880571,
+              1.9,
+              5.17
+            ],
+            "look": [
+              0,
+              1.9,
+              0
+            ],
+            "fov": 38,
+            "roll": 0
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "walk",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.38333333333333336
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.4166666666666667,
+          "seed": 330676
+        },
+        {
+          "kind": "ink-outline",
+          "width": 4.958333333333333,
+          "intensity": 1,
+          "seed": 1
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.3958333333333333,
+          "seed": 392352
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 1
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 1
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 504345
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 11,
+          "intensity": 0.13416666666666666,
+          "seed": 359042
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 1
+        }
+      ],
+      "palette": {
+        "id": "scene-2",
+        "hue": 11,
+        "storyHue": 0,
+        "warmth": 0.469,
+        "saturation": 0.393,
+        "contrast": 0.582,
+        "brightness": 0.843,
+        "haze": 0.21,
+        "intensity": 0.383,
+        "ink": "#151c1c",
+        "paper": "#dad9d5",
+        "inkSoft": "rgba(21,28,28,0.55)",
+        "skyTop": "#758cad",
+        "skyHorizon": "#c3c7d7",
+        "fog": "#bcc0cb",
+        "ground": "#7e6c5b",
+        "building": [
+          "#999269",
+          "#8d9e7a",
+          "#637883"
+        ],
+        "key": "#e3d9b8",
+        "fill": "#728e8c",
+        "rim": "#a9c5b7",
+        "accent": "#69c3a7",
+        "halftone": "rgba(21,28,28,0.32)",
+        "shadow": "#334140",
+        "crosshatch": "rgba(21,28,28,0.42)",
+        "paperGrain": "rgba(21,28,28,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 68972,
+        "sky": {
+          "top": "#758cad",
+          "horizon": "#c3c7d7",
+          "fog": "#bcc0cb"
+        },
+        "ground": {
+          "color": "#7e6c5b",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#93a0ad",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 361307
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#999269",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 27269
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#8d9e7a",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 82596
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#7e6c5b",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 156544
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bcc0cb",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e3d1aa",
+          "intensity": 1.464,
+          "ambient": 0.506,
+          "fillColor": "#728e8c",
+          "rimColor": "#a9c5b7",
+          "fogDensity": 0.179,
+          "fogColor": "#bcc0cb",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#334140",
+          "contrast": 0.582
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-2"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e3d1aa",
+        "intensity": 1.464,
+        "ambient": 0.506,
+        "fillColor": "#728e8c",
+        "rimColor": "#a9c5b7",
+        "fogDensity": 0.179,
+        "fogColor": "#bcc0cb",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#334140",
+        "contrast": 0.582
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9c3c3d",
+          "trim": "#d4c97d",
+          "shadow": "#432627",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "sceneId": 3,
+      "a": 574,
+      "b": 671,
+      "composition": {
+        "rule": "thirds-wide",
+        "foreground": false,
+        "depth": true
+      },
+      "camera": {
+        "type": "tracking",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              -2.6,
+              2,
+              9
+            ],
+            "look": [
+              0,
+              1.6,
+              0
+            ],
+            "fov": 46,
+            "roll": 0
+          },
+          {
+            "t": 1,
+            "pos": [
+              2.6,
+              2,
+              9
+            ],
+            "look": [
+              1.2,
+              1.6,
+              0
+            ],
+            "fov": 46,
+            "roll": 0
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "hold",
+          "expression": "curious",
+          "gesture": "hold",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.4866666666666667
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.43733333333333335,
+          "seed": 548268
+        },
+        {
+          "kind": "ink-outline",
+          "width": 5.216666666666667,
+          "intensity": 1,
+          "seed": 2
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.42166666666666663,
+          "seed": 258344
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 2
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 2
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 870560
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 13,
+          "intensity": 0.17033333333333334,
+          "seed": 636062
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 2
+        }
+      ],
+      "palette": {
+        "id": "scene-3",
+        "hue": 5,
+        "storyHue": 0,
+        "warmth": 0.453,
+        "saturation": 0.404,
+        "contrast": 0.611,
+        "brightness": 0.881,
+        "haze": 0.21,
+        "intensity": 0.487,
+        "ink": "#141c1b",
+        "paper": "#dcdbd8",
+        "inkSoft": "rgba(20,28,27,0.55)",
+        "skyTop": "#7891b0",
+        "skyHorizon": "#c6cbd9",
+        "fog": "#bec2cd",
+        "ground": "#816a5c",
+        "building": [
+          "#9b8f6b",
+          "#93a07c",
+          "#647d85"
+        ],
+        "key": "#e4dabb",
+        "fill": "#74908b",
+        "rim": "#abc7b6",
+        "accent": "#6ac69f",
+        "halftone": "rgba(20,28,27,0.32)",
+        "shadow": "#34423f",
+        "crosshatch": "rgba(20,28,27,0.42)",
+        "paperGrain": "rgba(20,28,27,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 936511,
+        "sky": {
+          "top": "#7891b0",
+          "horizon": "#c6cbd9",
+          "fog": "#bec2cd"
+        },
+        "ground": {
+          "color": "#816a5c",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#95a4af",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 884968
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b8f6b",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 612468
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#93a07c",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 575815
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#816a5c",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 336526
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bec2cd",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e4d2ad",
+          "intensity": 1.488,
+          "ambient": 0.516,
+          "fillColor": "#74908b",
+          "rimColor": "#abc7b6",
+          "fogDensity": 0.179,
+          "fogColor": "#bec2cd",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#34423f",
+          "contrast": 0.611
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-3"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e4d2ad",
+        "intensity": 1.488,
+        "ambient": 0.516,
+        "fillColor": "#74908b",
+        "rimColor": "#abc7b6",
+        "fogDensity": 0.179,
+        "fogColor": "#bec2cd",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#34423f",
+        "contrast": 0.611
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9e3e40",
+          "trim": "#d4c97e",
+          "shadow": "#442728",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "sceneId": 3,
+      "a": 671,
+      "b": 768,
+      "composition": {
+        "rule": "thirds-close",
+        "foreground": true,
+        "depth": true
+      },
+      "camera": {
+        "type": "reaction-shot",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              -0.6666485063731671,
+              1.9,
+              5.2
+            ],
+            "look": [
+              0,
+              1.9,
+              0
+            ],
+            "fov": 38,
+            "roll": 0
+          },
+          {
+            "t": 1,
+            "pos": [
+              -0.6666485063731671,
+              1.9,
+              4.784000000000001
+            ],
+            "look": [
+              0,
+              1.9,
+              0
+            ],
+            "fov": 38,
+            "roll": 0
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "hold",
+          "expression": "curious",
+          "gesture": "hold",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.4866666666666667
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.43733333333333335,
+          "seed": 548268
+        },
+        {
+          "kind": "ink-outline",
+          "width": 5.216666666666667,
+          "intensity": 1,
+          "seed": 2
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.42166666666666663,
+          "seed": 258344
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 2
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 2
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 870560
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 13,
+          "intensity": 0.17033333333333334,
+          "seed": 636062
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 2
+        }
+      ],
+      "palette": {
+        "id": "scene-3",
+        "hue": 5,
+        "storyHue": 0,
+        "warmth": 0.453,
+        "saturation": 0.404,
+        "contrast": 0.611,
+        "brightness": 0.881,
+        "haze": 0.21,
+        "intensity": 0.487,
+        "ink": "#141c1b",
+        "paper": "#dcdbd8",
+        "inkSoft": "rgba(20,28,27,0.55)",
+        "skyTop": "#7891b0",
+        "skyHorizon": "#c6cbd9",
+        "fog": "#bec2cd",
+        "ground": "#816a5c",
+        "building": [
+          "#9b8f6b",
+          "#93a07c",
+          "#647d85"
+        ],
+        "key": "#e4dabb",
+        "fill": "#74908b",
+        "rim": "#abc7b6",
+        "accent": "#6ac69f",
+        "halftone": "rgba(20,28,27,0.32)",
+        "shadow": "#34423f",
+        "crosshatch": "rgba(20,28,27,0.42)",
+        "paperGrain": "rgba(20,28,27,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 936511,
+        "sky": {
+          "top": "#7891b0",
+          "horizon": "#c6cbd9",
+          "fog": "#bec2cd"
+        },
+        "ground": {
+          "color": "#816a5c",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#95a4af",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 884968
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b8f6b",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 612468
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#93a07c",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 575815
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#816a5c",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 336526
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bec2cd",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e4d2ad",
+          "intensity": 1.488,
+          "ambient": 0.516,
+          "fillColor": "#74908b",
+          "rimColor": "#abc7b6",
+          "fogDensity": 0.179,
+          "fogColor": "#bec2cd",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#34423f",
+          "contrast": 0.611
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-3"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e4d2ad",
+        "intensity": 1.488,
+        "ambient": 0.516,
+        "fillColor": "#74908b",
+        "rimColor": "#abc7b6",
+        "fogDensity": 0.179,
+        "fogColor": "#bec2cd",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#34423f",
+        "contrast": 0.611
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9e3e40",
+          "trim": "#d4c97e",
+          "shadow": "#442728",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "sceneId": 4,
+      "a": 768,
+      "b": 910,
+      "composition": {
+        "rule": "thirds-wide",
+        "foreground": false,
+        "depth": true
+      },
+      "camera": {
+        "type": "pan",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              0.8682825876399876,
+              2.4,
+              11
+            ],
+            "look": [
+              -3.2,
+              1.7,
+              0
+            ],
+            "fov": 46,
+            "roll": 0
+          },
+          {
+            "t": 1,
+            "pos": [
+              0.8682825876399876,
+              2.4,
+              11
+            ],
+            "look": [
+              3.2,
+              1.7,
+              0
+            ],
+            "fov": 46,
+            "roll": 0
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "walk",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.5900000000000001
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.4580000000000001,
+          "seed": 28045
+        },
+        {
+          "kind": "ink-outline",
+          "width": 5.475,
+          "intensity": 1,
+          "seed": 3
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.4475,
+          "seed": 520158
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 3
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 3
+        },
+        {
+          "kind": "speed-lines",
+          "count": 27,
+          "intensity": 0.29500000000000004,
+          "seed": 990476
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 552202
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 14,
+          "intensity": 0.20650000000000002,
+          "seed": 237864
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 3
+        }
+      ],
+      "palette": {
+        "id": "scene-4",
+        "hue": 21,
+        "storyHue": 0,
+        "warmth": 0.396,
+        "saturation": 0.414,
+        "contrast": 0.64,
+        "brightness": 0.884,
+        "haze": 0.21,
+        "intensity": 0.59,
+        "ink": "#141b1c",
+        "paper": "#dcdcd8",
+        "inkSoft": "rgba(20,27,28,0.55)",
+        "skyTop": "#788cb1",
+        "skyHorizon": "#c6c9da",
+        "fog": "#bec1cd",
+        "ground": "#82755c",
+        "building": [
+          "#9b9c6b",
+          "#89a17b",
+          "#647486"
+        ],
+        "key": "#e4dcbb",
+        "fill": "#738d90",
+        "rim": "#abc8be",
+        "accent": "#69c7b9",
+        "halftone": "rgba(20,27,28,0.32)",
+        "shadow": "#344142",
+        "crosshatch": "rgba(20,27,28,0.42)",
+        "paperGrain": "rgba(20,27,28,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 376072,
+        "sky": {
+          "top": "#788cb1",
+          "horizon": "#c6c9da",
+          "fog": "#bec1cd"
+        },
+        "ground": {
+          "color": "#82755c",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#959fb0",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 939359
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b9c6b",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 606016
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#89a17b",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 558855
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#82755c",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 758493
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bec1cd",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e4d4ae",
+          "intensity": 1.49,
+          "ambient": 0.517,
+          "fillColor": "#738d90",
+          "rimColor": "#abc8be",
+          "fogDensity": 0.179,
+          "fogColor": "#bec1cd",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#344142",
+          "contrast": 0.64
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-4"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e4d4ae",
+        "intensity": 1.49,
+        "ambient": 0.517,
+        "fillColor": "#738d90",
+        "rimColor": "#abc8be",
+        "fogDensity": 0.179,
+        "fogColor": "#bec1cd",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#344142",
+        "contrast": 0.64
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9e3e40",
+          "trim": "#d4ca7e",
+          "shadow": "#442728",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "sceneId": 4,
+      "a": 910,
+      "b": 1051,
+      "composition": {
+        "rule": "thirds-close",
+        "foreground": true,
+        "depth": true
+      },
+      "camera": {
+        "type": "over-the-shoulder",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              -1.5,
+              2.1,
+              6.5
+            ],
+            "look": [
+              0,
+              1.8,
+              0
+            ],
+            "fov": 40,
+            "roll": 0
+          },
+          {
+            "t": 1,
+            "pos": [
+              -1,
+              2.1,
+              6.5
+            ],
+            "look": [
+              0.7,
+              1.8,
+              0
+            ],
+            "fov": 40,
+            "roll": 0
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "walk",
+          "expression": "curious",
+          "gesture": "rest",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.5900000000000001
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.4580000000000001,
+          "seed": 28045
+        },
+        {
+          "kind": "ink-outline",
+          "width": 5.475,
+          "intensity": 1,
+          "seed": 3
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.4475,
+          "seed": 520158
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 3
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 3
+        },
+        {
+          "kind": "speed-lines",
+          "count": 27,
+          "intensity": 0.29500000000000004,
+          "seed": 990476
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 552202
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 14,
+          "intensity": 0.20650000000000002,
+          "seed": 237864
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 3
+        }
+      ],
+      "palette": {
+        "id": "scene-4",
+        "hue": 21,
+        "storyHue": 0,
+        "warmth": 0.396,
+        "saturation": 0.414,
+        "contrast": 0.64,
+        "brightness": 0.884,
+        "haze": 0.21,
+        "intensity": 0.59,
+        "ink": "#141b1c",
+        "paper": "#dcdcd8",
+        "inkSoft": "rgba(20,27,28,0.55)",
+        "skyTop": "#788cb1",
+        "skyHorizon": "#c6c9da",
+        "fog": "#bec1cd",
+        "ground": "#82755c",
+        "building": [
+          "#9b9c6b",
+          "#89a17b",
+          "#647486"
+        ],
+        "key": "#e4dcbb",
+        "fill": "#738d90",
+        "rim": "#abc8be",
+        "accent": "#69c7b9",
+        "halftone": "rgba(20,27,28,0.32)",
+        "shadow": "#344142",
+        "crosshatch": "rgba(20,27,28,0.42)",
+        "paperGrain": "rgba(20,27,28,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 376072,
+        "sky": {
+          "top": "#788cb1",
+          "horizon": "#c6c9da",
+          "fog": "#bec1cd"
+        },
+        "ground": {
+          "color": "#82755c",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#959fb0",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 939359
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b9c6b",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 606016
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#89a17b",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 558855
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#82755c",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 758493
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bec1cd",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": false,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e4d4ae",
+          "intensity": 1.49,
+          "ambient": 0.517,
+          "fillColor": "#738d90",
+          "rimColor": "#abc8be",
+          "fogDensity": 0.179,
+          "fogColor": "#bec1cd",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#344142",
+          "contrast": 0.64
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-4"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e4d4ae",
+        "intensity": 1.49,
+        "ambient": 0.517,
+        "fillColor": "#738d90",
+        "rimColor": "#abc8be",
+        "fogDensity": 0.179,
+        "fogColor": "#bec1cd",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#344142",
+        "contrast": 0.64
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9e3e40",
+          "trim": "#d4ca7e",
+          "shadow": "#442728",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "sceneId": 5,
+      "a": 1051,
+      "b": 1237,
+      "composition": {
+        "rule": "thirds-wide",
+        "foreground": false,
+        "depth": true
+      },
+      "camera": {
+        "type": "low-angle",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              -1.1242052607238293,
+              0.35,
+              8
+            ],
+            "look": [
+              0,
+              2.4,
+              0
+            ],
+            "fov": 48,
+            "roll": -1.2
+          },
+          {
+            "t": 1,
+            "pos": [
+              -1.1242052607238293,
+              0.8,
+              8
+            ],
+            "look": [
+              0,
+              2.7,
+              0
+            ],
+            "fov": 48,
+            "roll": -4
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "point",
+          "expression": "curious",
+          "gesture": "point",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.6933333333333334
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.4786666666666667,
+          "seed": 907517
+        },
+        {
+          "kind": "ink-outline",
+          "width": 5.733333333333333,
+          "intensity": 1,
+          "seed": 4
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.47333333333333333,
+          "seed": 870012
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 4
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 4
+        },
+        {
+          "kind": "speed-lines",
+          "count": 30,
+          "intensity": 0.3466666666666667,
+          "seed": 619325
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 571331
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 16,
+          "intensity": 0.24266666666666667,
+          "seed": 304734
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 4
+        }
+      ],
+      "palette": {
+        "id": "scene-5",
+        "hue": 17,
+        "storyHue": 0,
+        "warmth": 0.519,
+        "saturation": 0.424,
+        "contrast": 0.669,
+        "brightness": 0.865,
+        "haze": 0.21,
+        "intensity": 0.693,
+        "ink": "#141b1b",
+        "paper": "#dbdbd7",
+        "inkSoft": "rgba(20,27,27,0.55)",
+        "skyTop": "#758bb1",
+        "skyHorizon": "#c4c8d9",
+        "fog": "#bcc0cc",
+        "ground": "#81715a",
+        "building": [
+          "#9c9969",
+          "#8ba07a",
+          "#637685"
+        ],
+        "key": "#e4dbba",
+        "fill": "#728f90",
+        "rim": "#a9c7bb",
+        "accent": "#67c8b3",
+        "halftone": "rgba(20,27,27,0.32)",
+        "shadow": "#334142",
+        "crosshatch": "rgba(20,27,27,0.42)",
+        "paperGrain": "rgba(20,27,27,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 569307,
+        "sky": {
+          "top": "#758bb1",
+          "horizon": "#c4c8d9",
+          "fog": "#bcc0cc"
+        },
+        "ground": {
+          "color": "#81715a",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#949faf",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 788413
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9c9969",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 106052
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#8ba07a",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 854489
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#81715a",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 314520
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bcc0cc",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": true,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e4d2ab",
+          "intensity": 1.478,
+          "ambient": 0.512,
+          "fillColor": "#728f90",
+          "rimColor": "#a9c7bb",
+          "fogDensity": 0.179,
+          "fogColor": "#bcc0cc",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#334142",
+          "contrast": 0.669
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-5"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e4d2ab",
+        "intensity": 1.478,
+        "ambient": 0.512,
+        "fillColor": "#728f90",
+        "rimColor": "#a9c7bb",
+        "fogDensity": 0.179,
+        "fogColor": "#bcc0cc",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#334142",
+        "contrast": 0.669
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9d3d3f",
+          "trim": "#d4c97d",
+          "shadow": "#442728",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "sceneId": 5,
+      "a": 1237,
+      "b": 1422,
+      "composition": {
+        "rule": "thirds-close",
+        "foreground": true,
+        "depth": true
+      },
+      "camera": {
+        "type": "push-in",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              -0.9458197204396129,
+              2,
+              10
+            ],
+            "look": [
+              0,
+              1.8,
+              0
+            ],
+            "fov": 40,
+            "roll": 0
+          },
+          {
+            "t": 1,
+            "pos": [
+              -0.9458197204396129,
+              2,
+              6.2
+            ],
+            "look": [
+              0,
+              1.8,
+              0
+            ],
+            "fov": 37,
+            "roll": 0
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "point",
+          "expression": "curious",
+          "gesture": "point",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.6933333333333334
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.4786666666666667,
+          "seed": 907517
+        },
+        {
+          "kind": "ink-outline",
+          "width": 5.733333333333333,
+          "intensity": 1,
+          "seed": 4
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.47333333333333333,
+          "seed": 870012
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 4
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 4
+        },
+        {
+          "kind": "speed-lines",
+          "count": 30,
+          "intensity": 0.3466666666666667,
+          "seed": 619325
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 571331
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 16,
+          "intensity": 0.24266666666666667,
+          "seed": 304734
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 4
+        }
+      ],
+      "palette": {
+        "id": "scene-5",
+        "hue": 17,
+        "storyHue": 0,
+        "warmth": 0.519,
+        "saturation": 0.424,
+        "contrast": 0.669,
+        "brightness": 0.865,
+        "haze": 0.21,
+        "intensity": 0.693,
+        "ink": "#141b1b",
+        "paper": "#dbdbd7",
+        "inkSoft": "rgba(20,27,27,0.55)",
+        "skyTop": "#758bb1",
+        "skyHorizon": "#c4c8d9",
+        "fog": "#bcc0cc",
+        "ground": "#81715a",
+        "building": [
+          "#9c9969",
+          "#8ba07a",
+          "#637685"
+        ],
+        "key": "#e4dbba",
+        "fill": "#728f90",
+        "rim": "#a9c7bb",
+        "accent": "#67c8b3",
+        "halftone": "rgba(20,27,27,0.32)",
+        "shadow": "#334142",
+        "crosshatch": "rgba(20,27,27,0.42)",
+        "paperGrain": "rgba(20,27,27,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 569307,
+        "sky": {
+          "top": "#758bb1",
+          "horizon": "#c4c8d9",
+          "fog": "#bcc0cc"
+        },
+        "ground": {
+          "color": "#81715a",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#949faf",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 788413
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9c9969",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 106052
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#8ba07a",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 854489
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#81715a",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 314520
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#bcc0cc",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": true,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e4d2ab",
+          "intensity": 1.478,
+          "ambient": 0.512,
+          "fillColor": "#728f90",
+          "rimColor": "#a9c7bb",
+          "fogDensity": 0.179,
+          "fogColor": "#bcc0cc",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#334142",
+          "contrast": 0.669
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-5"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e4d2ab",
+        "intensity": 1.478,
+        "ambient": 0.512,
+        "fillColor": "#728f90",
+        "rimColor": "#a9c7bb",
+        "fogDensity": 0.179,
+        "fogColor": "#bcc0cc",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#334142",
+        "contrast": 0.669
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9d3d3f",
+          "trim": "#d4c97d",
+          "shadow": "#442728",
+          "skin": "#dfcac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "sceneId": 6,
+      "a": 1422,
+      "b": 1611,
+      "composition": {
+        "rule": "thirds-wide",
+        "foreground": false,
+        "depth": true
+      },
+      "camera": {
+        "type": "orbit",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              -4.2,
+              2.2,
+              7.2
+            ],
+            "look": [
+              0,
+              1.7,
+              0
+            ],
+            "fov": 44,
+            "roll": 1.2
+          },
+          {
+            "t": 1,
+            "pos": [
+              4.2,
+              2.2,
+              7.2
+            ],
+            "look": [
+              0,
+              1.7,
+              0
+            ],
+            "fov": 44,
+            "roll": 4
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "react",
+          "expression": "curious",
+          "gesture": "open-palm",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.8766666666666667
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.5153333333333334,
+          "seed": 244331
+        },
+        {
+          "kind": "ink-outline",
+          "width": 6.191666666666666,
+          "intensity": 1,
+          "seed": 5
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.5191666666666667,
+          "seed": 689447
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 5
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 5
+        },
+        {
+          "kind": "speed-lines",
+          "count": 35,
+          "intensity": 0.43833333333333335,
+          "seed": 755528
+        },
+        {
+          "kind": "impact-burst",
+          "at": 0.62,
+          "intensity": 0.8766666666666667,
+          "seed": 268470
+        },
+        {
+          "kind": "ink-splash",
+          "count": 8,
+          "intensity": 0.5,
+          "seed": 352110
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 435493
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 18,
+          "intensity": 0.30683333333333335,
+          "seed": 345907
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 5
+        }
+      ],
+      "palette": {
+        "id": "scene-6",
+        "hue": 17,
+        "storyHue": 0,
+        "warmth": 0.467,
+        "saturation": 0.443,
+        "contrast": 0.72,
+        "brightness": 0.836,
+        "haze": 0.21,
+        "intensity": 0.877,
+        "ink": "#131a1a",
+        "paper": "#dad9d5",
+        "inkSoft": "rgba(19,26,26,0.55)",
+        "skyTop": "#7188b0",
+        "skyHorizon": "#c1c5d7",
+        "fog": "#babecb",
+        "ground": "#806f58",
+        "building": [
+          "#9b9966",
+          "#8aa077",
+          "#617585"
+        ],
+        "key": "#e3d9b7",
+        "fill": "#708e8f",
+        "rim": "#a7c7ba",
+        "accent": "#62c9b3",
+        "halftone": "rgba(19,26,26,0.32)",
+        "shadow": "#324142",
+        "crosshatch": "rgba(19,26,26,0.42)",
+        "paperGrain": "rgba(19,26,26,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 952253,
+        "sky": {
+          "top": "#7188b0",
+          "horizon": "#c1c5d7",
+          "fog": "#babecb"
+        },
+        "ground": {
+          "color": "#806f58",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#919dae",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 350376
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b9966",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 244333
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#8aa077",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 228131
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#806f58",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 344998
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#babecb",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": true,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e3d1a9",
+          "intensity": 1.46,
+          "ambient": 0.505,
+          "fillColor": "#708e8f",
+          "rimColor": "#a7c7ba",
+          "fogDensity": 0.179,
+          "fogColor": "#babecb",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#324142",
+          "contrast": 0.72
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-6"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e3d1a9",
+        "intensity": 1.46,
+        "ambient": 0.505,
+        "fillColor": "#708e8f",
+        "rimColor": "#a7c7ba",
+        "fogDensity": 0.179,
+        "fogColor": "#babecb",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#324142",
+        "contrast": 0.72
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9c3b3d",
+          "trim": "#d4c97c",
+          "shadow": "#432627",
+          "skin": "#decac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "sceneId": 6,
+      "a": 1611,
+      "b": 1800,
+      "composition": {
+        "rule": "thirds-close",
+        "foreground": true,
+        "depth": true
+      },
+      "camera": {
+        "type": "close-up",
+        "keys": [
+          {
+            "t": 0,
+            "pos": [
+              -0.8322848746553064,
+              1.9,
+              5.5
+            ],
+            "look": [
+              0,
+              1.9,
+              0
+            ],
+            "fov": 38,
+            "roll": 0
+          },
+          {
+            "t": 1,
+            "pos": [
+              -0.8322848746553064,
+              1.9,
+              5.17
+            ],
+            "look": [
+              0,
+              1.9,
+              0
+            ],
+            "fov": 38,
+            "roll": 0
+          }
+        ]
+      },
+      "characters": [
+        {
+          "id": "soldier",
+          "x": -1.5,
+          "action": "react",
+          "expression": "curious",
+          "gesture": "open-palm",
+          "gaze": {
+            "target": "other",
+            "x": 0.35,
+            "y": 0.1
+          },
+          "intensity": 0.8766666666666667
+        }
+      ],
+      "fx": [
+        {
+          "kind": "halftone",
+          "density": 5,
+          "intensity": 0.5153333333333334,
+          "seed": 244331
+        },
+        {
+          "kind": "ink-outline",
+          "width": 6.191666666666666,
+          "intensity": 1,
+          "seed": 5
+        },
+        {
+          "kind": "crosshatch",
+          "spacing": 8,
+          "intensity": 0.5191666666666667,
+          "seed": 689447
+        },
+        {
+          "kind": "paper-texture",
+          "intensity": 0.45,
+          "seed": 5
+        },
+        {
+          "kind": "dramatic-shadows",
+          "intensity": 0.5800000000000001,
+          "seed": 5
+        },
+        {
+          "kind": "speed-lines",
+          "count": 35,
+          "intensity": 0.43833333333333335,
+          "seed": 755528
+        },
+        {
+          "kind": "impact-burst",
+          "at": 0.62,
+          "intensity": 0.8766666666666667,
+          "seed": 268470
+        },
+        {
+          "kind": "ink-splash",
+          "count": 8,
+          "intensity": 0.5,
+          "seed": 352110
+        },
+        {
+          "kind": "dust-particles",
+          "count": 40,
+          "intensity": 0.5,
+          "seed": 435493
+        },
+        {
+          "kind": "motion-streaks",
+          "count": 18,
+          "intensity": 0.30683333333333335,
+          "seed": 345907
+        },
+        {
+          "kind": "comic-transition",
+          "at": 0,
+          "intensity": 0.6,
+          "seed": 5
+        }
+      ],
+      "palette": {
+        "id": "scene-6",
+        "hue": 17,
+        "storyHue": 0,
+        "warmth": 0.467,
+        "saturation": 0.443,
+        "contrast": 0.72,
+        "brightness": 0.836,
+        "haze": 0.21,
+        "intensity": 0.877,
+        "ink": "#131a1a",
+        "paper": "#dad9d5",
+        "inkSoft": "rgba(19,26,26,0.55)",
+        "skyTop": "#7188b0",
+        "skyHorizon": "#c1c5d7",
+        "fog": "#babecb",
+        "ground": "#806f58",
+        "building": [
+          "#9b9966",
+          "#8aa077",
+          "#617585"
+        ],
+        "key": "#e3d9b7",
+        "fill": "#708e8f",
+        "rim": "#a7c7ba",
+        "accent": "#62c9b3",
+        "halftone": "rgba(19,26,26,0.32)",
+        "shadow": "#324142",
+        "crosshatch": "rgba(19,26,26,0.42)",
+        "paperGrain": "rgba(19,26,26,0.06)"
+      },
+      "env": {
+        "kind": "city",
+        "seed": 952253,
+        "sky": {
+          "top": "#7188b0",
+          "horizon": "#c1c5d7",
+          "fog": "#babecb"
+        },
+        "ground": {
+          "color": "#806f58",
+          "y": 0,
+          "texture": "crosshatch"
+        },
+        "layers": [
+          {
+            "name": "far",
+            "zRange": [
+              42,
+              70
+            ],
+            "count": 14,
+            "color": "#919dae",
+            "parallax": 0.06,
+            "shapes": [
+              "silhouette"
+            ],
+            "seed": 350376
+          },
+          {
+            "name": "mid",
+            "zRange": [
+              16,
+              32
+            ],
+            "count": 10,
+            "color": "#9b9966",
+            "parallax": 0.22,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 244333
+          },
+          {
+            "name": "near",
+            "zRange": [
+              5,
+              12
+            ],
+            "count": 6,
+            "color": "#8aa077",
+            "parallax": 0.55,
+            "shapes": [
+              "block",
+              "column",
+              "arch"
+            ],
+            "seed": 228131
+          },
+          {
+            "name": "foreground",
+            "zRange": [
+              1.2,
+              3.5
+            ],
+            "count": 3,
+            "color": "#806f58",
+            "parallax": 1.05,
+            "shapes": [
+              "prop"
+            ],
+            "seed": 344998
+          }
+        ],
+        "props": [
+          "lamp",
+          "crate",
+          "sign",
+          "railing",
+          "window"
+        ],
+        "fog": {
+          "color": "#babecb",
+          "near": 19.26,
+          "far": 123.2,
+          "density": 0.21
+        },
+        "dof": {
+          "enabled": true,
+          "focusZ": 8,
+          "cInf": 11.26
+        },
+        "lighting": {
+          "condition": "daylight",
+          "dir": [
+            0.6,
+            0.8,
+            0.4
+          ],
+          "color": "#e3d1a9",
+          "intensity": 1.46,
+          "ambient": 0.505,
+          "fillColor": "#708e8f",
+          "rimColor": "#a7c7ba",
+          "fogDensity": 0.179,
+          "fogColor": "#babecb",
+          "shadowSoftness": 0.45,
+          "shadowColor": "#324142",
+          "contrast": 0.72
+        },
+        "atmospheric": {
+          "dust": 0.168,
+          "haze": 0.21,
+          "particles": 26
+        },
+        "parallax": true,
+        "perspective": true,
+        "shadows": true,
+        "paletteRef": "scene-6"
+      },
+      "light": {
+        "condition": "daylight",
+        "dir": [
+          0.6,
+          0.8,
+          0.4
+        ],
+        "color": "#e3d1a9",
+        "intensity": 1.46,
+        "ambient": 0.505,
+        "fillColor": "#708e8f",
+        "rimColor": "#a7c7ba",
+        "fogDensity": 0.179,
+        "fogColor": "#babecb",
+        "shadowSoftness": 0.45,
+        "shadowColor": "#324142",
+        "contrast": 0.72
+      },
+      "characterColors": {
+        "soldier": {
+          "hue": 359,
+          "main": "#9c3b3d",
+          "trim": "#d4c97c",
+          "shadow": "#432627",
+          "skin": "#decac2",
+          "hair": "#8f7023",
+          "ink": "#141018"
+        }
+      }
+    }
+  ]
+}

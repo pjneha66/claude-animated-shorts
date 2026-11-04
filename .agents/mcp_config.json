@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "cartoon-short-local": {
+      "command": "python3",
+      "args": ["tools/mac_local.py", "--mcp"],
+      "cwd": ".",
+      "timeoutSeconds": 120
+    }
+  }
+}
