@@ -1,0 +1,205 @@
+
+> local-cinematic-visual-animation-studio@1.0.0 verify
+> node tests/verify.mjs
+
+{
+  "summary": "linux x64, 2 cores, 4.1 GB RAM, 17.8 GB free",
+  "gpu": {
+    "verified": false,
+    "metal": false,
+    "renderer": "unknown",
+    "note": "GPU not verified; CPU/software fallback available"
+  },
+  "safeBackend": "software",
+  "missingRequired": [
+    "ffmpeg"
+  ],
+  "localModels": "none detected (studio works without local AI)",
+  "offlineCapable": true,
+  "hardware": {
+    "platform": "linux",
+    "isMac": false,
+    "macOSVersion": null,
+    "arch": "x64",
+    "appleSilicon": false,
+    "cpuCores": 2,
+    "cpuModel": "Intel(R) Xeon(R) Processor @ 2.60GHz",
+    "ramBytes": 4131278848,
+    "ramAvailableBytes": 1957838848,
+    "diskFreeBytes": 17785622528,
+    "gpu": {
+      "verified": false,
+      "metal": false,
+      "renderer": "unknown",
+      "note": "GPU not verified; CPU/software fallback available"
+    },
+    "tools": {
+      "node": "v22.22.3",
+      "npm": "10.9.8",
+      "pnpm": null,
+      "python": "Python 3.11.2",
+      "ffmpeg": null,
+      "ffprobe": null,
+      "chromium": "/tmp/chromium",
+      "remotion": "4.0.540",
+      "three": null,
+      "canvas": "1.1.0",
+      "ollama": null,
+      "tokenSaver": null,
+      "sips": null
+    },
+    "safeBackend": "software",
+    "notes": [
+      "Frame generation, rendering and encoding all execute on this machine.",
+      "No cloud rendering, remote GPU, paid API or asset upload is performed.",
+      "GPU not verified; CPU/software fallback is used by default."
+    ]
+  }
+}
+{
+  "rules": [
+    "1. Absolute local execution: characters, image processing, animation, rigging, environments, cameras, rendering, frame processing and encoding all run on the Mac. No cloud, no remote GPU, no paid APIs, no uploads. Works offline after setup.",
+    "2. Visual style reference: vintage American comic-book illustration — thick black ink outlines, cross-hatching, Ben-Day halftone, illustrated shadows, detailed clothing, expressive faces, printed-paper texture, dramatic compositions. Technique only; never lock the palette.",
+    "3. Dynamic colour direction: SceneColorDirector analyses genre, atmosphere, location, period, time of day, weather, season, character identity, emotion, intensity and lighting; palettes are computed per scene, not fixed presets.",
+    "4. Script-to-visual pipeline: script → analysis → characters → design → style → colour → environment → breakdown → composition → rigging → body/facial/hand animation → camera → lighting/FX → local render → visual QA → silent MP4.",
+    "5. Character design: unique face, hair, proportions, clothing, accessories, personality, marks and colour identity; reference sheets first; appearance never changes between shots.",
+    "6. Complete rig: head rotation/tilt/neck; eyes/pupils/lids/brows/mouth/cheeks; spine/chest/abdomen/pelvis/shoulders; upper arms/elbows/forearms/wrists/palms/individual fingers; thighs/knees/shins/ankles/feet.",
+    "7. Advanced facial animation: blinking, independent pupils, looking around/at objects/at characters, eye contact, squint, widen, asymmetric brows, 11 expressions, emotional mouth shapes, natural rest. No dialogue lip-sync.",
+    "8. Hand/finger animation: point, wave, open palm, fist, counting, finger articulation, wrist rotation, holding, two-hand gestures, rest and emotional gestures; hands always connected to arms, never frozen in important actions.",
+    "9. Full body animation: walk, run, idle, reactions, interactions with anticipation, follow-through, overlap, ease-in/out, secondary motion, weight transfer, foot-ground contact.",
+    "10. Cinematic camera engine: dolly, push-in, pull-back, tracking, pan, tilt, crane, orbit, over-the-shoulder, close-up, extreme close-up, wide, low/high angle, follow, reveal, reaction — smooth, purposeful interpolation only.",
+    "11. Hybrid: 2D comic characters + Three.js 3D environments with depth, foreground/background layers, parallax, perspective, shadows, atmosphere, lighting and depth of field.",
+    "12. Dynamic lighting: daylight, sunset, sunrise, moonlight, night, candlelight, firelight, interior, spotlights, fog, haze and environmental shadows, adapted to the scene palette.",
+    "13. Comic VFX: halftone, ink outlines, cross-hatching, speed lines, impact bursts, illustrated smoke, dust, motion streaks, ink splashes, paper texture, comic transitions, dramatic shadows.",
+    "14. Local Mac render engine: script composition → frame calculation → Three.js → local Chromium → Remotion frames → local frame processing → local FFmpeg → silent MP4. No cloud.",
+    "15. Hardware detection: macOS version, arch, Apple Silicon, RAM/available RAM, disk, GPU, Metal, Node, npm, pnpm, Python, FFmpeg, Chromium, Remotion, Three.js, Ollama. Verify GPU, never assume it; CPU fallback.",
+    "16. Optional local AI: detect local inference engines/models, optionally use them for planning. The renderer works with AI unavailable. No external AI API calls.",
+    "17. Visual QA: 15 automated test scenes; render representative frames; inspect real images; fix static faces, broken joints, frozen hands, clipping, proportions, camera glitches, colour inconsistencies, artifacts. No feature is done untested.",
+    "18. Local performance: reuse geometries/materials/textures, manage memory and concurrency, temp render dirs, disk checks, render recovery, LOW/MEDIUM/HIGH quality.",
+    "19. Strictly exclude audio and subtitle features of any kind. Output is a clean visual-only MP4 with no audio track, no subtitles, no captions, no dialogue text overlays.",
+    "20. Final output: complete scenes, consistent characters, reference sheets, scene colour direction, camera moves, 2D characters, 3D environments, comic VFX and the final silent MP4.",
+    "21. Implementation is working code, verified by tests; never stop at planning or documentation."
+  ],
+  "visualOnlyScan": {
+    "scanned": 33,
+    "problems": []
+  },
+  "outputContractExample": true
+}
+LOCAL CINEMATIC VISUAL ANIMATION STUDIO — TEST SUITE
+  PASS  utilities are deterministic and colour helpers produce hex
+  PASS  script analysis: 3 genres, 3 casts, beats and visual actions
+  PASS  character design: stable hash, unique traits, fixed costume hue
+  PASS  SceneColorDirector: distinct story hues + per-scene palettes, no fixed preset
+  PASS  plan: silent contract, 60s @30fps, contiguous shots, valid camera types
+  PASS  rig: 27 joints, 5 fingers/hand, moving hands, blinking, no broken joints
+  PASS  camera: purposeful moves, smooth framing, quality check passes
+  PASS  lighting + VFX + quality presets cover the required sets
+  PASS  visual-only rules: 21 rules, detector catches violations, output contract
+  PASS  visual QA: 15 rendered test scenes all pass
+  PASS  end-to-end: locally encoded 5s silent H.264 MP4
+
+11 passed, 0 failed
+PASS horror: timing, reciprocal gaze, layout, overrides, rendered review frames
+PASS romance: timing, reciprocal gaze, layout, overrides, rendered review frames
+PASS fantasy: timing, reciprocal gaze, layout, overrides, rendered review frames
+PASS action: timing, reciprocal gaze, layout, overrides, rendered review frames
+PASS mystery: timing, reciprocal gaze, layout, overrides, rendered review frames
+PASS identity LUT, malformed LUT, pixel grade, IK lengths, temporal injected failures
+{
+  "ok": true,
+  "frames": 900,
+  "issues": [],
+  "report": "out/temporal/report.json",
+  "trace": "out/temporal/frame-trace.json"
+}
+{
+  "passed": 15,
+  "total": 15,
+  "issues": [],
+  "fixes": [],
+  "contactSheet": "studio/out/qa/contact-sheet.png",
+  "report": "studio/out/qa/report.json"
+}
+{
+  ok: true,
+  backend: 'Chromium WebGL',
+  gl: 'swangle',
+  metalVerified: false,
+  nearShift: 64.02404809619239,
+  farShift: 33,
+  frames: [
+    {
+      red: [Object],
+      blue: [Object],
+      green: [Object],
+      magenta: [Object]
+    },
+    {
+      red: [Object],
+      blue: [Object],
+      green: [Object],
+      magenta: [Object]
+    },
+    {
+      red: [Object],
+      blue: [Object],
+      green: [Object],
+      magenta: [Object]
+    }
+  ],
+  checks: [
+    'perspective parallax at two depths',
+    'front geometry occludes rear geometry'
+  ],
+  scope: 'Probe geometry integrated with ThreeWorld; not a Metal or full-film visual acceptance test'
+}
+{
+  outPath: '/home/user/claude-animated-shorts/studio/out/chrome-scene-smoke.mp4',
+  spec: {
+    quality: 'low',
+    preset: 'ultrafast',
+    crf: 26,
+    label: 'fast visual previews',
+    width: 270,
+    height: 480,
+    fps: 30,
+    totalFrames: 3,
+    concurrency: 1,
+    gpuVerified: false,
+    backend: 'chrome',
+    silent: true,
+    audio: false,
+    subtitles: false,
+    captions: false,
+    codec: 'h264',
+    container: 'mp4',
+    pixelFormat: 'yuv420p',
+    estimatedDiskBytes: 1555200
+  },
+  verification: {
+    ok: true,
+    video: true,
+    audio: false,
+    subStream: false,
+    durationSec: '0.10',
+    bytes: 12382,
+    localEncoding: true
+  },
+  framesRendered: 3,
+  backend: 'chrome',
+  local: true,
+  logTail: ''
+}
+{
+  file: 'deliverables/final-silent-short.mp4',
+  audit: {
+    ok: true,
+    video: true,
+    audio: false,
+    subStream: false,
+    durationSec: '60.00',
+    bytes: 39492678,
+    localEncoding: true
+  }
+}

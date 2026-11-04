@@ -5,6 +5,7 @@ import { mulberry32, clamp } from '../core/util.js';
 export const FX_KINDS = [
   'halftone', 'ink-outline', 'crosshatch', 'speed-lines', 'impact-burst',
   'illustrated-smoke', 'dust-particles', 'motion-streaks', 'ink-splash',
+  'registration-offset', 'panel-shutter', 'radial-iris', 'dry-brush',
   'paper-texture', 'comic-transition', 'dramatic-shadows',
 ];
 
@@ -26,6 +27,8 @@ export function fxForScene(scene, quality = 'medium') {
   fx.push({ kind: 'dust-particles', count: Math.round(14 + (quality === 'low' ? 0 : 26)), intensity: 0.5, seed: Math.floor(rnd() * 1e6) });
   fx.push({ kind: 'motion-streaks', count: Math.round(6 + intensity * 14), intensity: intensity * 0.35, seed: Math.floor(rnd() * 1e6) });
   if (idx > 0) fx.push({ kind: 'comic-transition', at: 0, intensity: 0.6, seed: idx });
+  fx.push({ kind: ['panel-shutter', 'radial-iris'][idx % 2], intensity: 0.6, seed: idx });
+  fx.push({ kind: intensity > 0.6 ? 'dry-brush' : 'registration-offset', intensity: 0.25, seed: idx });
   return fx;
 }
 

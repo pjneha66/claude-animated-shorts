@@ -1,3 +1,4 @@
+import { reachPose } from './interaction.js';
 // Complete hierarchical character rig. HEAD / FACE / BODY / ARMS / HANDS / LEGS.
 // Forward kinematics in 2D character space (canvas y grows downward).
 import { DEG, clamp } from '../core/util.js';
@@ -80,6 +81,16 @@ export function poseCharacter(design, state = {}) {
   const angles = { ...Object.fromEntries(Object.entries(SKELETON).filter(([, d]) => d.angle !== undefined).map(([k, d]) => [k, d.angle])), ...body.angles };
   const points = solve(angles, body.root, body.tilt, design.proportions);
   const scale = clamp((design.proportions?.height || 3.5) / 3.5, 0.85, 1.2);
+  // Ground correction in rig space: the support foot cannot penetrate the deck.
+  if (['idle', 'walk', 'run', 'interact', 'stand'].includes(action)) {
+    const support = Math.max(points.ankleL.y, points.ankleR.y);
+    const correction = 64 * scale - support;
+    for (const p of Object.values(points)) p.y += correction;
+    body.groundCorrection = correction;
+  }
+  if (action === 'interact') reachPose(points, angles, Math.sign(gaze.x || 1), frame, scale, state.reach);
+  // Recompute inspection joints after IK and contact correction.
+  for (const [name, a, b] of DERIVED_JOINTS) points[name] = { x: (points[a].x + points[b].x) / 2, y: (points[a].y + points[b].y) / 2 };
   const hands = {
     L: handPose(gesture, frame, 'L', design.seed),
     R: handPose(action === 'point' || action === 'wave' ? gesture : gesture, frame + 5, 'R', design.seed + 7),
@@ -89,6 +100,10 @@ export function poseCharacter(design, state = {}) {
     R: fingerPolylines(points.palmR, angles.wristR, hands.R, scale),
   };
   const face = facialState(expression, frame, gaze, design.seed);
+  const restFace = facialState(state.previousExpression || 'neutral', frame, gaze, design.seed);
+  const blend = Math.min(1, Math.max(0, frame / 12));
+  for (const k of ['open', 'smile', 'width']) face.mouth[k] = restFace.mouth[k] + (face.mouth[k] - restFace.mouth[k]) * blend;
+  for (const k of ['L', 'R', 'angleL', 'angleR']) face.brows[k] = restFace.brows[k] + (face.brows[k] - restFace.brows[k]) * blend;
   return { points, angles, body, hands, fingers, face, root: body.root, tilt: body.tilt, frame, action, expression, gesture };
 }
 

@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "backend": "Chromium WebGL",
+  "gl": "swangle",
+  "metalVerified": false,
+  "nearShift": 64.02404809619239,
+  "farShift": 33,
+  "frames": [
+    {
+      "red": {
+        "count": 420,
+        "x": 207
+      },
+      "blue": {
+        "count": 420,
+        "x": 305
+      },
+      "green": {
+        "count": 1779,
+        "x": 272.79876335019674
+      },
+      "magenta": {
+        "count": 0,
+        "x": null
+      }
+    },
+    {
+      "red": {
+        "count": 499,
+        "x": 142.9759519038076
+      },
+      "blue": {
+        "count": 420,
+        "x": 272
+      },
+      "green": {
+        "count": 1799,
+        "x": 205.96553640911617
+      },
+      "magenta": {
+        "count": 0,
+        "x": null
+      }
+    },
+    {
+      "red": {
+        "count": 460,
+        "x": 175
+      },
+      "blue": {
+        "count": 459,
+        "x": 288.0239651416122
+      },
+      "green": {
+        "count": 1760,
+        "x": 239.5
+      },
+      "magenta": {
+        "count": 0,
+        "x": null
+      }
+    }
+  ],
+  "checks": [
+    "perspective parallax at two depths",
+    "front geometry occludes rear geometry"
+  ],
+  "scope": "Probe geometry integrated with ThreeWorld; not a Metal or full-film visual acceptance test"
+}

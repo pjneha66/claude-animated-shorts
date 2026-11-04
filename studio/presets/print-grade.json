@@ -1,0 +1,4 @@
+{
+  "global": {"contrast": 1.08, "saturation": 0.82, "inkLimit": 0.88, "paperTint": [0.025, 0.01, -0.025]},
+  "shots": {"2": {"saturation": 0.7, "contrast": 1.15, "lut": "luts/warm-paper.cube"}}
+}

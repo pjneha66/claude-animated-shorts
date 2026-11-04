@@ -1,0 +1,38 @@
+{
+  "outPath": "/home/user/claude-animated-shorts/studio/out/chrome-scene-smoke.mp4",
+  "spec": {
+    "quality": "low",
+    "preset": "ultrafast",
+    "crf": 26,
+    "label": "fast visual previews",
+    "width": 270,
+    "height": 480,
+    "fps": 30,
+    "totalFrames": 3,
+    "concurrency": 1,
+    "gpuVerified": false,
+    "backend": "chrome",
+    "silent": true,
+    "audio": false,
+    "subtitles": false,
+    "captions": false,
+    "codec": "h264",
+    "container": "mp4",
+    "pixelFormat": "yuv420p",
+    "estimatedDiskBytes": 1555200
+  },
+  "verification": {
+    "ok": true,
+    "video": true,
+    "audio": false,
+    "subStream": false,
+    "durationSec": "0.10",
+    "bytes": 12382,
+    "localEncoding": true
+  },
+  "framesRendered": 3,
+  "backend": "chrome",
+  "local": true,
+  "logTail": "",
+  "scope": "Three consecutive interaction frames, not full-film Chrome acceptance"
+}

@@ -5,7 +5,7 @@ import { clamp, lerp, smootherstep, easeInOut, DEG } from '../core/util.js';
 
 export function bodyPose(action = 'idle', frame = 0, design = {}, intensity = 0.5) {
   const f = frame;
-  const phase = (f / 30) * (action === 'run' ? 3.2 : action === 'walk' ? 2.0 : 1.0);
+  const phase = (f / 30) * (action === 'run' ? 2.6 : action === 'walk' ? 2.0 : 1.0);
   const s = Math.sin(phase * Math.PI * 2);
   const s2 = Math.sin(phase * Math.PI * 4);
   const c = Math.cos(phase * Math.PI * 2);
@@ -30,10 +30,10 @@ export function bodyPose(action = 'idle', frame = 0, design = {}, intensity = 0.
       A.kneeL = 90 + thigh; A.kneeR = 90 + thigh2;
       A.ankleL = 90 + 26 + Math.max(0, -thigh) * 0.7; A.ankleR = 90 + 26 + Math.max(0, -thigh2) * 0.7;
       A.footL = 0 - thigh * 0.24; A.footR = 0 - thigh2 * 0.24;
-      A.elbowL = 105 - thigh2 * 1.15; A.elbowR = 75 - thigh * 1.15;
+      A.elbowL = 105 - thigh2 * 0.95; A.elbowR = 75 - thigh * 0.95;
       A.wristL = 90 + 20; A.wristR = 90 + 20;
       A.spine = -90 + 10; A.chest = -90 + 4 + s2 * 2.5;
-      root.y = -Math.abs(s2) * 5.0; root.x = f * 0.55; tilt = 12 + s2 * 1.5; bounce = Math.abs(s2);
+      root.y = -Math.abs(s2) * 5.0; root.x = 0; tilt = 12 + s2 * 1.5; bounce = Math.abs(s2);
       break;
     }
     case 'idle': {
@@ -46,8 +46,8 @@ export function bodyPose(action = 'idle', frame = 0, design = {}, intensity = 0.
     }
     case 'react': {
       // 6-frame anticipation, 10-frame action, decaying follow-through.
-      const t = clamp((f % 60) / 24, 0, 1);
-      const e = smootherstep(t), anti = f % 60 < 6 ? -smootherstep((f % 60) / 6) * 0.5 : 0;
+      const t = clamp(f / 24, 0, 1);
+      const e = smootherstep(t), anti = f < 6 ? -smootherstep(f / 6) * 0.5 : 0;
       A.head = -90 + (10 + anti * 8) * e; A.neck = -90 + 5 * e;
       A.elbowL = 105 - 38 * e; A.elbowR = 75 + 38 * e;
       A.wristL = 90 - 24 * e; A.wristR = 90 + 24 * e;
@@ -55,13 +55,13 @@ export function bodyPose(action = 'idle', frame = 0, design = {}, intensity = 0.
       break;
     }
     case 'point': {
-      const e = easeInOut(clamp((f % 90) / 18, 0, 1));
+      const e = easeInOut(clamp(f / 18, 0, 1));
       A.elbowR = 75 - 62 * e; A.wristR = 90 - 48 * e; A.palmR = 90 - 30 * e;
       A.head = -90 - 6 * e; A.chest = -90 + 3 * e; tilt = 2 * e;
       break;
     }
     case 'hold': case 'interact': {
-      const e = easeInOut(clamp((f % 80) / 20, 0, 1));
+      const e = easeInOut(clamp(f / 20, 0, 1));
       A.elbowL = 105 - 42 * e; A.elbowR = 75 + 42 * e;
       A.wristL = 90 - 24 * e; A.wristR = 90 + 24 * e;
       A.head = -90 + 5 * e; A.chest = -90 + 2 * e;
@@ -73,7 +73,7 @@ export function bodyPose(action = 'idle', frame = 0, design = {}, intensity = 0.
       break;
     }
     case 'fall': {
-      const e = smootherstep(clamp((f % 50) / 22, 0, 1));
+      const e = smootherstep(clamp(f / 22, 0, 1));
       tilt = 48 * e; A.kneeL = 90 - 30 * e; A.kneeR = 90 + 34 * e;
       A.elbowL = 105 - 52 * e; A.elbowR = 75 + 58 * e;
       root.y = 8 * e;
@@ -92,5 +92,5 @@ export function bodyPose(action = 'idle', frame = 0, design = {}, intensity = 0.
   // Secondary motion on extremities: small overlapping lag.
   const lag = Math.sin((f - 4) * 0.16) * 1.2;
   A.wristL = (A.wristL ?? 90) + lag; A.wristR = (A.wristR ?? 90) - lag;
-  return { angles: A, root, tilt, phase, bounce, weight, intensity };
+  return { angles: A, root, tilt, phase, bounce, weight, intensity, hair: Math.sin((f - 5) * 0.16) * (action === 'run' ? 3 : 1.2), cloth: Math.sin((f - 8) * 0.14) * (action === 'run' ? 3 : 1.5) };
 }

@@ -13,7 +13,15 @@
     "qa": "node src/cli/studio.mjs qa --quality low",
     "render:software": "node src/cli/studio.mjs render presets/scripts/bridge.txt --backend software --quality low",
     "render:chrome": "node src/cli/studio.mjs render presets/scripts/bridge.txt --backend chrome --quality high",
-    "remotion:studio": "remotion studio src/index.js"
+    "remotion:studio": "remotion studio src/index.js",
+    "verify": "node tests/verify.mjs",
+    "preview:low": "node src/cli/studio.mjs render --quality low --backend software --seconds 5 --out out/shot-review.mp4",
+    "test:review": "node tests/review_tests.mjs",
+    "qa:temporal": "node src/cli/studio.mjs temporal --script presets/scripts/romance.txt",
+    "qa:chrome-depth": "node tests/chrome_depth.mjs",
+    "qa:mac": "node src/review/macQA.mjs",
+    "preview:cdp": "node src/review/cdpStream.mjs",
+    "qa:chrome-smoke": "node tests/chrome_smoke.mjs"
   },
   "dependencies": {
     "@napi-rs/canvas": "^1.1.0",
@@ -27,6 +35,7 @@
     "three": "^0.175.0"
   },
   "devDependencies": {
+    "@remotion/cli": "^4.0.540",
     "esbuild": "^0.25.12"
   }
 }

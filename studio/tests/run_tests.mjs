@@ -93,7 +93,7 @@ await test('rig: 27 joints, 5 fingers/hand, moving hands, blinking, no broken jo
   const { designs } = build();
   const d = designs[0];
   assert.ok(JOINTS.length >= 25, `joints: ${JOINTS.length}`);
-  const poses = Array.from({ length: 45 }, (_, f) => poseCharacter(d, { frame: f, action: f < 15 ? 'idle' : f < 30 ? 'walk' : 'run', expression: 'curious', gesture: 'wave', gaze: { x: 0.4, y: 0 }, intensity: 0.6 }));
+  const poses = Array.from({ length: 180 }, (_, f) => poseCharacter(d, { frame: f, action: f < 15 ? 'idle' : f < 30 ? 'walk' : 'run', expression: 'curious', gesture: 'wave', gaze: { x: 0.4, y: 0 }, intensity: 0.6 }));
   const rig = rigQualityCheck(poses); assert.equal(rig.ok, true, rig.issues.join('; '));
   const face = facialQualityCheck(poses.map((p) => p.face)); assert.equal(face.ok, true, face.issues.join('; '));
   const hands = handQualityCheck(poses.map((p) => ({ ...p.hands.R, fingers: p.fingers.R, side: 'R' })));

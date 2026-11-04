@@ -21,10 +21,10 @@ const MOUTH = {
 
 export function facialState(expression = 'neutral', frame = 0, gaze = { target: 'camera', x: 0, y: 0 }, seed = 1) {
   const rnd = mulberry32(seed);
-  const blinkInterval = 15 + Math.floor(rnd() * 54); // 0.5 - 2.3 s at 30 fps
+  const blinkInterval = 72 + Math.floor(rnd() * 66); // 2.4 - 4.6 s at 30 fps
   const blinkStart = Math.floor(rnd() * blinkInterval);
   const inBlink = (frame + blinkStart) % blinkInterval;
-  const blink = inBlink < 4 ? 1 - Math.abs(inBlink - 1.5) / 2 : 0; // 4-frame blink
+  const blink = inBlink < 4 ? [0.25, 1, 0.65, 0.15][Math.floor(inBlink)] : 0; // 4-frame blink
   const expr = MOUTH[expression] || MOUTH.neutral;
   const drift = Math.sin(frame * 0.037 + seed) * 0.10;
   const targetX = clamp((gaze.x || 0) + drift, -1, 1), targetY = clamp((gaze.y || 0) + Math.cos(frame * 0.029) * 0.05, -1, 1);

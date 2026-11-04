@@ -90,6 +90,37 @@ export function paintComicFx(ctx, fxList, frame, shot, palette, w, h, quality = 
   for (const fx of fxList) {
     const rnd = mulberry32(fx.seed || 1);
     switch (fx.kind) {
+      case 'registration-offset': {
+        ctx.save(); ctx.globalAlpha = fx.intensity * 0.4;
+        for (const [color, offset] of [[palette.accent, -2], [palette.key, 2]]) {
+          ctx.fillStyle = color;
+          for (let y = h * 0.65; y < h; y += 17) for (let x = 0; x < w; x += 17) {
+            ctx.beginPath(); ctx.arc(x + offset, y, 2.2, 0, Math.PI * 2); ctx.fill();
+          }
+        }
+        ctx.restore(); break;
+      }
+      case 'panel-shutter': {
+        if (t > 0.12) break;
+        ctx.save(); ctx.fillStyle = palette.ink;
+        for (let i = 0; i < 6; i++) ctx.fillRect(i * w / 6, 0, w / 6 * (1 - t / 0.12), h);
+        ctx.restore(); break;
+      }
+      case 'radial-iris': {
+        if (t > 0.12) break;
+        ctx.save(); ctx.fillStyle = palette.ink; ctx.beginPath(); ctx.rect(0, 0, w, h);
+        ctx.arc(w / 2, h / 2, Math.hypot(w, h) * t / 0.24, 0, Math.PI * 2, true);
+        ctx.fill('evenodd'); ctx.restore(); break;
+      }
+      case 'dry-brush': {
+        ctx.save(); ctx.strokeStyle = palette.ink; ctx.globalAlpha = fx.intensity;
+        for (let i = 0; i < 24; i++) {
+          const y = rnd() * h, x = rnd() < 0.5 ? 0 : w;
+          ctx.lineWidth = 1 + rnd() * 3; ctx.beginPath(); ctx.moveTo(x, y);
+          ctx.lineTo(x + (x ? -1 : 1) * (12 + rnd() * 34), y - 9); ctx.stroke();
+        }
+        ctx.restore(); break;
+      }
       case 'halftone': {
         const s = quality === 'low' ? 22 : fx.density * 2;
         ctx.save(); ctx.fillStyle = palette.halftone; ctx.globalAlpha = fx.intensity * 0.7;
